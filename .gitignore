@@ -12,3 +12,5 @@ notes/*.toc
 # per-job enumerator output (concatenated into raw.txt)
 results/regime2X/out_*.txt
 results/regime2X/log_*.txt
+results/regime2Y/out_*.txt
+results/regime2Y/log_*.txt

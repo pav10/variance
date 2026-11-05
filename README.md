@@ -21,9 +21,9 @@ The write-up is [`notes/G_beyond5.pdf`](notes/G_beyond5.pdf) (source `notes/G_be
   G-witnesses for every field that classification leaves, no field of degree 6, 7, 8 with 2
   unramified lies in G.
 * **Bottom of the variance spectrum.** All totally real algebraic integers with Var ≤ 2 in degrees
-  ≤ 10, and a Smyth-type auxiliary-function certificate (interval arithmetic) showing Var(x) ≥ 1.69195
-  for every other totally real algebraic integer. Hence the values below 1.69195 are exactly
-  0, 5/4, 14/9, 27/16, and ν(K) < 1.69195 iff K contains Q(√5) (ν = 5/4) or Q(ζ7)+ (ν = 14/9).
+  ≤ 10, and a Smyth-type auxiliary-function certificate (interval arithmetic) showing Var(x) ≥ 1.70577
+  for every other totally real algebraic integer. Hence the values below 1.70577 are exactly
+  0, 5/4, 14/9, 27/16, and ν(K) < 1.70577 iff K contains Q(√5) (ν = 5/4) or Q(ζ7)+ (ν = 14/9).
 * **Sextic structure theorem.** A sextic member of G must have 2 ramified, lie outside the LMFDB
   list, and either (Case A, regime ν₂ < 2ν) have a half-square rung, or contain Q(√2), Q(√3),
   Q(√5) (as a cubic extension) or Q(ζ7)+, Q(ζ9)+, Q(ρ) (as a quadratic extension) with the same ν.

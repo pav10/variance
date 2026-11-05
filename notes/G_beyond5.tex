@@ -68,10 +68,10 @@ field), we obtain:
 (iii) We determine the bottom of the variance spectrum. All totally real algebraic integers with
 $\Var(x)\le2$ are listed in degrees $\le10$, and an auxiliary-function (linear programming)
 certificate, verified in interval arithmetic, shows that every other totally real algebraic integer
-has $\Var(x)\ge 1.69$. Consequently the values of $\Var$ below $1.69$ are exactly
-$0,\tfrac54,\tfrac{14}9,\tfrac{27}{16}$, and a totally real field has $\nu(K)<1.69$ if and only if it
+has $\Var(x)\ge 1.705$. Consequently the values of $\Var$ below $1.705$ are exactly
+$0,\tfrac54,\tfrac{14}9,\tfrac{27}{16}$, and a totally real field has $\nu(K)<1.705$ if and only if it
 contains $\Q(\sqrt5)$ or $\Q(\zeta_7)^{+}$. As a by-product,
-$\liminf_{\deg x\to\infty}\Var(x)\ge1.69$, which improves the bound $\sqrt e=1.6487\ldots$ quoted
+$\liminf_{\deg x\to\infty}\Var(x)\ge1.705$, which improves the bound $\sqrt e=1.6487\ldots$ quoted
 in the working notes.
 
 (iv) We record shape and arithmetic-statistics data from the census, explicit witnesses for the
@@ -370,8 +370,10 @@ unramified, in degree $6$, and for the two octic fields excluded there only by (
 
 \begin{remark}
 (a) The proof uses the computations of \cite{TwoO} as a black box; we have checked that each
-exclusion test there is one of (BC), (RG), (REL), and reproduced its degree-$6$ and degree-$7$
-runs (\S\ref{sec:repro}). (b) Most of the fields in the list have $2$ ramified; they are not
+exclusion test there is one of (BC), (RG), (REL). We reran its degree-$6$ and degree-$7$ pipelines
+from scratch: the outputs (enumeration counts, the status of every candidate, the relative
+enumerations and the final list of $18$ sextic fields) are identical to the published ones. The
+degree-$8$ computation (about three hours) was not rerun. (b) Most of the fields in the list have $2$ ramified; they are not
 covered by Proposition~\ref{prop:transfer}, but our witnesses exclude them from $\Gcl$ anyway.
 (c) For $\Q(\sqrt5,\zeta_7^{+})$ ($d_K=300125$) and the two octic fields, the $\Gcl$-witness is the
 same element at which (N) fails in \cite{TwoO}: the element of trace $14$ and norm $29$, and the
@@ -405,23 +407,24 @@ $\Var(x)\ge\frac1e\sum_j\dist(\theta_j,I)^{2}\ge m_I$. Every $x$ can be normalis
 to have $\tau(x)\in[0,\frac12]$.
 
 We took for the $Q_i$ the linear polynomials $t-k$ and all integer shifts and reflections, with
-roots in $[-4.5,5]$, of the irreducible polynomials of degree $\le7$ found in the enumeration
-($959$ polynomials), solved the linear program for the $c_i$ on a grid, rounded the $c_i$ down to
-rationals, lowered each $m_I$ by $5\cdot10^{-4}$, and \emph{verified} \eqref{eq:aux} on all of
+roots in $[-4.5,5]$, of the irreducible polynomials of degree $\le8$ found in the enumeration
+($3{,}068$ polynomials; $959$ for degree $\le7$), solved the linear program for the $c_i$ on a grid,
+rounded the $c_i$ down to rationals, lowered each $m_I$ by $10^{-3}$, and \emph{verified} \eqref{eq:aux} on all of
 $\R$, for each of the $10$ intervals $I=[\frac{k}{20},\frac{k+1}{20}]$ covering $[0,\frac12]$: on $[-7,7.5]$ by interval arithmetic
 (\texttt{mpmath.iv}, $120$ bits) with adaptive subdivision, using
 $\log|Q_i(t)|\le\log\max_{\text{cell}}|Q_i|$; outside, by the explicit increasing minorant
 $(|t|-\frac12)^{2}-\sum_ic_i(\log\|Q_i\|_1+\deg Q_i\log|t|)$.
 
 \begin{theorem}\label{thm:lp}
-Let $m^{*}=\frac{33839}{20000}=1.69195$. There is an explicit set $\mathcal Q$ of $109$ irreducible
-polynomials in $\Z[t]$, of degrees $\le7$ (file \texttt{results/lp/cert\_deg7.json}), such that every
+Let $m^{*}=\frac{170577}{100000}=1.70577$. There is an explicit set $\mathcal Q$ of $122$
+irreducible polynomials in $\Z[t]$, of degrees $\le8$ (file \texttt{results/lp/cert\_deg8.json}), such
+that every
 totally real algebraic integer $x$ which is not, after $x\mapsto\pm x+k$ $(k\in\Z)$, a root of a
 member of $\mathcal Q$ satisfies
 \[
  \Var(x)\ \ge\ m^{*}.
 \]
-The members of $\mathcal Q$ have degree $\le7$, so their roots appear in the enumeration, and among
+The members of $\mathcal Q$ have degree $\le8$, so their roots appear in the enumeration, and among
 them only the following have variance $<m^{*}$: $\frac{1+\sqrt5}2$ ($\Var=\frac54$),
 $2\cos\frac{2\pi}7$ ($\frac{14}9$), and a root of $t^{4}-t^{3}-3t^{2}+t+1$ ($\frac{27}{16}$; it generates
 the totally real quartic field of discriminant $725$, the one of least discriminant). Consequently
@@ -429,9 +432,9 @@ the totally real quartic field of discriminant $725$, the one of least discrimin
  \{\Var(x):x\ \text{a totally real algebraic integer}\}\cap[0,m^{*})=\{0,\tfrac54,\tfrac{14}9,\tfrac{27}{16}\},
 \]
 each value being attained by a unique integer up to $x\mapsto\pm x+k$ and conjugation, and
-$\Var(x)\ge m^{*}$ for every totally real algebraic integer of degree $\ge5$. With the $36$
-polynomials of degree $\le5$ of \texttt{cert\_deg5.json} one already gets the bound
-$\frac{32597}{20000}=1.62985$.
+$\Var(x)\ge m^{*}$ for every totally real algebraic integer of degree $\ge5$. With the $109$
+polynomials of degree $\le7$ of \texttt{cert\_deg7.json} one gets $\frac{33839}{20000}=1.69195$, and
+with the $36$ of degree $\le5$ of \texttt{cert\_deg5.json} already $\frac{32597}{20000}=1.62985$.
 \end{theorem}
 
 \begin{theorem}\label{thm:smallnu}
@@ -657,6 +660,10 @@ All runs used 4 cores; the full census takes about two hours, dominated by degre
 $193{,}467$ cubic fields.
 
 \begin{thebibliography}{99}
+
+\bibitem{BH} M.~Bhargava and P.~Harron, \emph{The equidistribution of lattice shapes of rings of
+integers in cubic, quartic, and quintic number fields}, Compos. Math. \textbf{152} (2016),
+1111--1120.
 
 \bibitem{CY} G.~Cherubini and P.~Yatsyna, \emph{Potential energy of totally positive algebraic
 integers}, J. Math. Anal. Appl. \textbf{516} (2022), 126518.

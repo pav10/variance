@@ -341,6 +341,65 @@ static void yleaf(ld *th)
     USEX = 0;
 }
 
+
+/* ===================== G-mode half-square rung (added for the class G) =====================
+ * For K in G (any ramification), a cheap lower rung of the minimal vector x_1 is a half-square:
+ *   2(x_1 - n) - c = y^2,  y in O_K,  c in {0,1},  with (nu_2 + c)/2 <= tau(x_1 - n) < nu.
+ * Mode GYL (YMODE = 3) enumerates y with
+ *   p2(y) = -2 a1 - N C,  p4(y) = 4(a1^2 - 2 a2) + 4 C a1 + N C^2,  C = 2n + c,
+ * Var(y) >= nu, tau(y) >= 0 (y -> -y), and the downspread of y with the weak cost nu/2;
+ * x_1 = (y^2 + C)/2 must be integral, its least conjugate in (n, n+1], and its upper rung must
+ * cost >= nu/2.  The reflected classes (a1 > 0) cover the upper rungs.                      */
+/* NUONE: largest nu with one regular rung, from (3/2) nu <= sqrt(2 d nu) + 2 */
+#define NUONE ((ld)(((sqrtl(2.0L * N) + sqrtl(2.0L * N + 12)) / 3) * ((sqrtl(2.0L * N) + sqrtl(2.0L * N + 12)) / 3)) + 1e-9L)
+static long GC = 0, GCC = 0; static long long a1x_g = 0;          /* C = 2n + c, and c */
+static ld GT = 0;                     /* tau(x_1 - n) */
+static long long n_nonint = 0;
+static void gyleaf(ld *th)
+{
+    ld nuh = NU / 2;
+    if (TAU - (ceill(th[0]) - 1) < nuh - 1e-7L || (floorl(th[N - 1]) + 1) - TAU < nuh - 1e-7L) { n_ybud++; return; }
+    ld xs[N], mn = 1e30L;
+    for (int j = 0; j < N; j++) { ld q = th[j] * th[j]; if (q < mn) mn = q; xs[j] = (q + GC) / 2; }
+    if (mn > 2 - GCC + 1e-9L || mn < 1e-12L) { n_rung++; return; }
+    for (int i = 1; i < N; i++)
+        for (int j = i; j > 0 && xs[j] < xs[j - 1]; j--) { ld t = xs[j]; xs[j] = xs[j - 1]; xs[j - 1] = t; }
+    /* upper rung of x_1 costs >= nu/2 */
+    if ((floorl(xs[N - 1]) + 1) - TAUX < nuh - 1e-7L) { n_f2++; return; }
+    if (VARX > NUONE && (floorl(xs[N - 1]) + 1) - TAUX >= VARX - 1e-7L) { n_f2++; return; }
+    /* exact x-polynomial: G(u) = prod (u - y_j^2) = (-1)^N (E(u)^2 - u O(u)^2); X(t) = 2^-N G(2t - C) */
+    __int128 E[N + 1], O[N + 1], G[N + 1], X[N + 1];
+    for (int k = 0; k <= N; k++) E[k] = O[k] = G[k] = X[k] = 0;
+    for (int i = 0; i <= N; i++) { int pw = N - i; if (pw % 2 == 0) E[pw / 2] += a[i]; else O[(pw - 1) / 2] += a[i]; }
+    for (int p = 0; p <= N; p++) for (int q = 0; q <= N; q++) {
+        if (p + q <= N) G[p + q] += E[p] * E[q];
+        if (p + q + 1 <= N) G[p + q + 1] -= O[p] * O[q];
+    }
+    if (N % 2) for (int k = 0; k <= N; k++) G[k] = -G[k];
+    for (int k = N; k >= 0; k--) {          /* X := X * (2t - C) + G[k] */
+        __int128 T[N + 1];
+        for (int j = 0; j <= N; j++) T[j] = 0;
+        for (int j = 0; j < N; j++) { T[j + 1] += X[j] * 2; T[j] -= X[j] * GC; }
+        for (int j = 0; j <= N; j++) X[j] = T[j];
+        X[0] += G[k];
+    }
+    __int128 two = (__int128)1 << N;
+    for (int k = 0; k <= N; k++) { if (X[k] % two != 0) { n_nonint++; return; } X[k] /= two; }
+    if (X[N] != 1) { fprintf(stderr, "WARNING: x-polynomial not monic\n"); return; }
+    {   /* cross-check against the numerical roots */
+        ld cc[N + 1];
+        for (int k = 0; k <= N; k++) cc[k] = 0;
+        cc[0] = 1;
+        for (int j = 0; j < N; j++) for (int k = j + 1; k >= 1; k--) cc[k] -= xs[j] * cc[k - 1];
+        for (int k = 1; k <= N; k++)
+            if (fabsl(cc[k] - (ld)X[N - k]) > 1e-4L * (1 + fabsl(cc[k])))
+                fprintf(stderr, "NOTE: numerical/exact mismatch at coefficient %d (%Lg vs %Lg)\n", k, cc[k], (ld)X[N - k]);
+    }
+    if ((long long)X[N - 1] != a1x_g) { fprintf(stderr, "NOTE: a1 mismatch\n"); }
+    n_out++;
+    for (int k = 1; k <= N; k++) printf("%lld%c", (long long)X[N - k], k == N ? '\n' : ' ');
+}
+
 static void leaf(void)
 {
     ld br[N + 2], th[N];
@@ -349,6 +408,7 @@ static void leaf(void)
     for (int i = 0; i < N - 1; i++) br[i + 1] = Rt[N - 1][i];
     br[N] = UB;
     for (int i = 0; i < N; i++) th[i] = findroot(N, br[i], br[i + 1]);
+    if (YMODE == 3) { gyleaf(th); return; }
     if (YMODE) { yleaf(th); return; }
     if (NOFILTER) { n_out++; for (int i = 1; i <= N; i++) printf("%ld%c", a[i], i == N ? '\n' : ' '); return; }
     /* F1: downspread.  theta_min is never an integer for irreducible f. */
@@ -483,6 +543,61 @@ static int yrun(int mode, ld SX, ld mm)
     return 0;
 }
 
+
+static int gyrun(ld SX)
+{
+    long a1x = a[1], a2x = a[2];
+    a1x_g = a1x;
+    YMODE = 3; TAUX = TAU; VARX = VAR; NU = VAR;
+    long nlo = (long)floorl(TAUX - 2 * VARX) - 2, nhi = (long)ceill(TAUX) + 2;
+    for (long n = nlo; n <= nhi; n++) for (long c = 0; c <= 1; c++) {
+        ld T = TAUX - n;
+        if (T < (VARX + c) / 2 - 1e-12L || T >= VARX - 1e-12L) continue;
+        long long C = 2 * n + c;
+        long long p2 = -2LL * a1x - (long long)N * C;
+        if (p2 <= 0) continue;
+        long long p4 = 4LL * (a1x * a1x - 2LL * a2x) + 4LL * C * a1x + (long long)N * C * C;
+        YP4 = p4; GC = C; GCC = c; GT = T;
+        ld tau2 = (ld)p2 / N;                             /* tau(y^2) = 2T - c */
+        if (tau2 - VARX < -1e-12L) continue;
+        long smax = (long)floorl(N * sqrtl(fmaxl(tau2 - VARX, 0)) + 1e-9L);
+        for (long sy = 0; sy <= smax; sy++) {
+            if ((sy * sy - p2) % 2 != 0) continue;
+            a[1] = -sy; a[2] = (sy * sy - p2) / 2;
+            ld Sy = (ld)p2 - (ld)sy * sy / N;
+            if (Sy / N < VARX - 1e-12L) continue;           /* Var(y) >= nu */
+            TAU = (ld)sy / N; VAR = Sy / N;
+            ld nuh = NU / 2;
+            AA = TAU - floorl(TAU - nuh + 1 + 1e-12L);
+            BB = ceill(TAU + nuh - 1 - 1e-12L) - TAU;
+            MIDR = -1;
+            if (nuh <= 1) AA = BB = 0;
+            if (AA > 0 && BB > 0) {
+                ld r2 = Sy - AA * AA - BB * BB;
+                if (r2 < -1e-9L) continue;
+                MIDR = sqrtl(r2 > 0 ? r2 : 0) * (1 + 1e-12L) + 1e-12L;
+            }
+            ld rad = sqrtl((N - 1) * Sy / N);
+            LB = TAU - rad - 0.01L; UB = TAU + rad + 0.01L;
+            /* if nu > NUONE (= 7.77 for d = 6) the other rung cannot be regular, so both rungs are
+             * half-squares: y^2 + z^2 = N0 < 4 nu, hence |y_j| < 2 sqrt(nu)                       */
+            if (VARX > NUONE) {
+                ld bnd = 2 * sqrtl(VARX) + 0.01L;
+                if (LB < -bnd) LB = -bnd;
+                if (UB > bnd) UB = bnd;
+                if (TAU <= LB || TAU >= UB) continue;
+            }
+            Rt[1][0] = TAU;
+            ld br[3] = {LB, TAU, UB};
+            for (int i = 0; i < 2; i++) Rt[2][i] = findroot(2, br[i], br[i + 1]);
+            rec(3);
+        }
+    }
+    fprintf(stderr, "a1=%ld a2=%ld S=%.4Lf mode=GYL leaves=%lld ybud=%lld rung=%lld upper=%lld nonint=%lld out=%lld pruned=%lld\n",
+            a1x, a2x, SX, n_leaf, n_ybud, n_rung, n_f2, n_nonint, n_out, n_prune);
+    return 0;
+}
+
 int main(int argc, char **argv)
 {
     if (argc < 3) { fprintf(stderr, "usage: %s a1 a2\n", argv[0]); return 1; }
@@ -504,6 +619,7 @@ int main(int argc, char **argv)
         else if (!strcmp(argv[4], "why")) STRONG = WHY = 1;          /* print the reason for each exclusion */
         else if (!strcmp(argv[4], "sharp")) STRONG = SHARP = 1;      /* strong + kappa >= 0 */
         else if (!strcmp(argv[4], "whysharp")) STRONG = SHARP = WHY = 1;
+        else if (!strcmp(argv[4], "g")) { }                            /* G modes: keep pruning */
         else NOFILTER = 1;
     }
     ld S = (ld)(N - 1) * a[1] * a[1] / N - 2 * (ld)a[2];
@@ -513,6 +629,7 @@ int main(int argc, char **argv)
     NU = VAR;
     if (argc > 5) {
         ld mm = 1.5L * VAR < VAR + 0.75L ? 1.5L * VAR : VAR + 0.75L;
+        if (!strcmp(argv[5], "GYL")) return gyrun(S);
         if (!strcmp(argv[5], "X")) {
             XSPLIT = 1;
             XA = floorl(TAU - mm + 1e-12L) + 1;

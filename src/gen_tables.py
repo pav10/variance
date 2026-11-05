@@ -162,7 +162,11 @@ $s\le1$ (Table~\ref{tab:bh}). The deep cusp is, however, arithmetically forbidde
 cubic field has $d_K\le\disc(x)\le(3\Var x)^{3}$, so $\nu(K)\ge d_K^{1/3}/3$ and
 $\hat\nu\ge\sqrt3\,d_K^{-1/6}$. This lower cut-off is what makes the set of cubic fields with bounded
 $\nu$ finite, although equidistribution alone would allow $\asymp\sqrt X$ of them below discriminant
-$X$; it is the shape-theoretic form of the effective Northcott theorem of \cite{PB}.""")
+$X$; it is the shape-theoretic form of the effective Northcott theorem of \cite{PB}. In the data the
+cusp is visibly depleted well beyond the cut-off ($P(\hat\nu<\frac12)$ is $0.23$ for $d_K\le10^{5}$
+and $0.38$ for $d_K>10^{6}$, against the limit $0.48$), so the approach to equidistribution near the
+cusp is slow, as one expects from a secondary term; this is not in conflict with \cite{BH}, which is
+asymptotic.""")
     open(f'{G}/stats_body.tex', 'w').write('\n'.join(out) + '\n')
 
 def tex_cyclo():
@@ -274,3 +278,32 @@ def tex_regime2X():
 
 if __name__ == '__main__':
     open(f'{G}/regime1.tex', 'a').write('\n' + tex_regime2X() + '\n')
+
+def tex_regime2Y():
+    st = f'{R}/regime2Y/status.txt'
+    if not os.path.exists(st): return ''
+    rows = [l.rstrip('\n').split('|', 1) for l in open(st)]
+    cnt = collections.Counter(r[1].split()[0] for r in rows)
+    surv = [r for r in rows if r[1].startswith('SURVIVOR')]
+    summ = open(f'{R}/regime2Y/enum_summary.txt').read().strip() if os.path.exists(f'{R}/regime2Y/enum_summary.txt') else ''
+    m = re.search(r"'leaves': (\d+).*'out': (\d+)", summ)
+    leaves, out = (m.group(1), m.group(2)) if m else ('?', '?')
+    t = (r"\begin{proposition}\label{prop:reg2Y}No sextic $K\in\Gcl$ has a minimal vector $x_1$ generating $K$"
+         r" with a half-square rung.\end{proposition}" if not surv else
+         r"\begin{proposition}\label{prop:reg2Y}[partial: survivors remain]\end{proposition}")
+    t += (r"\begin{proof}After $x_1\mapsto\pm x_1+k$ we may assume that the lower rung is a half-square and"
+          r" $\tau(x_1)\in[-\frac12,\frac12]$. Then $y^{2}=2x_1-C$ ($C=2n+c$, $c\in\{0,1\}$); if"
+          r" $\Tr x_1=-a_1$ and $\sum\theta_j^{2}=a_1^{2}-2a_2$, the power sums $p_2(y)=-2a_1-6C$ and"
+          r" $p_4(y)=4(a_1^{2}-2a_2)+4Ca_1+6C^{2}$ are fixed, the least $y_j^{2}$ lies in $(0,2-c]$,"
+          r" $\frac12(\nu+c)\le\tau(x_1-n)<\nu$, $\Var(y)\ge\nu$, both rungs of"
+          r" $y$ and the upper rung of $x_1$ cost at least $\frac12\nu$, and $\nu\le15.75$; if $\nu>7.77$ the upper"
+          r" rung is a half-square too, so $|y_j|<2\sqrt\nu$. The enumeration of all such $y$ (mode \texttt{GYL} of"
+          r" \texttt{src/enum6g.c}, validated against brute force in degree $4$ for $\nu\le8$ and in degree $6$ for $\nu\le\frac83$, see \texttt{src/validate/}) visits "
+          + f"{int(leaves):,}".replace(',', '{,}') + r" leaves and returns " + f"{int(out):,}".replace(',', '{,}') +
+          r" polynomials $x_1$. Of the " + f"{len(rows)}" + r" irreducible ones, " +
+          ", ".join(f"{v} are excluded by {k}" for k, v in sorted(cnt.items()) if k != 'SURVIVOR') +
+          r" (notation as in Proposition~\ref{prop:reg2X})." + ("" if not surv else f" {len(surv)} survive.") + r"\end{proof}")
+    return t
+
+if __name__ == '__main__':
+    open(f'{G}/regime1.tex', 'a').write('\n' + tex_regime2Y() + '\n')

@@ -1,6 +1,7 @@
 \begin{table}[t]\caption{Normalised shape minimum $\hat\nu$ in the census: quantiles, the Hermite bound $\gamma_{d-1}$, medians by type of first witness, and the share of fields with $h^+=h$ (equivalently $U_K^+=U_K^2$).}\label{tab:shape}
 \begin{tabular}{rrrrrrrrrrr}\toprule
 $d$ & $q_{0.01}$ & $q_{0.1}$ & $q_{0.5}$ & $q_{0.9}$ & max & $\gamma_{d-1}$ & U & T & N & $h^+=h$\\\midrule
+3 & 0.19 & 0.27 & 0.62 & 0.96 & 1.15 & 1.15 & 0.61 & 1.15 & 0.63 & 42.1\%\\
 4 & 0.08 & 0.12 & 0.58 & 0.90 & 1.19 & 1.26 & 0.55 & 0.58 & 0.62 & 30.7\%\\
 5 & 0.47 & 0.55 & 0.73 & 0.94 & 1.20 & 1.41 & 0.73 & 0.72 & 0.80 & 45.5\%\\
 6 & 0.27 & 0.34 & 0.74 & 0.95 & 1.32 & 1.52 & 0.74 & 0.77 & 0.37 & 40.6\%\\
@@ -23,6 +24,26 @@ these are excluded by the unit criterion, since then $(2)$ is not the square of 
 can never be a square. The proportion of fields with $h^{+}=h$ that we observe ($31$--$48\%$ in
 degrees $4$--$7$) is the kind of statistic predicted by the heuristics of Dummit and Voight for
 signature ranks of units \cite{DV}; we have not compared the numbers with their predictions.
+
+\begin{table}[t]\caption{Cubic fields: empirical distribution of $\hat\nu=1/\operatorname{Im}z$ (the shape $z$ in the modular fundamental domain) against the hyperbolic-measure prediction $P(\hat\nu<s)=3s/\pi$ $(s\le1)$ of Bhargava--Harron equidistribution.}\label{tab:bh}
+\begin{tabular}{rrrrr}\toprule $s$ & $3s/\pi$ & all & $d_K\le10^5$ & $d_K>10^6$\\\midrule
+0.2 & 0.191 & 0.023 & 0.000 & 0.032\\
+0.3 & 0.286 & 0.129 & 0.000 & 0.142\\
+0.4 & 0.382 & 0.249 & 0.111 & 0.264\\
+0.5 & 0.477 & 0.367 & 0.230 & 0.380\\
+0.6 & 0.573 & 0.479 & 0.370 & 0.487\\
+0.7 & 0.668 & 0.598 & 0.505 & 0.607\\
+0.8 & 0.764 & 0.715 & 0.652 & 0.722\\
+0.9 & 0.859 & 0.829 & 0.794 & 0.831\\
+1.0 & 0.955 & 0.944 & 0.926 & 0.945\\
+\bottomrule\end{tabular}\end{table}
+For cubic fields the shape is a point $z$ of the modular curve and
+$\hat\nu=1/\operatorname{Im}z$, so Bhargava--Harron equidistribution predicts $P(\hat\nu<s)=3s/\pi$ for
+$s\le1$ (Table~\ref{tab:bh}). The deep cusp is, however, arithmetically forbidden: a generator $x$ of a
+cubic field has $d_K\le\disc(x)\le(3\Var x)^{3}$, so $\nu(K)\ge d_K^{1/3}/3$ and
+$\hat\nu\ge\sqrt3\,d_K^{-1/6}$. This lower cut-off is what makes the set of cubic fields with bounded
+$\nu$ finite, although equidistribution alone would allow $\asymp\sqrt X$ of them below discriminant
+$X$; it is the shape-theoretic form of the effective Northcott theorem of \cite{PB}.
 
 \begin{table}[t]\caption{Sextic fields of the census whose $\nu$ is that of a member of $\Gcl$ (by Theorem~\ref{thm:smallnu} the first two rows are exactly the fields containing $\Q(\sqrt5)$, resp.~$\Q(\zeta_7)^+$ but not $\sqrt5$): number of fields, types of first witness, and the norms of the type-N witnesses.}\label{tab:inherited}
 \begin{tabular}{lrrrrrr}\toprule family & fields & U & T & N & median $N$ & max $N$\\\midrule

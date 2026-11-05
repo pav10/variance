@@ -1,0 +1,11 @@
+I=[0.0000,0.0500] LP=1.71138 certified m=1.71038 ok=True polys=40 cells=11230 
+I=[0.0500,0.1000] LP=1.70888 certified m=1.70787 ok=True polys=42 cells=11094 
+I=[0.1000,0.1500] LP=1.70677 certified m=1.70577 ok=True polys=50 cells=12966 
+I=[0.1500,0.2000] LP=1.70691 certified m=1.70590 ok=True polys=47 cells=12674 
+I=[0.2000,0.2500] LP=1.70878 certified m=1.70778 ok=True polys=48 cells=13580 
+I=[0.2500,0.3000] LP=1.71029 certified m=1.70929 ok=True polys=48 cells=12188 
+I=[0.3000,0.3500] LP=1.71251 certified m=1.71151 ok=True polys=47 cells=12456 
+I=[0.3500,0.4000] LP=1.71577 certified m=1.71477 ok=True polys=44 cells=12874 
+I=[0.4000,0.4500] LP=1.72061 certified m=1.71960 ok=True polys=47 cells=17662 
+I=[0.4500,0.5000] LP=1.72357 certified m=1.72256 ok=True polys=46 cells=17644 
+CERTIFIED BOUND: 1.70577 170577/100000
