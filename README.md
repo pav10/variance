@@ -25,9 +25,10 @@ The write-up is [`notes/G_beyond5.pdf`](notes/G_beyond5.pdf) (source `notes/G_be
   for every other totally real algebraic integer. Hence the values below 1.70577 are exactly
   0, 5/4, 14/9, 27/16, and ν(K) < 1.70577 iff K contains Q(√5) (ν = 5/4) or Q(ζ7)+ (ν = 14/9).
 * **Sextic structure theorem.** A sextic member of G must have 2 ramified, lie outside the LMFDB
-  list, and either (Case A, regime ν₂ < 2ν) have a half-square rung, or contain Q(√2), Q(√3),
-  Q(√5) (as a cubic extension) or Q(ζ7)+, Q(ζ9)+, Q(ρ) (as a quadratic extension) with the same ν.
-  Regime ν₂ ≥ 2ν of Case A is empty (6,429 fields tested).
+  list, and its minimal vector cannot generate K (Case A is empty: rungs regular — 16,666
+  candidates; a half-square rung — new enumeration mode GYL, 4.2·10⁸ leaves, 27,907 candidates;
+  regime ν₂ ≥ 2ν — 6,429 fields). So K must be a cubic extension of Q(√2), Q(√3), Q(√5) or a
+  quadratic extension of Q(ζ7)+, Q(ζ9)+, Q(ρ), inheriting its variance minimum.
 * **Real cyclotomic fields** F_m, m = 36, 44, 52, 76, 100, 108, 116: explicit certified witnesses.
 * **Shapes and statistics**: normalised shape minima, unit-signature proportions, inherited families
   (the hardest cases are extensions of members with small ν).
@@ -40,6 +41,10 @@ src/census.gp       census driver; src/runcensus.sh DEG NMAX [NSH]  (TMAX env = 
 src/finish_survivors.gp  rerun survivors with a larger norm bound
 src/run2o.gp        G-witnesses for the fields of pav10/2O (data/2o/)
 src/regime1.gp      ramified sextic Case A, regime nu_2 >= 2 nu
+src/enum6g.c        enum6.c + optional quadratic filter + mode GYL (half-square rungs)
+src/run_regime2X.sh, src/run_regime2Y.sh, src/regime2X.gp   sextic Case A in regime 2
+src/cubicB.gp, src/quadB.gp   sextic Case B reductions
+src/validate/       brute-force validation of mode GYL
 src/quadB.gp        quadratic subfields in Case B
 src/cyclo.gp        real cyclotomic fields
 src/enum6.c         Robinson enumerator (copied from pav10/2O), src/varspec.sh, src/spectrum.gp

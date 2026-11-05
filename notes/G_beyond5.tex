@@ -74,10 +74,15 @@ contains $\Q(\sqrt5)$ or $\Q(\zeta_7)^{+}$. As a by-product,
 $\liminf_{\deg x\to\infty}\Var(x)\ge1.705$, which improves the bound $\sqrt e=1.6487\ldots$ quoted
 in the working notes.
 
-(iv) We record shape and arithmetic-statistics data from the census, explicit witnesses for the
-seven smallest non-member real cyclotomic fields left open by the dyadic criterion ($m=36,44,52,76,100,108,116$),
-and a reduction of the remaining problem (sextic fields with $2$ ramified) to explicitly described
-cases.
+(iv) For sextic fields with $2$ ramified we show that the minimal-vector enumeration can be
+completed when the minimal vector generates $K$ (about $4\cdot10^{8}$ leaves and $54{,}000$
+candidate minimal polynomials, all excluded by exact tests). Hence a sextic member of $\Gcl$ must have $2$ ramified and inherit its
+variance minimum from a subfield $F$ which is one of $\Q(\sqrt2)$, $\Q(\sqrt3)$, $\Q(\sqrt5)$,
+$\Q(\zeta_7)^{+}$, $\Q(\zeta_9)^{+}$, $\Q(\rho)$ (five of which are members of $\Gcl$).
+
+(v) We record shape and arithmetic-statistics data from the census, and explicit witnesses for the
+seven smallest non-member real cyclotomic fields left open by the dyadic criterion
+($m=36$, $44$, $52$, $76$, $100$, $108$, $116$).
 \end{abstract}
 
 \maketitle
@@ -126,9 +131,10 @@ $3$--$8$ (\S\ref{sec:census}); Theorem~\ref{thm:census}.
 Theorem~\ref{thm:unram}.
 \item \emph{The bottom of the variance spectrum} (\S\ref{sec:spectrum}); Theorems~\ref{thm:lp}
 and~\ref{thm:smallnu}.
+\item \emph{Sextic fields with $2$ ramified} (\S\ref{sec:ramified}): Theorem~\ref{thm:sextic}, the
+reduction to six inherited families.
 \item \emph{Shapes and statistics} (\S\ref{sec:stats}), \emph{residual cyclotomic fields}
-(\S\ref{sec:cyclo}), the \emph{ramified sextic problem} (\S\ref{sec:ramified}), and corrections to
-the working notes (\S\ref{sec:corrections}).
+(\S\ref{sec:cyclo}), and corrections to the working notes (\S\ref{sec:corrections}).
 \end{enumerate}
 
 All computations use PARI/GP~2.15.4 \cite{PARI}; the code and all outputs are in the repository
@@ -291,7 +297,9 @@ every exclusion below is unconditional, although the search that found the witne
 We ran the search on the LMFDB lists of totally real fields \cite{LMFDB} as mirrored in
 \cite{Visser} (the lists used by the \texttt{sails} project). The bounds were $T=3$ ($T=2$ in degree
 $3$) and $N_{\max}=64,128,300,300,400$ in degrees $4,5,6,7,8$ ($N_{\max}=64$ in degree $3$); the few
-survivors were rerun with $N_{\max}=1500$.
+survivors were rerun with $N_{\max}=1500$. One cubic field ($d_K=3{,}307{,}164$, regulator $\approx1288$)
+needed a separate run: its prime of norm $2$ only has totally positive generators of size $10^{54}$,
+and we certified instead a witness of norm $3$.
 
 \begin{theorem}\label{thm:census}
 \input{gen/census_theorem}
@@ -575,12 +583,9 @@ $c$, so $K$ is determined by $F$ up to finitely many choices.
 \subsection{Summary for degree six}
 \begin{theorem}\label{thm:sextic}
 Let $K\in\Gcl$ be a totally real sextic field, and let $x_1$ be a minimal vector of $\Lambda_K$.
-Then $2$ is ramified in $K$, $K$ is not among the $9{,}815$ sextic fields of the LMFDB list, and one
-of the following holds.
+Then $2$ is ramified in $K$, $K$ is not among the $9{,}815$ sextic fields of the LMFDB list, the
+minimal vector $x_1$ does \emph{not} generate $K$, and one of the following holds.
 \begin{enumerate}
-\item \textup{(Case A, regime 2)} $\Q(x_1)=K$, $\nu_2(K)<2\nu(K)$, and at least one rung of $x_1$ is a
-half-square ($2x_1-2n-c=y^{2}$ with $y\in\OK$, $c\in\{0,1\}$); $\nu(K)\le7.77$ if the other rung is
-regular and $\nu(K)\le15.75$ if both are half-squares.
 \item \textup{(Case B, quadratic)} $F=\Q(x_1)\in\{\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5)\}$ and
 $\nu(K)=\nu(F)\in\{2,3,\frac54\}$.
 \item \textup{(Case B, cubic)} $F=\Q(x_1)\in\{\Q(\zeta_7)^{+},\Q(\zeta_9)^{+},\Q(\rho)\}$, $[K:F]=2$, and
@@ -590,32 +595,24 @@ $\nu(K)=\nu(F)\in\{\frac{14}9,2,\frac{20}9\}$.
 
 \begin{proof}
 $2$ is ramified by Theorem~\ref{thm:unram}, and $K$ is not in the list by Theorem~\ref{thm:census}.
-If $\Q(x_1)=K$ and $\nu_2\ge2\nu$, Proposition~\ref{prop:reg1} applies; if both rungs are
-regular, Proposition~\ref{prop:reg2X} applies; otherwise Remark~\ref{rem:rung} and the downspread
-bounds above give (1). If $\Q(x_1)$ is quadratic,
-$[K:\Q(x_1)]=3$ is odd and Proposition~\ref{prop:quadB} gives (2). If it is cubic,
-Proposition~\ref{prop:cubicB} gives (3).
+Suppose $\Q(x_1)=K$. If both rungs of $x_1$ are regular, Proposition~\ref{prop:reg2X} gives a
+contradiction; otherwise some rung is a half-square (Remark~\ref{rem:rung}) and
+Proposition~\ref{prop:reg2Y} gives a contradiction. (Proposition~\ref{prop:reg1} is the special case
+$\nu_2\ge2\nu$, used inside both.) Hence $\Q(x_1)$ is a proper subfield. If it is quadratic,
+$[K:\Q(x_1)]=3$ is odd and Proposition~\ref{prop:quadB} gives (1); if it is cubic,
+Proposition~\ref{prop:cubicB} gives (2).
 \end{proof}
 
-The members of $\Gcl$ appearing in (2) and (3) are $\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5),\Q(\zeta_7)^{+},
-\Q(\rho)$; only $\Q(\zeta_9)^{+}$ is not a member. So, apart from regime~$2$ of Case~A, a sextic member
-of $\Gcl$ would have to be an extension of a member of $\Gcl$ of degree $2$ or $3$ which inherits
-its variance minimum, with $2$ ramified: precisely the ``inherited'' situation that the census
-identifies as extreme (Table~\ref{tab:inherited}).
+The members of $\Gcl$ appearing in (1) and (2) are $\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5),\Q(\zeta_7)^{+},
+\Q(\rho)$; only $\Q(\zeta_9)^{+}$ is not a member. So a sextic member of $\Gcl$ would have to be an
+extension of degree $2$ or $3$ of one of these six fields (five of them members of $\Gcl$) which
+inherits its variance minimum, with $2$ ramified: precisely the ``inherited'' situation that the
+census identifies as extreme (Table~\ref{tab:inherited}).
 
 \begin{problem}\label{prob:sextic}
-Close the two remaining cases of Theorem~\ref{thm:sextic}.
+Close the remaining case of Theorem~\ref{thm:sextic}.
 \begin{enumerate}
-\item[(1)] \emph{Half-square rungs.} Enumerate $y$ with $y^{2}=2x_1-C$, $C=2n+c$, $c\in\{0,1\}$, as in the
-rung split of \cite{TwoO}: if $x_1$ has $\Tr x_1=-a_1$ and $\sum\theta_j^{2}=a_1^{2}-2a_2$, then
-\[
- p_2(y)=-2a_1-6C,\qquad p_4(y)=4(a_1^{2}-2a_2)+4Ca_1+6C^{2}
-\]
-are fixed, $\frac12(\nu_2+c)\le\tau(x_1-n)<\nu$, the least $y_j^{2}$ lies in $(0,2-c]$, and $y$ itself
-obeys the downspread with the weaker cost $\frac12\nu$. The modification of the enumerator is
-straightforward; the search is larger than in \cite{TwoO} because $p_2(y)$ reaches about $190$ when both
-rungs are half-squares.
-\item[(2)] \emph{Inherited minima.} Bound the relative variance of $K$ over $F\in\{\Q(\sqrt2),\Q(\sqrt3),
+\item[] \emph{Inherited minima.} Bound the relative variance of $K$ over $F\in\{\Q(\sqrt2),\Q(\sqrt3),
 \Q(\sqrt5)\}$ ($[K:F]=3$) and over $F\in\{\Q(\zeta_7)^{+},\Q(\zeta_9)^{+},\Q(\rho)\}$ ($[K:F]=2$) when $2$
 ramifies in $K$. The relative budget--cost of Proposition~\ref{prop:rel} then has a relative half-square
 alternative ($2\alpha-\gamma\in\OK^{2}$ with $\gamma\in\Sigma\OF^{2}$), which costs a factor $2$ in the
