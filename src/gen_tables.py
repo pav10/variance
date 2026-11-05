@@ -247,3 +247,30 @@ cases left open are exactly extensions of $\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5),\Q(\
 
 if __name__ == '__main__':
     open(f'{G}/stats_body.tex', 'a').write('\n' + tex_inherited() + '\n')
+
+def tex_regime2X():
+    fs = sorted(glob.glob(f'{R}/regime2X/status*.txt'))
+    if not fs: return ''
+    rows = [l.rstrip('\n').split('|', 1) for f in fs for l in open(f)]
+    cnt = collections.Counter(r[1].split()[0] for r in rows)
+    fields = {}
+    surv = [r for r in rows if r[1].startswith('SURVIVOR')]
+    t = (r"\begin{proposition}\label{prop:reg2X}No sextic $K\in\Gcl$ has a minimal vector $x_1$ generating $K$"
+         r" with both rungs regular.\end{proposition}" if not surv else
+         r"\begin{proposition}\label{prop:reg2X}[partial: survivors remain]\end{proposition}")
+    t += (r"\begin{proof}If both rungs are regular, the downspread inequalities hold and $\nu\le4.79$, so the"
+          r" enumeration of \cite{TwoO} without its quadratic filter (which needs $\tau\ge\nu$ for \emph{all}"
+          r" totally positive $\alpha$, not available in regime~$2$) contains the minimal polynomial of $x_1$."
+          r" This enumeration (\texttt{src/enum6g.c}, \texttt{src/run\_regime2X.sh}) has $178{,}438$ leaves,"
+          r" exactly as in \cite{TwoO}, and outputs $42{,}232$ polynomials. Of the "
+          + f"{len(rows)}" + r" irreducible ones, " +
+          ", ".join(f"{v} are excluded by {k}" for k, v in sorted(cnt.items()) if k != 'SURVIVOR') +
+          r", where UNR means $2$ unramified (Theorem~\ref{thm:unram}), R1 means $\nu_2\ge2\nu$"
+          r" (Proposition~\ref{prop:reg1}), NS that $x_1$ is not minimal in $\OK$, BC0 an element with"
+          r" $\tau<\min(\nu,\frac12\nu_2)$ (a witness by Corollary~\ref{cor:dich}(4)), HS an element with"
+          r" $\tau<\nu$ and no half-square (Corollary~\ref{cor:dich}(2)), and W a certified witness."
+          + ("" if not surv else f" {len(surv)} survive.") + r"\end{proof}")
+    return t
+
+if __name__ == '__main__':
+    open(f'{G}/regime1.tex', 'a').write('\n' + tex_regime2X() + '\n')
