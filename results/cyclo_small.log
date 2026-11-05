@@ -1,0 +1,9 @@
+m=36|d=6|hplus/h=2|trace|N=24|Tr=18|minpoly=x^6 - 18*x^5 + 102*x^4 - 252*x^3 + 288*x^2 - 144*x + 24|242ms
+[0;31m  *** qfminim: Warning: increasing stack size to 16000000.[0m
+[0;31m  *** qfminim: Warning: increasing stack size to 32000000.[0m
+[0;31m  *** qfminim: Warning: increasing stack size to 64000000.[0m
+[0;31m  *** qfminim: Warning: increasing stack size to 128000000.[0m
+[0;31m  *** qfminim: Warning: increasing stack size to 256000000.[0m
+[0;31m  *** qfminim: Warning: increasing stack size to 512000000.[0m
+[0;31m  *** qfminim: Warning: increasing stack size to 1024000000.[0m
+m=44|d=10|hplus/h=2|norm|N=89|Tr=28|minpoly=x^10 - 28*x^9 + 322*x^8 - 1976*x^7 + 7071*x^6 - 15234*x^5 + 19794*x^4 - 15166*x^3 + 6450*x^2 - 1322*x + 89|54903ms

@@ -1,0 +1,644 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{booktabs}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{problem}[theorem]{Problem}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\OK}{\mathcal{O}_K}
+\newcommand{\OO}{\mathcal{O}}
+\newcommand{\OF}{\mathcal{O}_F}
+\newcommand{\rr}{\mathfrak{r}}
+\newcommand{\pp}{\mathfrak{p}}
+\newcommand{\Gcl}{\mathcal{G}}
+\newcommand{\SoS}{\Sigma\OK^{2}}
+\newcommand{\tp}{\succ 0}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\Nm}{N}
+\DeclareMathOperator{\disc}{disc}
+\DeclareMathOperator{\dist}{dist}
+\newcommand{\Fm}{F_m}
+
+\begin{document}
+
+\title[The class $\Gcl$ beyond degree five]
+{The class $\Gcl$ beyond degree five: exact witnesses, the $2$-unramified classification
+in degrees $6$--$8$, and the bottom of the variance spectrum}
+\author{}
+\date{\today}
+
+\begin{abstract}
+Let $\Gcl$ be the class of totally real fields $K$ with $2\OK^{\tp}\subseteq\Sigma\OK^{2}$. Its
+members of degree at most $5$ are known (eight fields), and it is expected that there are no others.
+This note records a computational and theoretical attack on degrees $6$, $7$, $8$ and on the
+structure of small-variance fields.
+
+(i) We give an exact decision procedure for ``$2\alpha\in\Sigma\OK^{2}$'' and a search for
+\emph{exceptional} elements (witnesses), and run it on every totally real field of degree $3$--$8$
+in the LMFDB lists ($193{,}467$ cubic, $13{,}073$ quartic, $9{,}494$ quintic, $9{,}815$ sextic,
+$301$ septic and $920$ octic fields). In degrees $\le5$ it reproduces the Kala--Yatsyna
+classification exactly; in degrees $6$, $7$ and $8$ every field has an explicit, independently
+certified witness.
+
+(ii) We show that for fields in which $2$ is unramified, membership in $\Gcl$ implies every
+necessary condition (budget--cost, sharpened rigidity, square dichotomy, and their relative
+versions) used in the classification of totally real fields of degree $6$--$8$ with a universal
+$\Z$-form. Combining this with that classification and with explicit $\Gcl$-witnesses for all the
+fields it leaves (the ones that it excludes only through condition (N)), we obtain:
+\emph{no totally real field of degree $6$, $7$ or $8$ in which $2$ is unramified lies in $\Gcl$.}
+
+(iii) We determine the bottom of the variance spectrum. All totally real algebraic integers with
+$\Var(x)\le2$ are listed in degrees $\le10$, and an auxiliary-function (linear programming)
+certificate, verified in interval arithmetic, shows that every other totally real algebraic integer
+has $\Var(x)\ge 1.69$. Consequently the values of $\Var$ below $1.69$ are exactly
+$0,\tfrac54,\tfrac{14}9,\tfrac{27}{16}$, and a totally real field has $\nu(K)<1.69$ if and only if it
+contains $\Q(\sqrt5)$, $\Q(\zeta_7)^{+}$ or the quartic field of discriminant $725$. As a by-product,
+$\liminf_{\deg x\to\infty}\Var(x)\ge1.69$, which improves the bound $\sqrt e=1.6487\ldots$ quoted
+in the working notes.
+
+(iv) We record shape and arithmetic-statistics data from the census, explicit witnesses for the
+residual real cyclotomic fields $F_{36}$, $F_{44}$, $F_{52}$ left open by the dyadic criterion,
+and a reduction of the remaining problem (sextic fields with $2$ ramified) to explicitly described
+cases.
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\section{Introduction}\label{sec:intro}
+
+For a totally real field $K$ of degree $d$ write $\OK^{\tp}$ for its totally positive integers and
+$\SoS$ for the sums of squares. Put
+\[
+ \Gcl=\{K\ \text{totally real}:\ 2\OK^{\tp}\subseteq\SoS\}.
+\]
+Kala and Yatsyna \cite{KY} proved that the members of degree at most $5$ are
+\begin{equation}\label{eq:G5}
+ \Q,\ \Q(\sqrt2),\ \Q(\sqrt3),\ \Q(\sqrt5),\ \Q(\sqrt2,\sqrt5),\ \Q(\zeta_{20})^{+},\ \Q(\zeta_7)^{+},\
+ \Q(\rho)\quad(\rho^3=4\rho+2),
+\end{equation}
+and it is expected that \eqref{eq:G5} is all of $\Gcl$. The working notes \cite{PB,PD,PR} develop
+the \emph{trace variance} $\Var(x)=\tau(x^{2})-\tau(x)^{2}$, $\tau=\frac1d\Tr_{K/\Q}$, as the natural
+height for this problem, and the companion repository \cite{TwoO} pushes the related \emph{lifting
+problem} (universal $\Z$-forms) through degrees $6$, $7$ and $8$ using the same invariants. The
+purpose of this note is to transfer as much as possible of that machinery to $\Gcl$, to test it
+against complete field tables, and to understand the fields of small variance, which are the only
+places where members of $\Gcl$ can live.
+
+Throughout, $\Lambda_K=\OK/\Z$ with the positive definite form $\Var$ is the \emph{variance lattice}
+(up to scaling it is the shape of $K$), and
+\[
+ \nu(K)=\min_{x\in\OK\setminus\Z}\Var(x),\qquad
+ \nu_2(K)=\min_{x\in(\Z+\rr)\setminus\Z}\Var(x),\qquad
+ t(K)=\min_{\alpha\in\OK^{\tp}\setminus\Z}\tau(\alpha),
+\]
+where $\rr=\prod_{\pp\mid2}\pp^{\lceil e_\pp/2\rceil}$ is the dyadic square-root radical; one has
+$2\OK\subseteq\rr$, $\nu\le\nu_2\le4\nu$, and $\nu_2=4\nu$ when $2$ is unramified.
+
+\subsection*{Results}
+\begin{enumerate}
+\item \emph{Anatomy of a representation} (\S\ref{sec:anatomy}). A complete description of what a
+representation $2\alpha=\sum x_i^2$ looks like in the low-trace range, valid without any
+hypothesis on $2$. It contains the budget--cost inequality and rigidity of \cite{PB} and adds a
+\emph{half-square dichotomy}: if $\tau(\alpha)<\nu(K)$ and $K\in\Gcl$ then $2\alpha-c$ is a square
+in $\OK$ for an integer $0\le c<2\min_j\sigma_j(\alpha)$.
+\item \emph{An exact witness search} (\S\ref{sec:algo}) and a census of all LMFDB fields of degree
+$3$--$8$ (\S\ref{sec:census}); Theorem~\ref{thm:census}.
+\item \emph{The $2$-unramified classification in degrees $6$--$8$} (\S\ref{sec:unram});
+Theorem~\ref{thm:unram}.
+\item \emph{The bottom of the variance spectrum} (\S\ref{sec:spectrum}); Theorems~\ref{thm:lp}
+and~\ref{thm:smallnu}.
+\item \emph{Shapes and statistics} (\S\ref{sec:stats}), \emph{residual cyclotomic fields}
+(\S\ref{sec:cyclo}), the \emph{ramified sextic problem} (\S\ref{sec:ramified}), and corrections to
+the working notes (\S\ref{sec:corrections}).
+\end{enumerate}
+
+All computations use PARI/GP~2.15.4 \cite{PARI}; the code and all outputs are in the repository
+accompanying this note (\S\ref{sec:repro}). Every exclusion of a field rests on an explicit element
+whose exceptional status is certified by exact arithmetic, independently of the (GRH-conditional)
+class group and unit computations used to \emph{find} it.
+
+\section{Anatomy of a representation}\label{sec:anatomy}
+
+\begin{lemma}\label{lem:anatomy}
+Let $K$ be totally real, $\alpha\in\OK^{\tp}\setminus\Z$, and $2\alpha=\sum_{i=1}^{N}x_i^{2}$ with
+$x_i\in\OK\setminus\{0\}$. Let $S=\{i:x_i\notin\Z\}$. Then $S\neq\emptyset$, $\sum_ix_i\in\rr$, and
+\begin{equation}\label{eq:budget}
+ 2\tau(\alpha)=\sum_{i\in S}\bigl(\Var(x_i)+\tau(x_i)^{2}\bigr)+\sum_{i\notin S}x_i^{2}.
+\end{equation}
+Moreover:
+\begin{enumerate}
+\item If $|S|=1$, say $S=\{1\}$, put $c=\sum_{i\ge2}x_i^{2}\in\Z_{\ge0}$. Then $2\alpha-c=x_1^{2}$,
+$c<2\min_j\sigma_j(\alpha)$, $x_1\in(c+\rr)\setminus\Z$, and $2\tau(\alpha)\ge\nu_2(K)+c$.
+\item If $|S|=2$, say $S=\{1,2\}$, and $\tau(\alpha)<\frac12\nu_2(K)$, then $x_2=\varepsilon x_1+k$
+with $\varepsilon=\pm1$, $k\in\Z$, and
+\[
+ 4\alpha=(2x_1+\varepsilon k)^{2}+\kappa,\qquad \kappa=k^{2}+2\sum_{i\ge3}x_i^{2}\in\Z_{\ge0},\quad
+ \kappa\equiv0,3\pmod 4,
+\]
+with $\tau(\alpha)\ge\Var(x_1)+\kappa/4$. If $\kappa=0$ then $\alpha=x_1^{2}$.
+\item If $|S|\ge3$ then $\tau(\alpha)\ge\frac32\nu(K)$.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+If $S=\emptyset$ then $2\alpha\in\Z$, so $\alpha\in\Z$. The coupling $\sum_ix_i\in\rr$ is
+\cite[dyadic coupling lemma]{PB}: $s=\sum x_i$ has $s^{2}\equiv\sum x_i^{2}\equiv0\pmod{2\OK}$, so
+$v_\pp(s)\ge\lceil e_\pp/2\rceil$ for every $\pp\mid2$. Identity \eqref{eq:budget} is $\tau$ of the
+representation, with $\tau(x^{2})=\Var(x)+\tau(x)^{2}$.
+
+(1) $x_1^{2}=2\alpha-c$ is totally positive, so $c<2\sigma_j(\alpha)$ for all $j$. For integers
+$n\equiv n^{2}\pmod 2$, hence $\sum_{i\ge2}x_i\equiv c\pmod{2}$; as $2\in\rr$, the coupling gives
+$x_1\equiv-\sum_{i\ge2}x_i\equiv c\pmod\rr$. Thus $x_1\in(\Z+\rr)\setminus\Z$, so
+$\Var(x_1)\ge\nu_2$, and \eqref{eq:budget} gives $2\tau(\alpha)\ge\Var(x_1)+c$.
+
+(2) Put $c_0=\sum_{i\ge3}x_i\in\Z$. The coupling gives $x_1+x_2\in-c_0+\rr$, and $2x_2\in\rr$ gives
+$x_1-x_2\in-c_0+\rr$. If neither $x_1+x_2$ nor $x_1-x_2$ is rational, both have variance
+$\ge\nu_2$, and the parallelogram law for the quadratic form $\Var$ gives
+$2\nu_2\le\Var(x_1+x_2)+\Var(x_1-x_2)=2\Var(x_1)+2\Var(x_2)\le2\tau(x_1^2)+2\tau(x_2^2)\le4\tau(\alpha)$,
+contrary to the hypothesis. Hence $x_2=\varepsilon x_1+k$. Expanding,
+$2\alpha=2x_1^{2}+2\varepsilon kx_1+k^{2}+M$ with $M=\sum_{i\ge3}x_i^{2}$, so
+$4\alpha=(2x_1+\varepsilon k)^{2}+k^{2}+2M$. Since $k^{2}+M=2(\alpha-x_1^{2}-\varepsilon kx_1)\in2\OK\cap\Z$,
+$M\equiv k^{2}\pmod2$ and $\kappa\equiv3k^{2}\pmod4$. Finally
+$\tau(\alpha)=\tau\bigl((x_1+\varepsilon k/2)^{2}\bigr)+\kappa/4\ge\Var(x_1)+\kappa/4$, and $\kappa=0$
+forces $k=0=M$, i.e.\ $\alpha=x_1^{2}$.
+
+(3) Three summands of \eqref{eq:budget} are each $\ge\nu$.
+\end{proof}
+
+\begin{corollary}[$\Gcl$-dichotomies]\label{cor:dich}
+Let $K\in\Gcl$, $K\ne\Q$, and $\alpha\in\OK^{\tp}\setminus\Z$. Write $\nu=\nu(K)$, $\nu_2=\nu_2(K)$.
+\begin{enumerate}
+\item \textup{(budget--cost \cite[budget--cost inequality]{PB})} $\tau(\alpha)\ge\min(\nu,\frac12\nu_2)$.
+\item \textup{(half-square dichotomy)} If $\tau(\alpha)<\nu$, then $2\alpha-c=y^{2}$ for some $c\in\Z$
+with $0\le c<2\min_j\sigma_j(\alpha)$ and some $y\in(c+\rr)\setminus\Z$; moreover
+$2\tau(\alpha)\ge\nu_2+c$.
+\item \textup{(square window)} If $\tau(\alpha)<\min(\frac32\nu,\ \nu+\frac34,\ \frac12\nu_2)$, then
+$\alpha$ is a square in $\OK$.
+\item \textup{(witness by trace)} If $\tau(\alpha)<\min(\nu,\frac12\nu_2)$ for some
+$\alpha\in\OK^{\tp}\setminus\Z$ of an arbitrary totally real $K$, then $2\alpha\notin\SoS$; in
+particular $K\notin\Gcl$, and $\alpha$ itself is a witness.
+\end{enumerate}
+\end{corollary}
+
+\begin{proof}
+(1), (2), (4) are immediate from Lemma~\ref{lem:anatomy}. For (3): $|S|\ge3$ is excluded by
+$\tau<\frac32\nu$, and $|S|=1$ by $\tau<\frac12\nu_2$ (Lemma~\ref{lem:anatomy}(1)); so $|S|=2$, and
+$\nu+\kappa/4\le\tau(\alpha)<\nu+\frac34$ forces $\kappa\in\{0,1,2\}$, hence $\kappa=0$ by the
+congruence, hence $\alpha=x_1^{2}$.
+\end{proof}
+
+\begin{remark}\label{rem:rung}
+Apply (2) to the \emph{lower rung} $\alpha_-=x-n$ of any $x\in\OK\setminus\Z$, where
+$n=\lceil\theta_1\rceil-1$ and $\theta_1$ is the least conjugate of $x$. Then
+$\min_j\sigma_j(\alpha_-)=\theta_1-n\in(0,1]$, so $c\in\{0,1\}$: \emph{if $\tau(x-n)<\nu$ then
+$2x-2n-c$ is a square in $\OK$ for some $c\in\{0,1\}$}. This is the $\Gcl$-analogue of the ``rung
+split'' of \cite[degree-$8$ rung split]{TwoO}, and it is the only way in which the lower rung can be cheap. The same
+holds for the upper rung $\lfloor\theta_d\rfloor+1-x$.
+\end{remark}
+
+\subsection{The unramified case, and relative versions}
+If $2$ is unramified then $\rr=2\OK$, $(\Z+\rr)/\Z=2\Lambda_K$, and $\nu_2=4\nu$. Then
+Corollary~\ref{cor:dich}(1) reads $\tau(\alpha)\ge\nu$, the half-square alternative never occurs
+(it forces $\tau(\alpha)\ge2\nu$), and the window of (3) is $\min(\frac32\nu,\nu+\frac34)$.
+
+Let $F\subsetneq K$ be a subfield, $\Var_{K/F}$ the relative variance (an $F$-valued totally
+nonnegative quadratic form vanishing exactly on $F$), and
+$\nu_{K/F}=\min\{\tau_F(\Var_{K/F}x):x\in\OK\setminus\OF\}$; by the law of total variance
+\cite[ANOVA identity]{PB}, $\tau(x^{2})\ge\tau_F(\Var_{K/F}x)$.
+
+\begin{proposition}[relative version, $2$ unramified]\label{prop:rel}
+Let $K\in\Gcl$ with $2$ unramified in $K$, $F\subsetneq K$, and $\alpha\in\OK^{\tp}\setminus F$.
+Then $\tau(\alpha)\ge\nu_{K/F}$. If moreover $\tau(\alpha)<\frac32\nu_{K/F}$, then
+$\alpha=y^{2}+\gamma y+\beta$ with $y\in\OK\setminus\OF$, $\beta,\gamma\in\OF$,
+$\tau_F(\Var_{K/F}y)\le\tau(\alpha)$, and $4\beta-\gamma^{2}$ totally nonnegative.
+\end{proposition}
+
+\begin{proof}
+Let $S_F=\{i:x_i\notin F\}\ne\emptyset$. If $|S_F|\ge2$ then $\tau(\alpha)\ge\nu_{K/F}$; if
+$|S_F|\ge3$ then $\tau(\alpha)\ge\frac32\nu_{K/F}$. If $S_F=\{1\}$, the coupling (with $\rr=2\OK$)
+gives $x_1\in\OF+2\OK$, so $x_1=f+2w$ with $w\notin F$ and $\tau(x_1^{2})\ge4\nu_{K/F}$, i.e.\
+$\tau(\alpha)\ge2\nu_{K/F}$. If $S_F=\{1,2\}$, then $x_1\pm x_2\in\OF+2\OK$, and if both are
+outside $F$ the parallelogram law for $\tau_F\circ\Var_{K/F}$ gives $\tau(\alpha)\ge2\nu_{K/F}$.
+Otherwise $x_2=\pm x_1+\gamma$ with $\gamma\in\OF$; then
+$\alpha=x_1^{2}\pm\gamma x_1+\beta$ with $2\beta=\gamma^{2}+\sum_{i\ge3}x_i^{2}$, $\beta\in\OK\cap F=\OF$,
+and $4\beta-\gamma^{2}=\gamma^{2}+2\sum_{i\ge3}x_i^{2}\succeq0$.
+\end{proof}
+
+\section{An exact decision procedure, and certificates}\label{sec:algo}
+
+\subsection{Deciding $\beta\in\SoS$}
+Let $\beta\in\OK^{\tp}$. Every summand $x$ of a representation $\beta=\sum x_i^{2}$ satisfies
+$\sigma_j(x)^{2}\le\sigma_j(\beta)$ for all $j$, hence lies in the finite set
+\[
+ X(\beta)=\Bigl\{x\in\OK\setminus\{0\}:\ \textstyle\sum_j\sigma_j(x)^{2}/\sigma_j(\beta)\le d\Bigr\}
+ \cap\{x:\beta-x^{2}\succeq0\}.
+\]
+We enumerate the ellipsoid by Fincke--Pohst (PARI's \texttt{qfminim} on the weighted Gram matrix,
+LLL-reduced, at a working precision adapted to the spread of the conjugates of $\beta$) and test
+$\beta-x^{2}\succeq0$ exactly. A depth-first search over multisets, with a memo on remainders and a
+direct look-up for one and two squares, decides whether $\beta\in\SoS$. Every representation found
+is re-verified by exact multiplication.
+
+\subsection{Rigorous signs}
+All decisions about signs of conjugates are exact. The embedding matrix is computed to $\ge100$
+digits, and a numerical sign is accepted only when the computed value exceeds an explicit bound
+$(\|x\|_1+1)\max|M_{ij}|\,10^{-90}$ for the error; otherwise the sign is decided from a certified
+high-precision evaluation (precision doubled until $|v|$ exceeds a rigorous evaluation error) or by a
+Sturm sequence on the characteristic polynomial. This matters: in large-regulator fields the
+totally positive generators of small ideals are unavoidably unbalanced (conjugates of size
+$10^{\pm50}$ occur for cubic fields of discriminant $\approx2\cdot10^{6}$), and a first version of
+the code that used a fixed tolerance produced wrong sign vectors of fundamental units there. The
+bug was caught by the final certification step below.
+
+\subsection{The witness search}
+For a field $K$ we try, in order: (U) the \emph{unit criterion}: every $u\in U_K^{+}$ with
+$u,2u\notin K^{\times2}$ is a witness, since $\Nm(u)=1$ allows at most two squares and equality in
+O'Meara's superadditivity forces $u$ or $2u$ to be a square \cite[unit dichotomy lemma]{PB}; (T) all
+$\alpha\in\OK^{\tp}\setminus\Z$ with $\tau(\alpha)\le T$, enumerated in $\Lambda_K$ using
+$\Var(\alpha)\le(d-1)\tau(\alpha)^{2}$ and the least totally positive shift of each class
+(Corollary~\ref{cor:dich}(4) explains why such elements are natural witnesses); (N) for every ideal
+of norm $\le N_{\max}$ that is narrowly principal, every totally positive generator modulo $U_K^{2}$,
+reduced in trace by squares of units.
+
+\subsection{Certificates}
+A witness $\alpha$ is accepted only after (a) total positivity is re-proved by a Sturm sequence of
+its characteristic polynomial, with no floating point, and (b) the decision procedure is rerun from
+scratch on $2\alpha$ and finds no representation. Neither step uses the class group or the units, so
+every exclusion below is unconditional, although the search that found the witness used
+\texttt{bnfinit} (correct under GRH).
+
+\section{The census in degrees $3$--$8$}\label{sec:census}
+
+We ran the search on the LMFDB lists of totally real fields \cite{LMFDB} as mirrored in
+\cite{Visser} (the lists used by the \texttt{sails} project). The bounds were $T=3$ ($T=2$ in degree
+$3$) and $N_{\max}=64,128,300,300,400$ in degrees $4,5,6,7,8$ ($N_{\max}=64$ in degree $3$); the few
+survivors were rerun with $N_{\max}=1500$.
+
+\begin{theorem}\label{thm:census}
+\input{gen/census_theorem}
+\end{theorem}
+
+\begin{table}[t]
+\caption{The census. U, T, N: number of fields whose first witness is a unit, a small-trace element,
+or a small-norm generator. ``max $N$'' is the largest norm of a first witness of type N.}
+\label{tab:census}
+\input{gen/census_table}
+\end{table}
+
+\begin{remark}[validation against \cite{KY}]
+In degrees $3$, $4$, $5$ the procedure finds a witness for every field except exactly the members
+in \eqref{eq:G5} (discriminants $49,148$; $1600,2000$; none), which survive up to $N_{\max}=1500$.
+Since our implementation shares no code with \cite{KY}, this is an independent check of their
+classification on these lists, and conversely their theorem is a check of our code: a single false
+witness or a missed representation in a member would have shown up here.
+\end{remark}
+
+\begin{remark}[the extreme cases]
+The fields that need the largest witnesses are imprimitive fields with a subfield of very small
+variance and a large discriminant: the seven quartic fields with $d_K\in[5.7\cdot10^{5},10^{6}]$
+that survive $N_{\max}=64$ all contain $\Q(\sqrt5)$ or $\Q(\sqrt2)$, have normalised shape minimum
+$\approx0.09$ (against a median $0.58$), and need witnesses of norm $71$--$81$. This is the
+``inherited witness'' phenomenon of \cite[``What remains, and why'']{PB} seen in data: a small-variance subfield blocks
+every trace-based witness, and only norm-based witnesses remain, whose size grows with $d_K$.
+\end{remark}
+
+\section{Fields with $2$ unramified in degrees $6$, $7$, $8$}\label{sec:unram}
+
+The repository \cite{TwoO} proves that no totally real field of degree $6$, $7$ or $8$ admits a
+universal $\Z$-form. Its proof uses the following necessary conditions on a field $K$ (we refer to
+the notes in \cite{TwoO} for the precise statements):
+\begin{itemize}
+\item[(BC)] $\tau(\alpha)\ge\nu(K)$ for all $\alpha\in\OK^{\tp}\setminus\Z$, and its integer-part
+consequences (downspread, the quadratic filter);
+\item[(RG)] rigidity: $\tau(\alpha)<\frac32\nu(K)$ implies $\alpha=y^{2}+cy+b$ with $y\notin\Z$,
+$\Var(y)\le\tau(\alpha)$, $\kappa=4b-c^{2}\ge0$, $\kappa\equiv0,3\pmod4$; in particular the square
+dichotomy $\tau(\alpha)<\min(\frac32\nu,\nu+\frac34)\Rightarrow\alpha\in\OK^{2}$;
+\item[(REL)] the relative versions of (BC) and (RG) over every subfield;
+\end{itemize}
+and, only at the very end, condition (N) at explicit elements.
+
+\begin{proposition}\label{prop:transfer}
+If $K\in\Gcl$ and $2$ is unramified in $K$, then $K$ satisfies (BC), (RG) and (REL).
+\end{proposition}
+
+\begin{proof}
+(BC) and (RG) are Corollary~\ref{cor:dich} with $\nu_2=4\nu$ together with
+Lemma~\ref{lem:anatomy}(2) (which gives exactly the shape $y^{2}+cy+b$ with
+$\kappa=k^{2}+2\sum_{i\ge3}x_i^{2}\ge0$); (REL) is Proposition~\ref{prop:rel}.
+\end{proof}
+
+\begin{theorem}\label{thm:unram}
+No totally real field of degree $6$, $7$ or $8$ in which $2$ is unramified belongs to $\Gcl$.
+\end{theorem}
+
+\begin{proof}
+By Proposition~\ref{prop:transfer}, such a field passes every test of \cite{TwoO} that precedes
+the final condition-(N) step. That computation leaves, in degree $6$, the $18$ fields of
+\cite[degree-$6$ Case B]{TwoO} (Case B; Case A is empty); in degree $7$, nothing; in degree $8$, the four
+fields of Case A and the $390$ fields of Case B over $\Q(\sqrt5)$. For each of these
+$18+4+390$ fields we found an explicit $\alpha\in\OK^{\tp}$ with $2\alpha\notin\SoS$, certified as
+in \S\ref{sec:algo} (files \texttt{results/g2o\_d6.txt}, \texttt{g2o\_d8A.txt},
+\texttt{g2o\_d8B.txt}); Table~\ref{tab:unram} lists the ones with $2$ unramified in degree~$6$ and
+the two octic fields that survive all tests of \cite{TwoO} except (N).
+\end{proof}
+
+\begin{table}[t]
+\caption{$\Gcl$-witnesses for the fields left by the pipeline of \cite{TwoO} that have $2$
+unramified, in degree $6$, and for the two octic fields excluded there only by (N).}
+\label{tab:unram}
+\input{gen/unram_table}
+\end{table}
+
+\begin{remark}
+(a) The proof uses the computations of \cite{TwoO} as a black box; we have checked that each
+exclusion test there is one of (BC), (RG), (REL), and reproduced its degree-$6$ and degree-$7$
+runs (\S\ref{sec:repro}). (b) Most of the fields in the list have $2$ ramified; they are not
+covered by Proposition~\ref{prop:transfer}, but our witnesses exclude them from $\Gcl$ anyway.
+(c) For $\Q(\sqrt5,\zeta_7^{+})$ ($d_K=300125$) and the two octic fields, the $\Gcl$-witness is the
+same element at which (N) fails in \cite{TwoO}: the elements of trace $14$, norm $29$ and of trace
+$18$ (in the quartic subfield of discriminant $725$), respectively.
+\end{remark}
+
+\section{The bottom of the variance spectrum}\label{sec:spectrum}
+
+\subsection{Enumeration}
+Up to $x\mapsto\pm x+k$ and conjugation, a totally real algebraic integer of degree $e$ is a
+real-rooted monic $f\in\Z[t]$ with $a_1\in\{0,-1,\dots,-\lfloor e/2\rfloor\}$, and
+$e\Var(x)=\frac{e-1}{e}a_1^{2}-2a_2$. We enumerated all such $f$ with $\Var\le2$ (Robinson's method,
+the enumerator of \cite{TwoO} in its unfiltered mode) for $e\le10$ and kept the irreducible ones.
+
+\begin{table}[t]
+\caption{The variance spectrum below $1.9$ in degrees $\le10$: value, degrees in which it occurs,
+number of polynomials (up to $x\mapsto\pm x+k$).}
+\label{tab:spectrum}
+\input{gen/spectrum_table}
+\end{table}
+
+\subsection{Auxiliary functions}
+Let $I=[s_0,s_1]\subseteq[0,\frac12]$, $Q_1,\dots,Q_k\in\Z[t]$ and $c_1,\dots,c_k\ge0$ be such that
+\begin{equation}\label{eq:aux}
+ f_I(t)=\dist(t,I)^{2}-\sum_ic_i\log|Q_i(t)|\ \ge\ m_I\qquad(t\in\R).
+\end{equation}
+If $x$ is a totally real algebraic integer with $\tau(x)\in I$ and $Q_i(x)\ne0$ for all $i$, then
+averaging \eqref{eq:aux} over the conjugates of $x$ and using $|\Nm(Q_i(x))|\ge1$ gives
+$\Var(x)\ge\frac1e\sum_j\dist(\theta_j,I)^{2}\ge m_I$. Every $x$ can be normalised by $x\mapsto\pm x+k$
+to have $\tau(x)\in[0,\frac12]$.
+
+We took for the $Q_i$ the linear polynomials $t-k$ and all integer shifts and reflections, with
+roots in $[-4.5,5]$, of the irreducible polynomials of degree $\le7$ found in the enumeration
+($959$ polynomials), solved the linear program for the $c_i$ on a grid, rounded the $c_i$ down to
+rationals, and \emph{verified} \eqref{eq:aux} on all of $\R$: on $[-7,7.5]$ by interval arithmetic
+(\texttt{mpmath.iv}, $120$ bits) with adaptive subdivision, using
+$\log|Q_i(t)|\le\log\max_{\text{cell}}|Q_i|$; outside, by the explicit increasing minorant
+$(|t|-\frac12)^{2}-\sum_ic_i(\log\|Q_i\|_1+\deg Q_i\log|t|)$.
+
+\begin{theorem}\label{thm:lp}
+Let $m^{*}=\frac{33839}{20000}=1.69195$. There is an explicit set $\mathcal Q$ of $109$ irreducible
+polynomials in $\Z[t]$, of degrees $\le7$ (file \texttt{results/lp/cert\_deg7.json}), such that every
+totally real algebraic integer $x$ which is not, after $x\mapsto\pm x+k$ $(k\in\Z)$, a root of a
+member of $\mathcal Q$ satisfies
+\[
+ \Var(x)\ \ge\ m^{*}.
+\]
+The members of $\mathcal Q$ have degree $\le7$, so their roots appear in the enumeration, and among
+them only the following have variance $<m^{*}$: $\frac{1+\sqrt5}2$ ($\Var=\frac54$),
+$2\cos\frac{2\pi}7$ ($\frac{14}9$), and a root of $t^{4}-t^{3}-3t^{2}+t+1$ ($\frac{27}{16}$; it generates
+the totally real quartic field of discriminant $725$, the one of least discriminant). Consequently
+\[
+ \{\Var(x):x\ \text{a totally real algebraic integer}\}\cap[0,m^{*})=\{0,\tfrac54,\tfrac{14}9,\tfrac{27}{16}\},
+\]
+each value being attained by a unique integer up to $x\mapsto\pm x+k$ and conjugation, and
+$\Var(x)\ge m^{*}$ for every totally real algebraic integer of degree $\ge5$. With the $36$
+polynomials of degree $\le5$ of \texttt{cert\_deg5.json} one already gets the bound
+$\frac{32597}{20000}=1.62985$.
+\end{theorem}
+
+\begin{theorem}\label{thm:smallnu}
+Let $K$ be totally real and $m^{*}$ as in Theorem~\ref{thm:lp}. Then $\nu(K)<m^{*}$ if and only if
+$K$ contains one of $\Q(\sqrt5)$, $\Q(\zeta_7)^{+}$, $F_{725}$ (the quartic field of discriminant
+$725$), and in that case
+\[
+ \nu(K)=\begin{cases}\frac54 & \text{if }\sqrt5\in K,\\[2pt] \frac{14}9&\text{if }\sqrt5\notin K,\ \Q(\zeta_7)^+\subseteq K,\\[2pt]
+ \frac{27}{16}&\text{otherwise.}\end{cases}
+\]
+In particular $\nu(K)\ge m^{*}$ for every primitive totally real field of degree $\ge5$, and for
+every totally real field of odd degree not divisible by $3$ (no quadratic, cubic or quartic subfield).
+\end{theorem}
+
+\begin{proof}
+Let $x\in\OK\setminus\Z$ realise $\nu(K)$. If $\nu(K)<m^{*}$, Theorem~\ref{thm:lp} and the
+enumeration identify $x$, up to $x\mapsto\pm x+k$ and conjugation, as one of the three integers
+listed, so $K$ contains the corresponding field and $\nu(K)\in\{\frac54,\frac{14}9,\frac{27}{16}\}$;
+which value occurs is the least among the subfields contained in $K$. Conversely each of the three
+fields contains an element of the stated variance, and $\nu$ can only decrease in extensions.
+\end{proof}
+
+\begin{remark}
+(a) Theorem~\ref{thm:lp} gives $\liminf_{\deg x\to\infty}\Var(x)\ge m^{*}$; the working notes
+\cite[the limiting-variance theorem]{PB} quote $\sqrt e=1.6487\ldots$ (Schur's argument via Hermite discriminants;
+see also \cite{Dubickas,CY}), and the upper bound $\lambda_{\mathrm{SSS}}\le1.8984$ comes from
+Smith's realisation theorem \cite{Smith,OSS}. We have not found a better lower bound in the
+literature, but have not made an exhaustive search. (b) The degree-$\le5$ certificate already gives
+$m^{*}=1.6298$, enough to show that $\frac54$ and $\frac{14}9$ are the only nonzero values below
+$1.6298$; this sharpens the ``bottom of the spectrum'' theorem of \cite[bottom of the spectrum]{PB}, which
+proves that $(\frac54,\frac{14}9)$ contains no value.
+(c) The quartic field of discriminant $725$ is precisely the subfield on which the two octic
+survivors of \cite{TwoO} fail (N) and $\Gcl$ (Table~\ref{tab:unram}): small-variance fields are
+where the hard cases live.
+\end{remark}
+
+\subsection{Consequences for $\Gcl$}
+The eight members \eqref{eq:G5} have $\nu\in\{\frac54,\frac{14}9,2,\frac{20}9,3\}$. By
+Theorem~\ref{thm:smallnu}, a field $K\in\Gcl$ with $\nu(K)<m^{*}$ contains $\Q(\sqrt5)$,
+$\Q(\zeta_7)^{+}$ or the quartic field of discriminant $725$; every other member has
+$\nu(K)\ge m^{*}$, and by the degree-free exclusion \cite[degree-free exclusion]{PB} its minimal vector has degree
+$e$ with $m^{*}\le\nu(K)\le2e+2\sqrt{e^{2}-1}$.
+
+\section{Shapes and arithmetic statistics}\label{sec:stats}
+
+The lattice $(\Lambda_K,\Var)$ is the shape of $K$ up to scaling \cite{MSRG}, with determinant
+$d_K/d^{d}$. We record the \emph{normalised shape minimum}
+$\hat\nu(K)=\nu(K)\,(d^{d}/d_K)^{1/(d-1)}\in(0,\gamma_{d-1}]$.
+
+\input{gen/stats_body}
+
+\section{The residual real cyclotomic fields}\label{sec:cyclo}
+
+The dyadic criterion of \cite{PD} leaves, among $m=4m_0$, the family with $-1\in\langle2\rangle$
+modulo $m_0$ and $\varphi(m_0)/\operatorname{ord}_{m_0}(2)$ odd; for $m_0\le99$ these are
+$m_0=3,5,9,11,13,19,25,27,29,37,43,53,59,61,67,81,83$ (we re-derived this table). The first two are
+members. Our search gives explicit witnesses for the next ones:
+
+\input{gen/cyclo_table}
+
+These exclusions are unconditional (the witnesses are certified as in \S\ref{sec:algo}); in
+particular $F_{44}$ and $F_{52}$ are $q\equiv3\pmod 8$ and $q\equiv5\pmod8$, $q<269$, cases that
+neither \cite{PD} nor the signature law of \cite{PB} reaches unconditionally.
+
+\section{The sextic problem with $2$ ramified}\label{sec:ramified}
+
+By Theorem~\ref{thm:unram} and the census, a sextic member of $\Gcl$ would have $2$ ramified and
+discriminant beyond the LMFDB list. We record how the minimal-vector method splits in that case.
+Let $x_1$ realise $\nu$, with rungs $\alpha_\pm$ as in Remark~\ref{rem:rung}.
+
+\emph{Regime 1: $\nu_2\ge2\nu$.} Then Corollary~\ref{cor:dich}(1) gives $\tau(\alpha)\ge\nu$ for
+every $\alpha\in\OK^{\tp}\setminus\Z$, so the downspread bound $d\nu\ge2(\nu-1)^{2}$ and the
+quadratic filter hold, and Case A of the enumeration of \cite{TwoO} (with its $15{,}720$
+irreducible candidates, $\nu\le4.79$) covers all such $K$ with $\Q(x_1)=K$. What is lost is
+rigidity, whose window shrinks to $\tau<\frac12\nu_2$ when $\nu_2<3\nu$; the $9{,}785$ candidates
+that \cite{TwoO} excludes by rigidity must instead be tested at the level of the field.
+
+\emph{Regime 2: $\nu\le\nu_2<2\nu$.} Budget--cost only gives $\tau\ge\frac12\nu_2$. A cheap rung is
+then a \emph{half-square}: $2x_1-2n-c=y^{2}$ with $c\in\{0,1\}$ (Remark~\ref{rem:rung}). If one rung
+is regular, the downspread argument gives $\frac32\nu\le\sqrt{2d\nu}+2$, i.e.\ $\nu\le7.77$; if both
+are half-squares, $y^{2}+z^{2}=N$ for an integer $N\in[2\nu,4\nu)$ and $\nu\le15.75$. In both cases
+one enumerates $y$ with $p_2(y)=d(2\tau(\alpha_-)-c)$ and $p_4(y)=d\bigl(4\nu+(2\tau(\alpha_-)-c)^{2}\bigr)$
+fixed, as in the rung split of \cite[degree-$8$ rung split]{TwoO}.
+
+\emph{Case B} (the minimal vector lies in a proper subfield $F$). If $[K:F]$ is odd, an element of
+$F$ that is a square in $K$ is already a square in $F$ (otherwise $F(\sqrt\beta)\subseteq K$ would
+have even degree over $F$). Hence every half-square condition of Corollary~\ref{cor:dich}(2) for
+elements of $F$ must already hold in $F$, with $\nu=\nu(K)=\nu(F)$.
+
+\begin{proposition}\label{prop:quadB}
+Let $K\in\Gcl$, and suppose that a minimal vector of $\Lambda_K$ lies in a quadratic subfield $F$
+with $[K:F]$ odd. Then $F\in\{\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5)\}$.
+\end{proposition}
+
+\begin{proof}
+Write $F=\Q(\sqrt D)$, $D>1$ squarefree, so $\nu(K)=\nu(F)$ and every $\alpha\in\OF^{\tp}\setminus\Z$
+with $\tau(\alpha)<\nu(F)$ must have $2\alpha-c\in\OF^{2}$ for some $c\in\{0,1,\dots\}$ with
+$c<2\min\sigma(\alpha)$. Take $\alpha$ to be the lower rung of the minimal vector, so $c\in\{0,1\}$
+(Remark~\ref{rem:rung}).
+
+If $D\equiv1\pmod4$, then $\nu=D/4$, the minimal vector is $\omega=\frac{1+\sqrt D}2$ up to
+$\pm\omega+k$, and $\alpha=\omega+u$ with $u=\lceil\frac{\sqrt D-1}2\rceil$ has
+$\tau(\alpha)=u+\frac12<\frac{\sqrt D}2+1<\frac D4$ as soon as $D\ge13$ (note $\min\sigma(\alpha)=u+\frac{1-\sqrt D}2\in(0,1]$). But
+$2\alpha-c=(2u+1-c)+\sqrt D$ is not a square in $\OF$: if $\bigl(\frac{p+q\sqrt D}2\bigr)^{2}$ has
+$\sqrt D$-coefficient $1$ then $pq=2$, and then $p\not\equiv q\pmod 2$, so $\frac{p+q\sqrt D}2\notin\OF$.
+Hence $D=5$.
+
+If $D\equiv2,3\pmod4$, then $\nu=D$, the minimal vector is $\sqrt D$, and $\alpha=\sqrt D+u$ with
+$u=\lfloor\sqrt D\rfloor+1$ has $\tau(\alpha)=u<D$ for $D\ge3$. A square $(p+q\sqrt D)^{2}$ with
+$\sqrt D$-coefficient $2$ has $pq=1$, so $2\alpha-c=2u-c+2\sqrt D$ is a square only if
+$2u-c=D+1$, i.e.\ $D=2\lfloor\sqrt D\rfloor+1-c\le2\sqrt D+1$, i.e.\ $D\le5$. This leaves $D=2$
+(where $\tau(\alpha)=\nu$) and $D=3$ (where $2\alpha=(1+\sqrt3)^{2}$ with $c=0$).
+\end{proof}
+
+The three fields of Proposition~\ref{prop:quadB} are exactly the quadratic members of $\Gcl$. A
+direct computation (file \texttt{src/quadB.gp}) confirms that for squarefree $D\le2000$ only
+$D=2,3,5$ satisfy the half-square condition for \emph{all} $\alpha\in\OF^{\tp}\setminus\Z$ with
+$\tau(\alpha)<\nu(F)$. If $[K:F]=2$ (a cubic $F$ in a sextic $K$), the half-square condition no longer
+descends, but it is still strong: if some $\alpha\in\OF^{\tp}$ with $\tau(\alpha)<\nu(F)$ has no
+half-square in $F$, then $K=F\bigl(\sqrt{2\alpha-c}\bigr)$ for one of the finitely many admissible
+$c$, so $K$ is determined by $F$ up to finitely many choices.
+
+\input{gen/regime1}
+
+\begin{problem}
+Carry out the regime-$2$ enumeration, and the relative analysis in Case B over $\Q(\sqrt2)$,
+$\Q(\sqrt3)$, $\Q(\sqrt5)$ and over the cubic fields satisfying the half-square condition;
+together with Theorem~\ref{thm:unram} this would complete the classification of sextic members of
+$\Gcl$.
+\end{problem}
+
+\section{Remarks on the working notes}\label{sec:corrections}
+We checked several statements of \cite{PB,PD} against independent computations.
+\begin{enumerate}
+\item The values $\nu,\nu_2,t$ for the members, for $\Q(\sqrt{13})$, and for the cyclic cubic fields
+of conductor $13,91,117,133$ in \cite[shape section]{PB} agree with ours.
+\item The table of excluded and surviving $m_0\le99$ in \cite[table of $m_0\le99$]{PD} agrees with ours.
+\item The effective Northcott subsection of \cite{PB} states that the cubic scan with $d_K\le3000$ leaves
+$\{49,81,169,229,257,316,321,404,469,473,564\}$ ``together with the $2$-ramified $d_K=148$''. This
+is the list of cubic fields with $d_K\le3000$ and $\nu\le3.7321$ irrespective of ramification;
+besides $148$, the fields $316$, $404$, $564$ are also $2$-ramified and are therefore not covered
+by the $2$-unramified threshold used there.
+\item The limiting-variance theorem of \cite{PB} gives $\sqrt e$ as the lower bound for $\liminf\Var$;
+Theorem~\ref{thm:lp} improves it.
+\end{enumerate}
+
+\section{Reproducibility}\label{sec:repro}
+The repository contains:
+\begin{itemize}
+\item \texttt{src/gtest.gp}: the toolkit (field record, rigorous signs, the decision procedure
+\texttt{sosdecide}, unit criterion, totally positive generators modulo $U_K^{2}$, the witness search
+\texttt{gwitness2} with certification, and the invariants $\nu,\nu_2,t$);
+\item \texttt{src/census.gp}, \texttt{src/runcensus.sh}: the census (one output line per field:
+discriminant, polynomial, $h^+/h$, dyadic type, $\nu$, status, witness, norm, time, $\nu_2$, $h$,
+regulator, normalised shape minimum, trace of the witness);
+\item \texttt{src/run2o.gp}, \texttt{data/2o/}: $\Gcl$-witnesses for the fields left by \cite{TwoO};
+\item \texttt{src/enum6.c} (copied from \cite{TwoO}), \texttt{src/varspec.sh},
+\texttt{src/spectrum.gp}: the variance spectrum; \texttt{src/lp/varlp.py}, \texttt{src/lp/varlp\_cert.py}:
+the linear programs and their interval-arithmetic verification;
+\item \texttt{src/cyclo.gp}: real cyclotomic fields; \texttt{src/regime1.gp}: the ramified sextic
+Case A test of \S\ref{sec:ramified}; \texttt{src/gen\_tables.py}: the tables of this note.
+\end{itemize}
+All runs used 4 cores; the full census takes about two hours, dominated by degree $8$ and by the
+$193{,}467$ cubic fields.
+
+\begin{thebibliography}{99}
+
+\bibitem{CY} G.~Cherubini and P.~Yatsyna, \emph{Potential energy of totally positive algebraic
+integers}, J. Math. Anal. Appl. \textbf{516} (2022), 126518.
+
+\bibitem{Dubickas} A.~Dubickas, \emph{Algebraic integers with small potential energy}, J. Math.
+Inequal. \textbf{17} (2023), 141--151.
+
+\bibitem{DV} D.~S.~Dummit and J.~Voight, \emph{The $2$-Selmer group of a number field and
+heuristics for narrow class groups and signature ranks of units}, Proc. Lond. Math. Soc. (3)
+\textbf{117} (2018), 682--726.
+
+\bibitem{KY} V.~Kala and P.~Yatsyna, \emph{Even better sums of squares over quintic and cyclotomic
+fields}, arXiv:2402.03850.
+
+\bibitem{LMFDB} The LMFDB Collaboration, \emph{The L-functions and modular forms database},
+\url{https://www.lmfdb.org}.
+
+\bibitem{MSRG} G.~Mantilla-Soler and C.~Rivera-Guaca, \emph{An introduction to Casimir pairings
+and the shape of number fields}, arXiv:1907.09134.
+
+\bibitem{OSS} B.~J.~Orloski, N.~T.~Sardari and A.~D.~Smith, \emph{New lower bounds for the
+Schur--Siegel--Smyth trace problem}, Math. Comp. \textbf{94} (2025), 2005--2040.
+
+\bibitem{PARI} The PARI~Group, \emph{PARI/GP, version 2.15.4}, Univ. Bordeaux, 2023,
+\url{https://pari.math.u-bordeaux.fr/}.
+
+\bibitem{PB} \emph{Even totally positive integers as sums of squares: the trace variance, a
+signature law, and the real cyclotomic classification}, working notes (cited by the numbering of
+the version supplied).
+
+\bibitem{PD} \emph{A dyadic obstruction to sums of squares, and the real cyclotomic fields of
+conductor $4m_0$}, working notes.
+
+\bibitem{PR} \emph{Twisted capacity descent in the residual core of Kitaoka's conjecture, and a
+relative trace--variance calculus}, working note.
+
+\bibitem{Smith} A.~D.~Smith, \emph{Algebraic integers with conjugates in a prescribed
+distribution}, Ann. of Math. (2) \textbf{200} (2024), 71--122.
+
+\bibitem{TwoO} Companion code to \cite{KY}, repository \texttt{pav10/2O}, folder
+\texttt{higher-degree} (notes \texttt{degrees6-7.tex}), \url{https://github.com/pav10/2O}.
+
+\bibitem{Visser} R.~Visser, lists of totally real fields from the LMFDB, repository
+\texttt{rvisser7/indecomposables}, \url{https://github.com/rvisser7/indecomposables}.
+
+\end{thebibliography}
+\end{document}
