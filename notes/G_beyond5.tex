@@ -61,7 +61,8 @@ certified witness.
 necessary condition (budget--cost, sharpened rigidity, square dichotomy, and their relative
 versions) used in the classification of totally real fields of degree $6$--$8$ with a universal
 $\Z$-form. Combining this with that classification and with explicit $\Gcl$-witnesses for all the
-fields it leaves (the ones that it excludes only through condition (N)), we obtain:
+fields that it has to construct ($18$ sextic and $394$ octic fields; it constructs no septic
+field), we obtain:
 \emph{no totally real field of degree $6$, $7$ or $8$ in which $2$ is unramified lies in $\Gcl$.}
 
 (iii) We determine the bottom of the variance spectrum. All totally real algebraic integers with
@@ -69,12 +70,12 @@ $\Var(x)\le2$ are listed in degrees $\le10$, and an auxiliary-function (linear p
 certificate, verified in interval arithmetic, shows that every other totally real algebraic integer
 has $\Var(x)\ge 1.69$. Consequently the values of $\Var$ below $1.69$ are exactly
 $0,\tfrac54,\tfrac{14}9,\tfrac{27}{16}$, and a totally real field has $\nu(K)<1.69$ if and only if it
-contains $\Q(\sqrt5)$, $\Q(\zeta_7)^{+}$ or the quartic field of discriminant $725$. As a by-product,
+contains $\Q(\sqrt5)$ or $\Q(\zeta_7)^{+}$. As a by-product,
 $\liminf_{\deg x\to\infty}\Var(x)\ge1.69$, which improves the bound $\sqrt e=1.6487\ldots$ quoted
 in the working notes.
 
 (iv) We record shape and arithmetic-statistics data from the census, explicit witnesses for the
-residual real cyclotomic fields $F_{36}$, $F_{44}$, $F_{52}$ left open by the dyadic criterion,
+seven smallest non-member real cyclotomic fields left open by the dyadic criterion ($m=36,44,52,76,100,108,116$),
 and a reduction of the remaining problem (sextic fields with $2$ ramified) to explicitly described
 cases.
 \end{abstract}
@@ -373,8 +374,9 @@ exclusion test there is one of (BC), (RG), (REL), and reproduced its degree-$6$ 
 runs (\S\ref{sec:repro}). (b) Most of the fields in the list have $2$ ramified; they are not
 covered by Proposition~\ref{prop:transfer}, but our witnesses exclude them from $\Gcl$ anyway.
 (c) For $\Q(\sqrt5,\zeta_7^{+})$ ($d_K=300125$) and the two octic fields, the $\Gcl$-witness is the
-same element at which (N) fails in \cite{TwoO}: the elements of trace $14$, norm $29$ and of trace
-$18$ (in the quartic subfield of discriminant $725$), respectively.
+same element at which (N) fails in \cite{TwoO}: the element of trace $14$ and norm $29$, and the
+element of trace $18$ in $K$ (trace $9$ and norm $11$ in the quartic subfield of discriminant $725$),
+respectively.
 \end{remark}
 
 \section{The bottom of the variance spectrum}\label{sec:spectrum}
@@ -405,7 +407,8 @@ to have $\tau(x)\in[0,\frac12]$.
 We took for the $Q_i$ the linear polynomials $t-k$ and all integer shifts and reflections, with
 roots in $[-4.5,5]$, of the irreducible polynomials of degree $\le7$ found in the enumeration
 ($959$ polynomials), solved the linear program for the $c_i$ on a grid, rounded the $c_i$ down to
-rationals, and \emph{verified} \eqref{eq:aux} on all of $\R$: on $[-7,7.5]$ by interval arithmetic
+rationals, lowered each $m_I$ by $5\cdot10^{-4}$, and \emph{verified} \eqref{eq:aux} on all of
+$\R$, for each of the $10$ intervals $I=[\frac{k}{20},\frac{k+1}{20}]$ covering $[0,\frac12]$: on $[-7,7.5]$ by interval arithmetic
 (\texttt{mpmath.iv}, $120$ bits) with adaptive subdivision, using
 $\log|Q_i(t)|\le\log\max_{\text{cell}}|Q_i|$; outside, by the explicit increasing minorant
 $(|t|-\frac12)^{2}-\sum_ic_i(\log\|Q_i\|_1+\deg Q_i\log|t|)$.
@@ -433,23 +436,29 @@ $\frac{32597}{20000}=1.62985$.
 
 \begin{theorem}\label{thm:smallnu}
 Let $K$ be totally real and $m^{*}$ as in Theorem~\ref{thm:lp}. Then $\nu(K)<m^{*}$ if and only if
-$K$ contains one of $\Q(\sqrt5)$, $\Q(\zeta_7)^{+}$, $F_{725}$ (the quartic field of discriminant
-$725$), and in that case
-\[
- \nu(K)=\begin{cases}\frac54 & \text{if }\sqrt5\in K,\\[2pt] \frac{14}9&\text{if }\sqrt5\notin K,\ \Q(\zeta_7)^+\subseteq K,\\[2pt]
- \frac{27}{16}&\text{otherwise.}\end{cases}
-\]
-In particular $\nu(K)\ge m^{*}$ for every primitive totally real field of degree $\ge5$, and for
-every totally real field of odd degree not divisible by $3$ (no quadratic, cubic or quartic subfield).
+$K$ contains $\Q(\sqrt5)$ or $\Q(\zeta_7)^{+}$; and then $\nu(K)=\frac54$ if $\sqrt5\in K$, and
+$\nu(K)=\frac{14}9$ otherwise. In particular $\nu(K)\ge m^{*}$ for every totally real field without
+a quadratic or cubic subfield (for instance every primitive field of degree $\ge4$, and every field
+of degree prime to $6$).
 \end{theorem}
 
 \begin{proof}
-Let $x\in\OK\setminus\Z$ realise $\nu(K)$. If $\nu(K)<m^{*}$, Theorem~\ref{thm:lp} and the
-enumeration identify $x$, up to $x\mapsto\pm x+k$ and conjugation, as one of the three integers
-listed, so $K$ contains the corresponding field and $\nu(K)\in\{\frac54,\frac{14}9,\frac{27}{16}\}$;
-which value occurs is the least among the subfields contained in $K$. Conversely each of the three
-fields contains an element of the stated variance, and $\nu$ can only decrease in extensions.
+Let $x\in\OK\setminus\Z$ realise $\nu(K)$. If $\nu(K)<m^{*}$, Theorem~\ref{thm:lp} identifies $x$, up
+to $x\mapsto\pm x+k$ and conjugation, as the golden ratio, $2\cos\frac{2\pi}7$, or a root of
+$t^{4}-t^{3}-3t^{2}+t+1$. The last generates the quartic field $F_{725}$ of discriminant
+$725=5^{2}\cdot29$, which contains $\Q(\sqrt5)$; so in that case already $\nu(K)\le\frac54$, and the
+value $\frac{27}{16}$ never occurs as $\nu(K)$. Conversely $\Q(\sqrt5)$ and $\Q(\zeta_7)^{+}$ contain
+elements of variance $\frac54$ and $\frac{14}9$, and $\frac54$ is the absolute minimum
+\cite[sharp floor]{PB}.
 \end{proof}
+
+\begin{remark}
+The exhaustive enumeration also lists the fields generated by integers of variance $\le2$ (file
+\texttt{results/spectrum/fields\_Vle2.txt}): there are $2,2,4,4,18,43,195,463,734$ of them in degrees
+$2,\dots,10$ (of which $2,2,1,4,7,43,150,453,650$ primitive). Any totally real field with
+$\nu(K)\le2$ whose minimal vector has degree $e\le10$ contains one of them. Their number grows
+quickly with the degree, in line with $\liminf\Var\le\lambda_{\mathrm{SSS}}<2$.
+\end{remark}
 
 \begin{remark}
 (a) Theorem~\ref{thm:lp} gives $\liminf_{\deg x\to\infty}\Var(x)\ge m^{*}$; the working notes
@@ -467,8 +476,8 @@ where the hard cases live.
 
 \subsection{Consequences for $\Gcl$}
 The eight members \eqref{eq:G5} have $\nu\in\{\frac54,\frac{14}9,2,\frac{20}9,3\}$. By
-Theorem~\ref{thm:smallnu}, a field $K\in\Gcl$ with $\nu(K)<m^{*}$ contains $\Q(\sqrt5)$,
-$\Q(\zeta_7)^{+}$ or the quartic field of discriminant $725$; every other member has
+Theorem~\ref{thm:smallnu}, a field $K\in\Gcl$ with $\nu(K)<m^{*}$ contains $\Q(\sqrt5)$ or
+$\Q(\zeta_7)^{+}$; every other member has
 $\nu(K)\ge m^{*}$, and by the degree-free exclusion \cite[degree-free exclusion]{PB} its minimal vector has degree
 $e$ with $m^{*}\le\nu(K)\le2e+2\sqrt{e^{2}-1}$.
 
@@ -484,14 +493,21 @@ $\hat\nu(K)=\nu(K)\,(d^{d}/d_K)^{1/(d-1)}\in(0,\gamma_{d-1}]$.
 
 The dyadic criterion of \cite{PD} leaves, among $m=4m_0$, the family with $-1\in\langle2\rangle$
 modulo $m_0$ and $\varphi(m_0)/\operatorname{ord}_{m_0}(2)$ odd; for $m_0\le99$ these are
-$m_0=3,5,9,11,13,19,25,27,29,37,43,53,59,61,67,81,83$ (we re-derived this table). The first two are
+$m_0=3$, $5$, $9$, $11$, $13$, $19$, $25$, $27$, $29$, $37$, $43$, $53$, $59$, $61$, $67$, $81$, $83$
+(we re-derived this table). The first two are
 members. Our search gives explicit witnesses for the next ones:
 
 \input{gen/cyclo_table}
 
-These exclusions are unconditional (the witnesses are certified as in \S\ref{sec:algo}); in
-particular $F_{44}$ and $F_{52}$ are $q\equiv3\pmod 8$ and $q\equiv5\pmod8$, $q<269$, cases that
-neither \cite{PD} nor the signature law of \cite{PB} reaches unconditionally.
+These exclusions are unconditional: each witness is certified as in \S\ref{sec:algo}, with no
+class-group or GRH input. They are residual for the dyadic criterion of \cite{PD}; the working notes
+\cite{PB} state that the conductors $4q$ with $q\le37$ are settled by the signature law and that all
+conductors not of the form $4q$ are settled as well, so for these $m$ our witnesses are an
+independent, explicit confirmation rather than new exclusions. ($F_{116}$ has $h^{+}/h=16$, so it is
+also excluded by the unit criterion of \cite{PB}, and indeed its witness is a unit.) For $F_{52}$ the witness has norm $13$:
+it is a totally positive generator of the ramified prime above $13$, as predicted by the signature
+law ($13\equiv1\pmod4$ and $4\mid\operatorname{ord}_{13}2=12$), and the exact decision procedure
+replaces the analytic non-representation criterion, which needs $q\ge269$.
 
 \section{The sextic problem with $2$ ramified}\label{sec:ramified}
 

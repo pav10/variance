@@ -5,6 +5,7 @@ $d$ & $q_{0.01}$ & $q_{0.1}$ & $q_{0.5}$ & $q_{0.9}$ & max & $\gamma_{d-1}$ & U 
 5 & 0.47 & 0.55 & 0.73 & 0.94 & 1.20 & 1.41 & 0.73 & 0.72 & 0.80 & 45.5\%\\
 6 & 0.27 & 0.34 & 0.74 & 0.95 & 1.32 & 1.52 & 0.74 & 0.77 & 0.37 & 40.6\%\\
 7 & 0.85 & 0.88 & 0.97 & 1.08 & 1.25 & 1.67 & 0.96 & 0.98 & -- & 48.2\%\\
+8 & 0.53 & 0.55 & 0.92 & 1.08 & 1.28 & 1.81 & 0.89 & 0.95 & -- & 51.1\%\\
 \bottomrule\end{tabular}\end{table}
 
 Table~\ref{tab:shape} summarises the shapes. Three features stand out.
@@ -22,3 +23,19 @@ these are excluded by the unit criterion, since then $(2)$ is not the square of 
 can never be a square. The proportion of fields with $h^{+}=h$ that we observe ($31$--$48\%$ in
 degrees $4$--$7$) is the kind of statistic predicted by the heuristics of Dummit and Voight for
 signature ranks of units \cite{DV}; we have not compared the numbers with their predictions.
+
+\begin{table}[t]\caption{Sextic fields of the census whose $\nu$ is that of a member of $\Gcl$ (by Theorem~\ref{thm:smallnu} the first two rows are exactly the fields containing $\Q(\sqrt5)$, resp.~$\Q(\zeta_7)^+$ but not $\sqrt5$): number of fields, types of first witness, and the norms of the type-N witnesses.}\label{tab:inherited}
+\begin{tabular}{lrrrrrr}\toprule family & fields & U & T & N & median $N$ & max $N$\\\midrule
+$\sqrt5\in K$ ($\nu=\frac54$) & 1270 & 710 & 446 & 114 & 4 & 19\\
+$\Q(\zeta_7)^+\subseteq K$ ($\nu=\frac{14}9$) & 491 & 269 & 53 & 169 & 8 & 43\\
+$\nu=2$ & 563 & 298 & 254 & 11 & 2 & 17\\
+$\nu=\frac{20}9$ & 250 & 92 & 112 & 46 & 7 & 34\\
+$\nu=3$ & 299 & 130 & 168 & 1 & 6 & 6\\
+\bottomrule\end{tabular}\end{table}
+Table~\ref{tab:inherited} isolates the \emph{inherited} families, the sextic fields that contain
+a member of $\Gcl$ (or have the same $\nu$ as one). They are the extreme cases of the census: they
+pass the unit and trace tests far more often than average, and the fields of largest discriminant in
+the $\Q(\zeta_7)^{+}$ family need the largest norm witnesses of all sextic fields ($\Nm\alpha=43$ at
+$d_K\approx9\cdot10^{7}$). This is consistent with the reduction of \S\ref{sec:ramified}, where the
+cases left open are exactly extensions of $\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5),\Q(\zeta_7)^{+},
+\Q(\zeta_9)^{+},\Q(\rho)$.

@@ -23,8 +23,7 @@ The write-up is [`notes/G_beyond5.pdf`](notes/G_beyond5.pdf) (source `notes/G_be
 * **Bottom of the variance spectrum.** All totally real algebraic integers with Var ≤ 2 in degrees
   ≤ 10, and a Smyth-type auxiliary-function certificate (interval arithmetic) showing Var(x) ≥ 1.69195
   for every other totally real algebraic integer. Hence the values below 1.69195 are exactly
-  0, 5/4, 14/9, 27/16, and ν(K) < 1.69195 iff K contains Q(√5), Q(ζ7)+ or the quartic field of
-  discriminant 725.
+  0, 5/4, 14/9, 27/16, and ν(K) < 1.69195 iff K contains Q(√5) (ν = 5/4) or Q(ζ7)+ (ν = 14/9).
 * Shapes/statistics, witnesses for residual real cyclotomic fields (F₃₆, F₄₄, ...), and a reduction
   of the 2-ramified sextic problem.
 

@@ -1,0 +1,1465 @@
+2|5|x^2 - x - 1|minVar(gen)=5/4|nu=5/4|primitive=1
+2|8|x^2 - 2|minVar(gen)=2|nu=2|primitive=1
+3|49|x^3 - x^2 - 2*x + 1|minVar(gen)=14/9|nu=14/9|primitive=1
+3|81|x^3 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+4|725|x^4 - x^3 - 3*x^2 + x + 1|minVar(gen)=27/16|nu=5/4|primitive=0
+4|1957|x^4 - 4*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+4|2048|x^4 - 4*x^2 + 2|minVar(gen)=2|nu=2|primitive=0
+4|2304|x^4 - 4*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+5|14641|x^5 - x^4 - 4*x^3 + 3*x^2 + 3*x - 1|minVar(gen)=44/25|nu=44/25|primitive=1
+5|24217|x^5 - 5*x^3 - x^2 + 3*x + 1|minVar(gen)=46/25|nu=46/25|primitive=1
+5|36497|x^5 - 2*x^4 - 3*x^3 + 5*x^2 + x - 1|minVar(gen)=46/25|nu=46/25|primitive=1
+5|38569|x^5 - 5*x^3 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+6|371293|x^6 - x^5 - 5*x^4 + 4*x^3 + 6*x^2 - 3*x - 1|minVar(gen)=65/36|nu=65/36|primitive=0
+6|434581|x^6 - 2*x^5 - 4*x^4 + 5*x^3 + 4*x^2 - 2*x - 1|minVar(gen)=17/9|nu=14/9|primitive=0
+6|485125|x^6 - 2*x^5 - 4*x^4 + 8*x^3 + 2*x^2 - 5*x + 1|minVar(gen)=17/9|nu=5/4|primitive=0
+6|592661|x^6 - x^5 - 5*x^4 + 4*x^3 + 5*x^2 - 2*x - 1|minVar(gen)=65/36|nu=65/36|primitive=1
+6|810448|x^6 - 3*x^5 - 2*x^4 + 9*x^3 - 5*x + 1|minVar(gen)=23/12|nu=23/12|primitive=0
+6|1081856|x^6 - 6*x^4 - 2*x^3 + 7*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=0
+6|1134389|x^6 - 2*x^5 - 4*x^4 + 6*x^3 + 4*x^2 - 3*x - 1|minVar(gen)=17/9|nu=17/9|primitive=1
+6|1202933|x^6 - 6*x^4 - 2*x^3 + 6*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+6|1259712|x^6 - 6*x^4 + 9*x^2 - 3|minVar(gen)=2|nu=2|primitive=0
+6|1292517|x^6 - 6*x^4 - x^3 + 6*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+6|1387029|x^6 - 3*x^5 - 2*x^4 + 9*x^3 - x^2 - 4*x + 1|minVar(gen)=23/12|nu=23/12|primitive=0
+6|1868969|x^6 - 6*x^4 - x^3 + 8*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+6|2323397|x^6 - 6*x^4 + 8*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+6|2565429|x^6 - 6*x^4 - x^3 + 8*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+6|2803712|x^6 - 6*x^4 + 8*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+6|3356224|x^6 - 6*x^4 + 8*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+6|3486377|x^6 - 6*x^4 - x^3 + 7*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+6|4227136|x^6 - 6*x^4 + 7*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+7|20134393|x^7 - x^6 - 6*x^5 + 4*x^4 + 10*x^3 - 4*x^2 - 4*x + 1|minVar(gen)=90/49|nu=90/49|primitive=1
+7|25164057|x^7 - 2*x^6 - 5*x^5 + 9*x^4 + 7*x^3 - 10*x^2 - 2*x + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|25367689|x^7 - x^6 - 6*x^5 + 4*x^4 + 9*x^3 - 4*x^2 - 3*x + 1|minVar(gen)=90/49|nu=90/49|primitive=1
+7|28118369|x^7 - 2*x^6 - 5*x^5 + 9*x^4 + 7*x^3 - 9*x^2 - 3*x + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|30653489|x^7 - 7*x^5 - x^4 + 11*x^3 + 3*x^2 - 3*x - 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|31056073|x^7 - 3*x^6 - 3*x^5 + 11*x^4 + x^3 - 9*x^2 + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|32354821|x^7 - 2*x^6 - 5*x^5 + 9*x^4 + 6*x^3 - 8*x^2 - x + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|32567681|x^7 - 7*x^5 - 2*x^4 + 10*x^3 + 3*x^2 - 3*x - 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|34554953|x^7 - 2*x^6 - 5*x^5 + 9*x^4 + 5*x^3 - 8*x^2 + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|35269513|x^7 - 2*x^6 - 5*x^5 + 10*x^4 + 5*x^3 - 10*x^2 - x + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|39610073|x^7 - x^6 - 7*x^5 + 3*x^4 + 10*x^3 - 3*x^2 - 3*x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|41783473|x^7 - 7*x^5 - x^4 + 13*x^3 + 4*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|42855577|x^7 - x^6 - 7*x^5 + 3*x^4 + 14*x^3 + 2*x^2 - 4*x - 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|43242544|x^7 - x^6 - 7*x^5 + 4*x^4 + 15*x^3 - 2*x^2 - 8*x - 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|46643776|x^7 - x^6 - 7*x^5 + 3*x^4 + 13*x^3 - x^2 - 5*x - 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|49960857|x^7 - 7*x^5 + 13*x^3 - 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|52011969|x^7 - 3*x^6 - 3*x^5 + 13*x^4 - x^3 - 13*x^2 + 4*x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|55311169|x^7 - x^6 - 7*x^5 + 8*x^4 + 10*x^3 - 11*x^2 - 2*x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|58355513|x^7 - 2*x^6 - 5*x^5 + 9*x^4 + 5*x^3 - 7*x^2 - x + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|61136809|x^7 - 7*x^5 - 2*x^4 + 12*x^3 + 5*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|63128113|x^7 - 2*x^6 - 5*x^5 + 8*x^4 + 6*x^3 - 7*x^2 - x + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|65845693|x^7 - 7*x^5 - 2*x^4 + 11*x^3 + 3*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|67159593|x^7 - 3*x^6 - 3*x^5 + 11*x^4 + 2*x^3 - 10*x^2 + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|69678137|x^7 - 3*x^6 - 3*x^5 + 13*x^4 - 2*x^3 - 9*x^2 + x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|70244521|x^7 - 7*x^5 - x^4 + 13*x^3 + 2*x^2 - 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|79044293|x^7 - 2*x^6 - 5*x^5 + 8*x^4 + 7*x^3 - 7*x^2 - 2*x + 1|minVar(gen)=94/49|nu=94/49|primitive=1
+7|79397476|x^7 - 3*x^6 - 3*x^5 + 13*x^4 - x^3 - 12*x^2 + 2*x + 2|minVar(gen)=96/49|nu=96/49|primitive=1
+7|81323773|x^7 - 3*x^6 - 3*x^5 + 12*x^4 + x^3 - 12*x^2 + x + 2|minVar(gen)=96/49|nu=96/49|primitive=1
+7|81437164|x^7 - 7*x^5 - x^4 + 12*x^3 + 2*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|88337321|x^7 - 7*x^5 - 2*x^4 + 11*x^3 + 4*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|89211436|x^7 - 3*x^6 - 3*x^5 + 12*x^4 + x^3 - 11*x^2 + 2|minVar(gen)=96/49|nu=96/49|primitive=1
+7|93364693|x^7 - 3*x^6 - 3*x^5 + 13*x^4 - x^3 - 12*x^2 + 3*x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|101109161|x^7 - 7*x^5 - x^4 + 11*x^3 + 2*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|109652617|x^7 - 3*x^6 - 3*x^5 + 12*x^4 + x^3 - 11*x^2 + x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|114075673|x^7 - 3*x^6 - 3*x^5 + 11*x^4 + 2*x^3 - 9*x^2 - x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|119605529|x^7 - 3*x^6 - 3*x^5 + 12*x^4 - 9*x^2 + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|120919849|x^7 - 3*x^6 - 3*x^5 + 13*x^4 - 2*x^3 - 10*x^2 + 2*x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|125834753|x^7 - 7*x^5 - x^4 + 13*x^3 + 3*x^2 - 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|130548149|x^7 - 7*x^5 + 13*x^3 - x^2 - 6*x + 1|minVar(gen)=2|nu=2|primitive=1
+7|141408053|x^7 - 7*x^5 - x^4 + 12*x^3 + 2*x^2 - 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+7|144460969|x^7 - 7*x^5 + 12*x^3 - x^2 - 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+7|155333693|x^7 - 3*x^6 - 3*x^5 + 12*x^4 - 10*x^2 + x + 1|minVar(gen)=96/49|nu=96/49|primitive=1
+7|175422837|x^7 - 7*x^5 - x^4 + 12*x^3 + 3*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|282300416|x^8 - 4*x^7 + 14*x^5 - 8*x^4 - 12*x^3 + 7*x^2 + 2*x - 1|minVar(gen)=7/4|nu=7/4|primitive=0
+8|309593125|x^8 - 4*x^7 - x^6 + 17*x^5 - 5*x^4 - 23*x^3 + 6*x^2 + 9*x - 1|minVar(gen)=2|nu=5/4|primitive=0
+8|324000000|x^8 - 7*x^6 + 14*x^4 - 8*x^2 + 1|minVar(gen)=7/4|nu=5/4|primitive=0
+8|410338673|x^8 - x^7 - 7*x^6 + 6*x^5 + 15*x^4 - 10*x^3 - 10*x^2 + 4*x + 1|minVar(gen)=119/64|nu=119/64|primitive=0
+8|483345053|x^8 - x^7 - 7*x^6 + 4*x^5 + 15*x^4 - 3*x^3 - 9*x^2 + 1|minVar(gen)=119/64|nu=119/64|primitive=1
+8|494613125|x^8 - x^7 - 7*x^6 + 4*x^5 + 13*x^4 - 4*x^3 - 7*x^2 + x + 1|minVar(gen)=119/64|nu=5/4|primitive=0
+8|582918125|x^8 - 2*x^7 - 6*x^6 + 9*x^5 + 11*x^4 - 9*x^3 - 6*x^2 + 2*x + 1|minVar(gen)=31/16|nu=5/4|primitive=0
+8|656505625|x^8 - 3*x^7 - 4*x^6 + 13*x^5 + 5*x^4 - 13*x^3 - 4*x^2 + 3*x + 1|minVar(gen)=127/64|nu=5/4|primitive=0
+8|661518125|x^8 - x^7 - 7*x^6 + 5*x^5 + 15*x^4 - 7*x^3 - 10*x^2 + 2*x + 1|minVar(gen)=119/64|nu=5/4|primitive=0
+8|707295133|x^8 - 8*x^6 - 2*x^5 + 19*x^4 + 7*x^3 - 13*x^2 - 4*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|733968125|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 11*x^4 - 11*x^3 - 7*x^2 + 2*x + 1|minVar(gen)=31/16|nu=5/4|primitive=0
+8|1000118125|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 5*x^4 - 19*x^3 - x^2 + 7*x - 1|minVar(gen)=127/64|nu=5/4|primitive=0
+8|1024000000|x^8 - 8*x^6 + 19*x^4 - 12*x^2 + 1|minVar(gen)=2|nu=5/4|primitive=0
+8|1098290293|x^8 - 3*x^7 - 4*x^6 + 16*x^5 + x^4 - 23*x^3 + 7*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|1114390153|x^8 - 8*x^6 - 2*x^5 + 16*x^4 + 3*x^3 - 10*x^2 + 1|minVar(gen)=2|nu=2|primitive=1
+8|1121463125|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 18*x^3 + 5*x + 1|minVar(gen)=127/64|nu=5/4|primitive=0
+8|1136700613|x^8 - x^7 - 7*x^6 + 4*x^5 + 14*x^4 - 4*x^3 - 8*x^2 + x + 1|minVar(gen)=119/64|nu=119/64|primitive=1
+8|1152784549|x^8 - 4*x^7 - x^6 + 15*x^5 - 3*x^4 - 16*x^3 + 4*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|1166547493|x^8 - x^7 - 7*x^6 + 6*x^5 + 14*x^4 - 9*x^3 - 9*x^2 + 3*x + 1|minVar(gen)=119/64|nu=119/64|primitive=1
+8|1202043125|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 21*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=127/64|nu=5/4|primitive=0
+8|1225026133|x^8 - 3*x^7 - 4*x^6 + 18*x^5 - 6*x^4 - 17*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|1261609229|x^8 - 2*x^7 - 6*x^6 + 12*x^5 + 9*x^4 - 19*x^3 - x^2 + 6*x - 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1292203125|x^8 - 4*x^7 - x^6 + 17*x^5 - 6*x^4 - 21*x^3 + 6*x^2 + 8*x + 1|minVar(gen)=2|nu=5/4|primitive=0
+8|1299600812|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 12*x^4 - 13*x^3 - 8*x^2 + 3*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1318279381|x^8 - x^7 - 7*x^6 + 5*x^5 + 14*x^4 - 6*x^3 - 9*x^2 + x + 1|minVar(gen)=119/64|nu=119/64|primitive=1
+8|1326417388|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 12*x^4 - 13*x^3 - 9*x^2 + 4*x + 2|minVar(gen)=31/16|nu=31/16|primitive=0
+8|1348097653|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 11*x^4 - 17*x^3 - 6*x^2 + 6*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1358954496|x^8 - 8*x^6 + 20*x^4 - 16*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|1359341129|x^8 - 8*x^6 - x^5 + 18*x^4 + 2*x^3 - 12*x^2 - x + 2|minVar(gen)=2|nu=2|primitive=1
+8|1381875749|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 4*x^4 - 18*x^3 + x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|1391339501|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 4*x^4 - 22*x^3 + 9*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|1410894053|x^8 - 2*x^7 - 6*x^6 + 9*x^5 + 12*x^4 - 11*x^3 - 8*x^2 + 3*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1424875717|x^8 - x^7 - 7*x^6 + 5*x^5 + 15*x^4 - 6*x^3 - 10*x^2 + x + 1|minVar(gen)=119/64|nu=119/64|primitive=1
+8|1442599461|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 4*x^4 - 21*x^3 - 2*x^2 + 8*x + 1|minVar(gen)=127/64|nu=127/64|primitive=0
+8|1459172469|x^8 - 4*x^7 - x^6 + 17*x^5 - 6*x^4 - 21*x^3 + 8*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|1462785589|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 10*x^4 - 17*x^3 - 3*x^2 + 6*x - 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1540730624|x^8 - 8*x^6 + 18*x^4 - 2*x^3 - 11*x^2 + 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|1542043133|x^8 - 8*x^6 + 17*x^4 - x^3 - 11*x^2 + 2*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1568928637|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 9*x^4 - 13*x^3 - 5*x^2 + 3*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1621897976|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 11*x^4 - 16*x^3 - 7*x^2 + 5*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1653760901|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 10*x^4 - 17*x^3 - 4*x^2 + 7*x - 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1700021833|x^8 - 3*x^7 - 4*x^6 + 16*x^5 + x^4 - 22*x^3 + 6*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|1798549237|x^8 - x^7 - 8*x^6 + 5*x^5 + 21*x^4 - 6*x^3 - 18*x^2 + 2*x + 3|minVar(gen)=2|nu=2|primitive=1
+8|1819226509|x^8 - 9*x^6 - x^5 + 23*x^4 + 3*x^3 - 18*x^2 - 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|1933869832|x^8 - 4*x^7 - x^6 + 16*x^5 - 6*x^4 - 15*x^3 + 5*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|1954614041|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 12*x^4 - 14*x^3 - 9*x^2 + 5*x + 2|minVar(gen)=31/16|nu=31/16|primitive=1
+8|1984727933|x^8 - x^7 - 8*x^6 + 8*x^5 + 14*x^4 - 14*x^3 - 3*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|1994682269|x^8 - 8*x^6 - x^5 + 19*x^4 + 3*x^3 - 13*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|2020229333|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 11*x^4 - 13*x^3 - 6*x^2 + 3*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|2041247081|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 11*x^4 - 14*x^3 - 7*x^2 + 5*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|2144579840|x^8 - 4*x^7 - x^6 + 16*x^5 - 4*x^4 - 18*x^3 + 2*x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=0
+8|2147483648|x^8 - 8*x^6 + 20*x^4 - 16*x^2 + 2|minVar(gen)=2|nu=2|primitive=0
+8|2178781184|x^8 - 8*x^6 - 2*x^5 + 16*x^4 + 4*x^3 - 9*x^2 - 2*x + 1|minVar(gen)=2|nu=2|primitive=0
+8|2256866749|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 11*x^4 - 17*x^3 - 7*x^2 + 7*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|2266938253|x^8 - 3*x^7 - 4*x^6 + 13*x^5 + 6*x^4 - 16*x^3 - 4*x^2 + 5*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|2495071701|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 20*x^3 + 2*x^2 + 6*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|2542485248|x^8 - 8*x^6 - 2*x^5 + 18*x^4 + 6*x^3 - 11*x^2 - 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|2562938261|x^8 - 8*x^6 + 19*x^4 - x^3 - 14*x^2 + x + 1|minVar(gen)=2|nu=2|primitive=1
+8|2585660609|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + x^4 - 19*x^3 + 6*x^2 + 3*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|2627982713|x^8 - 4*x^7 - x^6 + 16*x^5 - 5*x^4 - 18*x^3 + 7*x^2 + 5*x - 2|minVar(gen)=2|nu=2|primitive=1
+8|2668437008|x^8 - x^7 - 8*x^6 + 4*x^5 + 19*x^4 - 4*x^3 - 14*x^2 + x + 1|minVar(gen)=2|nu=2|primitive=1
+8|2741766453|x^8 - 4*x^7 - x^6 + 17*x^5 - 7*x^4 - 19*x^3 + 10*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|2831389829|x^8 - 8*x^6 - x^5 + 18*x^4 + 3*x^3 - 12*x^2 - 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|2835513869|x^8 - 8*x^6 - x^5 + 18*x^4 + 3*x^3 - 12*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|2912882189|x^8 - x^7 - 8*x^6 + 9*x^5 + 15*x^4 - 16*x^3 - 6*x^2 + 4*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|2941324032|x^8 - 8*x^6 + 20*x^4 - 17*x^2 + 3|minVar(gen)=2|nu=2|primitive=0
+8|2964819517|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 4*x^4 - 19*x^3 + 7*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|2991409557|x^8 - 4*x^7 - x^6 + 17*x^5 - 7*x^4 - 18*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|2997902917|x^8 - 2*x^7 - 6*x^6 + 12*x^5 + 9*x^4 - 19*x^3 - 2*x^2 + 7*x - 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|3000340853|x^8 - 4*x^7 - x^6 + 17*x^5 - 7*x^4 - 18*x^3 + 7*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|3002738633|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 20*x^3 + 3*x^2 + 7*x - 2|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3025550441|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 20*x^3 + 2*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3036495104|x^8 - 9*x^6 - 4*x^5 + 19*x^4 + 12*x^3 - 7*x^2 - 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|3165465529|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 5*x^4 - 17*x^3 - 4*x^2 + 4*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3183707249|x^8 - 3*x^7 - 4*x^6 + 17*x^5 - 2*x^4 - 22*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3198048776|x^8 - 8*x^6 + 18*x^4 - x^3 - 10*x^2 + x + 1|minVar(gen)=2|nu=2|primitive=1
+8|3234053989|x^8 - 8*x^6 - 2*x^5 + 15*x^4 + 3*x^3 - 8*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|3238096133|x^8 - 3*x^7 - 4*x^6 + 13*x^5 + 6*x^4 - 15*x^3 - 4*x^2 + 4*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3257687621|x^8 - 4*x^7 - x^6 + 15*x^5 - 4*x^4 - 15*x^3 + 4*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|3265449897|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 18*x^3 + 3*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3322554617|x^8 - 8*x^6 - 2*x^5 + 17*x^4 + 4*x^3 - 11*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|3530324069|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 19*x^3 + 3*x^2 + 6*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3533663797|x^8 - 2*x^7 - 7*x^6 + 13*x^5 + 8*x^4 - 16*x^3 + x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|3634372864|x^8 - 4*x^7 - x^6 + 16*x^5 - 7*x^4 - 16*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|3637930169|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + x^4 - 17*x^3 + 2*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3643040629|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 2*x^4 - 16*x^3 + 5*x^2 + 3*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3682515853|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 4*x^4 - 17*x^3 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3699491753|x^8 - x^7 - 8*x^6 + 6*x^5 + 17*x^4 - 5*x^3 - 10*x^2 + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3718264013|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 20*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3737423893|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 10*x^4 - 15*x^3 - 5*x^2 + 4*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|3783106469|x^8 - 2*x^7 - 7*x^6 + 12*x^5 + 10*x^4 - 17*x^3 + x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|3831891788|x^8 - 8*x^6 - x^5 + 17*x^4 + 2*x^3 - 9*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|3914878013|x^8 - 3*x^7 - 4*x^6 + 17*x^5 - 3*x^4 - 19*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|3948405248|x^8 - 8*x^6 + 19*x^4 - 13*x^2 + 2|minVar(gen)=2|nu=2|primitive=0
+8|3998957293|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 20*x^3 + 6*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4011967493|x^8 - 4*x^7 - x^6 + 15*x^5 - 5*x^4 - 15*x^3 + 6*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|4023462761|x^8 - 8*x^6 - x^5 + 19*x^4 + 4*x^3 - 13*x^2 - 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|4099959469|x^8 - 3*x^7 - 4*x^6 + 17*x^5 - 2*x^4 - 21*x^3 + 8*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4123566236|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 20*x^3 + 5*x^2 + 6*x - 2|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4186024957|x^8 - 8*x^6 - x^5 + 15*x^4 + x^3 - 8*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|4193510757|x^8 - 3*x^7 - 4*x^6 + 17*x^5 - 4*x^4 - 16*x^3 + 6*x^2 + 3*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4267323629|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 19*x^3 - x^2 + 6*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4287217589|x^8 - 8*x^6 - x^5 + 19*x^4 + 3*x^3 - 14*x^2 - 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|4344788093|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 5*x^4 - 19*x^3 - 3*x^2 + 7*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4458362541|x^8 - 8*x^6 - x^5 + 18*x^4 + 3*x^3 - 10*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|4463528309|x^8 - 4*x^7 - x^6 + 15*x^5 - 5*x^4 - 14*x^3 + 5*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|4476760532|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 5*x^4 - 18*x^3 - 3*x^2 + 5*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4486891776|x^8 - 4*x^7 - x^6 + 16*x^5 - 6*x^4 - 16*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|4496326676|x^8 - 4*x^7 - x^6 + 17*x^5 - 7*x^4 - 19*x^3 + 8*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|4503870053|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 21*x^3 + x^2 + 8*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|4622817581|x^8 - 4*x^7 - x^6 + 15*x^5 - 4*x^4 - 16*x^3 + 5*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|4661442029|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 16*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|4845729853|x^8 - 8*x^6 + 19*x^4 - x^3 - 13*x^2 + 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|4848615424|x^8 - 8*x^6 + 16*x^4 - 8*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|5082746069|x^8 - 3*x^7 - 4*x^6 + 17*x^5 - 3*x^4 - 18*x^3 + 6*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|5135188841|x^8 - 8*x^6 + 19*x^4 - 14*x^2 - x + 2|minVar(gen)=2|nu=2|primitive=1
+8|5220882053|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 19*x^3 + 4*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|5339856133|x^8 - 8*x^6 - x^5 + 16*x^4 + 3*x^3 - 8*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|5447588581|x^8 - 2*x^7 - 6*x^6 + 11*x^5 + 10*x^4 - 15*x^3 - 6*x^2 + 5*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|5498521993|x^8 - 8*x^6 - x^5 + 19*x^4 + 3*x^3 - 14*x^2 - x + 2|minVar(gen)=2|nu=2|primitive=1
+8|5501092501|x^8 - 8*x^6 - x^5 + 18*x^4 + 3*x^3 - 11*x^2 + 1|minVar(gen)=2|nu=2|primitive=1
+8|5743757273|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 5*x^4 - 18*x^3 - 3*x^2 + 6*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|5780865024|x^8 - 8*x^6 + 15*x^4 - 8*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|5897333045|x^8 - 8*x^6 - x^5 + 17*x^4 + x^3 - 11*x^2 + x + 1|minVar(gen)=2|nu=2|primitive=1
+8|5942952448|x^8 - 4*x^7 - x^6 + 16*x^5 - 5*x^4 - 18*x^3 + 6*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|5991933493|x^8 - 4*x^7 - x^6 + 17*x^5 - 9*x^4 - 15*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=0
+8|6002458048|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 20*x^3 + x^2 + 7*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|6066509993|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 11*x^4 - 12*x^3 - 7*x^2 + 3*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|6160833452|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 17*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|6228397609|x^8 - 8*x^6 + 19*x^4 - 13*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|6424673581|x^8 - 4*x^7 - x^6 + 16*x^5 - 5*x^4 - 17*x^3 + 5*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|6770450069|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 21*x^3 + 7*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|6823963253|x^8 - 2*x^7 - 6*x^6 + 10*x^5 + 11*x^4 - 13*x^3 - 7*x^2 + 4*x + 1|minVar(gen)=31/16|nu=31/16|primitive=1
+8|7053401861|x^8 - 8*x^6 - x^5 + 17*x^4 + x^3 - 10*x^2 + 1|minVar(gen)=2|nu=2|primitive=1
+8|7063098517|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - x^4 - 19*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|7277766577|x^8 - 4*x^7 - x^6 + 17*x^5 - 7*x^4 - 19*x^3 + 9*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|7312420873|x^8 - 8*x^6 - x^5 + 18*x^4 + 4*x^3 - 10*x^2 - 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|7496984989|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 4*x^4 - 17*x^3 - 2*x^2 + 5*x + 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|7595366761|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - x^4 - 17*x^3 + 4*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|7600618269|x^8 - 3*x^7 - 4*x^6 + 14*x^5 + 3*x^4 - 17*x^3 + x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|7667943229|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 21*x^3 + 8*x^2 + 3*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|7767859796|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 20*x^3 + x^2 + 6*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|7799259401|x^8 - 8*x^6 + 18*x^4 - 12*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|8126670509|x^8 - 8*x^6 + 17*x^4 - x^3 - 9*x^2 + 1|minVar(gen)=2|nu=2|primitive=1
+8|8186763049|x^8 - 8*x^6 + 16*x^4 - x^3 - 9*x^2 + x + 1|minVar(gen)=2|nu=2|primitive=1
+8|8188778413|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 19*x^3 + 4*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|8426396089|x^8 - 3*x^7 - 4*x^6 + 16*x^5 + x^4 - 22*x^3 + 5*x^2 + 6*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|8446345216|x^8 - 8*x^6 + 19*x^4 - 14*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|8513262953|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 3*x^4 - 21*x^3 + 2*x^2 + 7*x - 1|minVar(gen)=127/64|nu=127/64|primitive=0
+8|9051148789|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 20*x^3 + 4*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|9074775349|x^8 - 4*x^7 - x^6 + 17*x^5 - 10*x^4 - 13*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|9308661616|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - x^4 - 18*x^3 + 6*x^2 + 3*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|9466461749|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 18*x^3 + 2*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|9697230848|x^8 - 8*x^6 + 18*x^4 - 12*x^2 + 2|minVar(gen)=2|nu=2|primitive=0
+8|9786990377|x^8 - 4*x^7 - x^6 + 16*x^5 - 5*x^4 - 17*x^3 + 6*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|9916973056|x^8 - 8*x^6 + 18*x^4 - 10*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|9953471413|x^8 - 8*x^6 - x^5 + 18*x^4 + 3*x^3 - 11*x^2 - 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|10064759561|x^8 - 4*x^7 - x^6 + 16*x^5 - 6*x^4 - 17*x^3 + 8*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|10132137269|x^8 - 4*x^7 - x^6 + 17*x^5 - 9*x^4 - 14*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|10164360749|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + x^4 - 17*x^3 + 3*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|10850760629|x^8 - 8*x^6 - x^5 + 17*x^4 + 3*x^3 - 10*x^2 - 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|11016190153|x^8 - 8*x^6 - x^5 + 18*x^4 + 2*x^3 - 12*x^2 + 1|minVar(gen)=2|nu=2|primitive=1
+8|11208159293|x^8 - 8*x^6 - x^5 + 16*x^4 + x^3 - 9*x^2 + 1|minVar(gen)=2|nu=2|primitive=1
+8|11530254544|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 16*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|11559101353|x^8 - 8*x^6 + 18*x^4 - x^3 - 12*x^2 + 2*x + 1|minVar(gen)=2|nu=2|primitive=1
+8|11930511833|x^8 - 8*x^6 - x^5 + 16*x^4 + 2*x^3 - 9*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|11966413013|x^8 - 4*x^7 - x^6 + 16*x^5 - 7*x^4 - 15*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|12306682109|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + x^4 - 18*x^3 + 4*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|12579889573|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 16*x^3 + 7*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|12975489509|x^8 - 4*x^7 - x^6 + 17*x^5 - 9*x^4 - 14*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|13132833797|x^8 - 4*x^7 - x^6 + 16*x^5 - 6*x^4 - 17*x^3 + 7*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|13314252289|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - x^4 - 18*x^3 + 5*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|13427024201|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 20*x^3 + 6*x^2 + 4*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|13463109453|x^8 - 4*x^7 - x^6 + 17*x^5 - 7*x^4 - 19*x^3 + 9*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|13907163733|x^8 - 8*x^6 - x^5 + 17*x^4 + 3*x^3 - 9*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|13954797401|x^8 - 4*x^7 - x^6 + 16*x^5 - 5*x^4 - 18*x^3 + 6*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|14080706413|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 19*x^3 + 2*x^2 + 6*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|14542430464|x^8 - 8*x^6 + 17*x^4 - 9*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|14818288501|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 16*x^3 + 8*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|15522365557|x^8 - 3*x^7 - 4*x^6 + 16*x^5 - 20*x^3 + 5*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|16667842816|x^8 - 8*x^6 + 16*x^4 - 9*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|17025187433|x^8 - 8*x^6 + 18*x^4 - x^3 - 11*x^2 + x + 1|minVar(gen)=2|nu=2|primitive=1
+8|17190982153|x^8 - 8*x^6 - x^5 + 17*x^4 + 2*x^3 - 10*x^2 - x + 1|minVar(gen)=2|nu=2|primitive=1
+8|17667359488|x^8 - 4*x^7 - x^6 + 16*x^5 - 6*x^4 - 16*x^3 + 6*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|17677566069|x^8 - 4*x^7 - x^6 + 17*x^5 - 9*x^4 - 15*x^3 + 8*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|17927627273|x^8 - 3*x^7 - 4*x^6 + 15*x^5 + 2*x^4 - 19*x^3 + 3*x^2 + 5*x - 1|minVar(gen)=127/64|nu=127/64|primitive=1
+8|18261867717|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 17*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|18458931033|x^8 - 4*x^7 - x^6 + 16*x^5 - 6*x^4 - 16*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+8|19597737061|x^8 - 4*x^7 - x^6 + 17*x^5 - 7*x^4 - 19*x^3 + 8*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|20502019957|x^8 - 8*x^6 + 17*x^4 - x^3 - 10*x^2 + x + 1|minVar(gen)=2|nu=2|primitive=1
+8|23486881301|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 17*x^3 + 8*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|23875919837|x^8 - 4*x^7 - x^6 + 17*x^5 - 9*x^4 - 15*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=0
+8|25136199936|x^8 - 8*x^6 + 18*x^4 - 11*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|28288548864|x^8 - 8*x^6 + 17*x^4 - 10*x^2 + 1|minVar(gen)=2|nu=2|primitive=0
+8|29364177232|x^8 - 4*x^7 - x^6 + 17*x^5 - 8*x^4 - 17*x^3 + 9*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=0
+9|9685993193|x^9 - 9*x^7 + 24*x^5 - 2*x^4 - 20*x^3 + 3*x^2 + 5*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|11779563529|x^9 - 9*x^7 - 2*x^6 + 22*x^5 + 5*x^4 - 17*x^3 - 4*x^2 + 4*x + 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|16898785417|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 18*x^5 - 17*x^4 - 19*x^3 + 6*x^2 + 7*x + 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|16983563041|x^9 - x^8 - 8*x^7 + 7*x^6 + 21*x^5 - 15*x^4 - 20*x^3 + 10*x^2 + 5*x - 1|minVar(gen)=152/81|nu=152/81|primitive=0
+9|18625670317|x^9 - 9*x^7 - x^6 + 23*x^5 + 4*x^4 - 19*x^3 - 3*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|18756753353|x^9 - 3*x^8 - 4*x^7 + 15*x^6 + 4*x^5 - 22*x^4 - x^3 + 10*x^2 - 1|minVar(gen)=16/9|nu=16/9|primitive=1
+9|19936446593|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 30*x^4 - x^3 + 16*x^2 - 2*x - 1|minVar(gen)=2|nu=14/9|primitive=0
+9|20370652633|x^9 - x^8 - 8*x^7 + 8*x^6 + 17*x^5 - 15*x^4 - 12*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|22384826361|x^9 - 9*x^7 - x^6 + 24*x^5 + 3*x^4 - 22*x^3 + 6*x - 1|minVar(gen)=2|nu=2|primitive=0
+9|23041013113|x^9 - 9*x^7 - x^6 + 24*x^5 + 3*x^4 - 21*x^3 - 4*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|29297320489|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 36*x^4 + 9*x^3 + 18*x^2 - 9*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|29397823793|x^9 - x^8 - 9*x^7 + 5*x^6 + 22*x^5 - 8*x^4 - 16*x^3 + 5*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|29430250297|x^9 - x^8 - 8*x^7 + 6*x^6 + 20*x^5 - 11*x^4 - 18*x^3 + 7*x^2 + 4*x - 1|minVar(gen)=152/81|nu=14/9|primitive=0
+9|30609108809|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 17*x^5 - 20*x^4 - 18*x^3 + 8*x^2 + 7*x + 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|31381059609|x^9 - 9*x^7 + 27*x^5 - 30*x^3 + 9*x - 1|minVar(gen)=2|nu=2|primitive=0
+9|34189107913|x^9 - x^8 - 8*x^7 + 8*x^6 + 18*x^5 - 17*x^4 - 12*x^3 + 10*x^2 + x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|34800272761|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 9*x^5 - 30*x^4 - 8*x^3 + 16*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|35754308089|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 14*x^5 - 17*x^4 - 10*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|35896709933|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 16*x^5 - 19*x^4 - 13*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=14/9|primitive=0
+9|36288414161|x^9 - 2*x^8 - 7*x^7 + 15*x^6 + 11*x^5 - 29*x^4 + 13*x^2 - 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|36446755221|x^9 - 9*x^7 - x^6 + 24*x^5 + 6*x^4 - 18*x^3 - 6*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=0
+9|36911831833|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 17*x^5 - 17*x^4 - 15*x^3 + 8*x^2 + 4*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|37161412073|x^9 - x^8 - 8*x^7 + 6*x^6 + 19*x^5 - 11*x^4 - 15*x^3 + 6*x^2 + 3*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|38732159049|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 16*x^5 - 26*x^4 - 13*x^3 + 17*x^2 + 3*x - 3|minVar(gen)=158/81|nu=158/81|primitive=1
+9|40483581057|x^9 - 9*x^7 - 3*x^6 + 24*x^5 + 12*x^4 - 19*x^3 - 9*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=0
+9|41476317689|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 36*x^4 + 9*x^3 + 19*x^2 - 10*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|42994601449|x^9 - x^8 - 8*x^7 + 8*x^6 + 19*x^5 - 18*x^4 - 14*x^3 + 12*x^2 + x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|43343622737|x^9 - 3*x^8 - 5*x^7 + 15*x^6 + 7*x^5 - 22*x^4 - 3*x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|46671919849|x^9 - x^8 - 9*x^7 + 5*x^6 + 24*x^5 - 8*x^4 - 21*x^3 + 4*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|53995179961|x^9 - x^8 - 8*x^7 + 7*x^6 + 20*x^5 - 14*x^4 - 17*x^3 + 8*x^2 + 4*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|56311317341|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 25*x^4 - 7*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|56651923457|x^9 - 2*x^8 - 7*x^7 + 15*x^6 + 10*x^5 - 25*x^4 - 4*x^3 + 12*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|57968400289|x^9 - 9*x^7 - 2*x^6 + 25*x^5 + 9*x^4 - 21*x^3 - 7*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|59837244301|x^9 - 9*x^7 + 27*x^5 - x^4 - 31*x^3 + 3*x^2 + 11*x - 2|minVar(gen)=2|nu=2|primitive=1
+9|62838007049|x^9 - x^8 - 8*x^7 + 7*x^6 + 19*x^5 - 14*x^4 - 14*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|63891693469|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 14*x^5 - 29*x^4 - 7*x^3 + 18*x^2 - x - 2|minVar(gen)=158/81|nu=158/81|primitive=1
+9|64522187281|x^9 - 9*x^7 + 27*x^5 - 31*x^3 - x^2 + 11*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|68464966049|x^9 - x^8 - 8*x^7 + 7*x^6 + 19*x^5 - 14*x^4 - 15*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|69340283189|x^9 - x^8 - 8*x^7 + 6*x^6 + 21*x^5 - 11*x^4 - 20*x^3 + 7*x^2 + 5*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|69354532417|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 12*x^5 - 25*x^4 - 3*x^3 + 10*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|70696330361|x^9 - 9*x^7 + 26*x^5 - 26*x^3 - x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|70911479809|x^9 - 9*x^7 + 24*x^5 - x^4 - 23*x^3 + 2*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|74563769773|x^9 - 9*x^7 - 2*x^6 + 26*x^5 + 10*x^4 - 25*x^3 - 12*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|75069108449|x^9 - 9*x^7 - x^6 + 25*x^5 + 3*x^4 - 23*x^3 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|76958057193|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 33*x^4 + 7*x^3 + 16*x^2 - 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|77421510589|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 9*x^5 - 30*x^4 - 9*x^3 + 17*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|77523562213|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 16*x^5 - 26*x^4 - 13*x^3 + 16*x^2 + 3*x - 2|minVar(gen)=158/81|nu=158/81|primitive=1
+9|78306124609|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 27*x^4 - 5*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|79430632417|x^9 - 9*x^7 + 22*x^5 - x^4 - 18*x^3 + 3*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|79556317017|x^9 - 9*x^7 - x^6 + 26*x^5 + 4*x^4 - 27*x^3 - 3*x^2 + 7*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|80049938149|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 25*x^4 - 9*x^3 + 15*x^2 - x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|80072180009|x^9 - 3*x^8 - 5*x^7 + 15*x^6 + 10*x^5 - 22*x^4 - 9*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|80289239921|x^9 - 9*x^7 - 3*x^6 + 22*x^5 + 9*x^4 - 17*x^3 - 6*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|80419074353|x^9 - 9*x^7 - 2*x^6 + 25*x^5 + 9*x^4 - 22*x^3 - 7*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|83518226929|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 2*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|83797229249|x^9 - x^8 - 9*x^7 + 7*x^6 + 24*x^5 - 12*x^4 - 20*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|84166108889|x^9 - x^8 - 8*x^7 + 7*x^6 + 20*x^5 - 15*x^4 - 17*x^3 + 10*x^2 + 3*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|84510213176|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 21*x^4 - 10*x^3 + 10*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|84570963353|x^9 - x^8 - 9*x^7 + 4*x^6 + 24*x^5 - 19*x^3 - 5*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|84696263549|x^9 - x^8 - 8*x^7 + 8*x^6 + 18*x^5 - 16*x^4 - 13*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|85629394493|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 16*x^5 - 26*x^4 - 13*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|85669291369|x^9 - x^8 - 8*x^7 + 6*x^6 + 20*x^5 - 11*x^4 - 17*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|87483049453|x^9 - 9*x^7 - x^6 + 23*x^5 + 5*x^4 - 17*x^3 - 5*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|88295511961|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 14*x^5 - 29*x^4 - 6*x^3 + 17*x^2 - 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|90768556489|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 10*x^5 - 26*x^4 - 10*x^3 + 13*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|91580220377|x^9 - 9*x^7 - 2*x^6 + 23*x^5 + 6*x^4 - 20*x^3 - 4*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|93367381949|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 26*x^4 - 6*x^3 + 12*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|94939144649|x^9 - 9*x^7 - x^6 + 24*x^5 + 3*x^4 - 21*x^3 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|97137723097|x^9 - 9*x^7 - 2*x^6 + 22*x^5 + 6*x^4 - 16*x^3 - 5*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|97662412633|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 17*x^5 - 22*x^4 - 16*x^3 + 13*x^2 + 4*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|98859679417|x^9 - 9*x^7 + 25*x^5 - x^4 - 23*x^3 + 3*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|99239487553|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 4*x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|100602531136|x^9 - 3*x^8 - 5*x^7 + 20*x^6 - 31*x^4 + 7*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=0
+9|102841334389|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 7*x^5 - 34*x^4 - 2*x^3 + 21*x^2 - x - 3|minVar(gen)=2|nu=2|primitive=1
+9|103254423841|x^9 - 9*x^7 - x^6 + 22*x^5 + 4*x^4 - 17*x^3 - 5*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|103946616937|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 7*x^5 - 34*x^4 - 2*x^3 + 20*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|106153817093|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 14*x^5 - 28*x^4 - 8*x^3 + 16*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|106474098673|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 9*x^5 - 30*x^4 - 9*x^3 + 16*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|106593452989|x^9 - 9*x^7 + 26*x^5 - x^4 - 26*x^3 + 3*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|106924546297|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 35*x^4 + 5*x^3 + 20*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|109156219993|x^9 - 3*x^8 - 5*x^7 + 15*x^6 + 8*x^5 - 23*x^4 - 4*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|113319454013|x^9 - 9*x^7 - x^6 + 24*x^5 + 4*x^4 - 19*x^3 - 4*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|113340741229|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 21*x^4 - 12*x^3 + 12*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|114240644009|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 25*x^4 - 9*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|114316879168|x^9 - x^8 - 9*x^7 + 6*x^6 + 28*x^5 - 10*x^4 - 33*x^3 + 4*x^2 + 11*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|116172293561|x^9 - x^8 - 8*x^7 + 7*x^6 + 19*x^5 - 14*x^4 - 15*x^3 + 8*x^2 + 3*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|116352752833|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 16*x^5 - 25*x^4 - 14*x^3 + 14*x^2 + 4*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|116527999741|x^9 - 9*x^7 - x^6 + 26*x^5 + 5*x^4 - 26*x^3 - 6*x^2 + 7*x + 2|minVar(gen)=2|nu=2|primitive=1
+9|116540667361|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 12*x^5 - 23*x^4 - 8*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|117186514633|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 34*x^4 + 10*x^3 + 16*x^2 - 9*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|117486700181|x^9 - x^8 - 9*x^7 + 8*x^6 + 25*x^5 - 17*x^4 - 23*x^3 + 6*x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|117718075817|x^9 - 3*x^8 - 5*x^7 + 20*x^6 + x^5 - 34*x^4 + 8*x^3 + 18*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|117937641061|x^9 - 9*x^7 + 24*x^5 - 22*x^3 - 2*x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|119140962937|x^9 - 9*x^7 + 25*x^5 - x^4 - 22*x^3 + 3*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|121482018244|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - 3*x^3 + 18*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+9|122337377137|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 30*x^4 - 4*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|123461723261|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 24*x^4 - 7*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|125504290477|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + 16*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|125563919813|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 17*x^5 - 21*x^4 - 16*x^3 + 10*x^2 + 4*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|125717675236|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 7*x^5 - 33*x^4 - 4*x^3 + 19*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|125843446297|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 13*x^5 - 19*x^4 - 8*x^3 + 9*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|127557361133|x^9 - 9*x^7 - x^6 + 25*x^5 + 4*x^4 - 23*x^3 - 3*x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|128295731297|x^9 - 3*x^8 - 5*x^7 + 20*x^6 + 2*x^5 - 38*x^4 + 12*x^3 + 19*x^2 - 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|130962252301|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 24*x^4 - 10*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|131189379209|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 32*x^4 + 5*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|132006221029|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 24*x^4 - 9*x^3 + 14*x^2 + x - 2|minVar(gen)=158/81|nu=158/81|primitive=1
+9|132798532681|x^9 - 9*x^7 - x^6 + 23*x^5 + 3*x^4 - 18*x^3 - 3*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|133624443889|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 36*x^4 + 7*x^3 + 19*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|134611873489|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 35*x^4 + 6*x^3 + 19*x^2 - 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|136076101793|x^9 - 9*x^7 - 2*x^6 + 23*x^5 + 7*x^4 - 19*x^3 - 5*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|137288251333|x^9 - 9*x^7 - 3*x^6 + 23*x^5 + 10*x^4 - 19*x^3 - 8*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|137309251309|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 25*x^4 - 5*x^3 + 13*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+9|137502535193|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 34*x^4 + 2*x^3 + 21*x^2 - x - 3|minVar(gen)=2|nu=2|primitive=1
+9|139972357513|x^9 - x^8 - 8*x^7 + 7*x^6 + 19*x^5 - 13*x^4 - 15*x^3 + 7*x^2 + 3*x - 1|minVar(gen)=152/81|nu=152/81|primitive=1
+9|142657107385|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 7*x^3 + 10*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|143042110633|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 28*x^4 + x^3 + 14*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+9|144759406661|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 22*x^4 - 13*x^3 + 12*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|145152749501|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 14*x^5 - 20*x^4 - 10*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|146515017889|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 27*x^4 + 3*x^3 + 10*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|146907890633|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 23*x^4 - 12*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|149777310773|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 21*x^4 - 13*x^3 + 12*x^2 + 3*x - 2|minVar(gen)=158/81|nu=158/81|primitive=1
+9|151149584441|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 28*x^4 - 3*x^3 + 13*x^2 - x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|151264297225|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 + x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|152146033181|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 27*x^4 - 4*x^3 + 12*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|155651156929|x^9 - 9*x^7 + 24*x^5 - x^4 - 20*x^3 + 3*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|155716179397|x^9 - 9*x^7 - x^6 + 26*x^5 + 4*x^4 - 27*x^3 - 4*x^2 + 8*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|156169501228|x^9 - 9*x^7 + 25*x^5 - x^4 - 24*x^3 + 2*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|156190688629|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 13*x^5 - 20*x^4 - 9*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|156246003089|x^9 - 9*x^7 - x^6 + 25*x^5 + 5*x^4 - 24*x^3 - 5*x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|157441429333|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 28*x^4 - x^3 + 15*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+9|158998100813|x^9 - 3*x^8 - 5*x^7 + 15*x^6 + 9*x^5 - 23*x^4 - 7*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|159367955161|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 16*x^5 - 17*x^4 - 12*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|160082703073|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 33*x^4 + 5*x^3 + 18*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|161741604769|x^9 - 9*x^7 + 25*x^5 - 23*x^3 - x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|162736565729|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 21*x^4 - 13*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|163406470268|x^9 - 9*x^7 + 26*x^5 - x^4 - 27*x^3 + 3*x^2 + 8*x - 2|minVar(gen)=2|nu=2|primitive=1
+9|164190476921|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 - 2*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|164296265905|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + x^5 - 26*x^4 + 4*x^3 + 10*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|164570195589|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 20*x^4 - 13*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|167857720876|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 20*x^4 - 13*x^3 + 9*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|168100359373|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 29*x^4 + x^3 + 15*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|170363992949|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 33*x^4 + 2*x^3 + 19*x^2 - 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|174337997633|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 2*x^5 - 31*x^4 + 9*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|177636216337|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 22*x^4 - 10*x^3 + 13*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|180764461809|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 5*x^5 - 37*x^4 + 3*x^3 + 24*x^2 - 3*x - 3|minVar(gen)=2|nu=2|primitive=1
+9|182013444409|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 4*x^5 - 24*x^4 + x^3 + 10*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|183247489701|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 25*x^4 - 4*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|184249603369|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 7*x^5 - 33*x^4 - 4*x^3 + 19*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|184577159696|x^9 - 9*x^7 + 26*x^5 - x^4 - 27*x^3 + 2*x^2 + 7*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|186025573225|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + x^3 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|189545803793|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 28*x^4 - 4*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|189788578633|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 5*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|190780561225|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 25*x^4 + x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|192806716297|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 22*x^4 - 10*x^3 + 12*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|193136819661|x^9 - 9*x^7 - x^6 + 24*x^5 + 3*x^4 - 23*x^3 - 3*x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=0
+9|195629911749|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 13*x^5 - 21*x^4 - 7*x^3 + 9*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|196932327589|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|197069848093|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 29*x^4 - 4*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|197141998297|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 34*x^4 + 4*x^3 + 17*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|198963218681|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 6*x^5 - 24*x^4 - x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|201990287753|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 22*x^4 - 13*x^3 + 13*x^2 + 3*x - 2|minVar(gen)=158/81|nu=158/81|primitive=1
+9|203524883081|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 24*x^4 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|204750005193|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 25*x^4 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|208634678909|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 3*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|211825041137|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 28*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|213421496201|x^9 - 9*x^7 + 23*x^5 - 2*x^4 - 18*x^3 + 3*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|214605637381|x^9 - 9*x^7 - x^6 + 26*x^5 + 4*x^4 - 28*x^3 - 5*x^2 + 9*x + 2|minVar(gen)=2|nu=2|primitive=1
+9|215469504953|x^9 - 9*x^7 + 26*x^5 - x^4 - 27*x^3 + 2*x^2 + 8*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|216059296004|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 26*x^4 - 7*x^3 + 14*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+9|218993969609|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 23*x^4 - 13*x^3 + 12*x^2 + 4*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|221131015181|x^9 - 9*x^7 - x^6 + 26*x^5 + 5*x^4 - 26*x^3 - 6*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|223063399241|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 14*x^5 - 20*x^4 - 8*x^3 + 9*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|227095881757|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 14*x^5 - 18*x^4 - 10*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|229282049521|x^9 - 9*x^7 + 24*x^5 - 22*x^3 - x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|232725718369|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + x^3 + 17*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|238917921769|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 26*x^4 - 7*x^3 + 14*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|243694242989|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 25*x^4 - 10*x^3 + 15*x^2 + x - 2|minVar(gen)=158/81|nu=158/81|primitive=1
+9|246339968549|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - 2*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|249061729789|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 4*x^3 + 14*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+9|249865404293|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 26*x^4 - 9*x^3 + 16*x^2 - x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|250889862289|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 - x^3 + 19*x^2 - x - 3|minVar(gen)=2|nu=2|primitive=1
+9|252400398049|x^9 - 9*x^7 - x^6 + 24*x^5 + 5*x^4 - 19*x^3 - 6*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|252591258793|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 13*x^5 - 23*x^4 - 7*x^3 + 12*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|253520653753|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 33*x^4 + 9*x^3 + 12*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|255191371921|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 25*x^4 - 10*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|256633273493|x^9 - x^8 - 9*x^7 + 5*x^6 + 21*x^5 - 8*x^4 - 15*x^3 + 5*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|258142422121|x^9 - 9*x^7 - x^6 + 25*x^5 + 5*x^4 - 23*x^3 - 4*x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|258279949769|x^9 - 3*x^8 - 5*x^7 + 15*x^6 + 9*x^5 - 22*x^4 - 7*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|260483081581|x^9 - 9*x^7 - x^6 + 25*x^5 + 4*x^4 - 25*x^3 - 5*x^2 + 7*x + 2|minVar(gen)=2|nu=2|primitive=1
+9|264467151749|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|264565642448|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 30*x^4 - 3*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|265553987113|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 25*x^4 - 9*x^3 + 14*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|269185143349|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 22*x^4 - 13*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|270586182329|x^9 - 9*x^7 - 2*x^6 + 25*x^5 + 8*x^4 - 24*x^3 - 8*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|270901779913|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 27*x^4 + 4*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|272870116201|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 32*x^4 + 4*x^3 + 16*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|273479518288|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + x^3 + 16*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|273573281053|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 7*x^5 - 34*x^4 - 3*x^3 + 22*x^2 + x - 3|minVar(gen)=2|nu=2|primitive=1
+9|275134895153|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 2*x^5 - 30*x^4 + 7*x^3 + 12*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|275212425889|x^9 - 9*x^7 + 26*x^5 - x^4 - 26*x^3 + 3*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|276800912728|x^9 - 9*x^7 + 26*x^5 - 27*x^3 - x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|277857019841|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 20*x^4 - 10*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|278969429857|x^9 - 9*x^7 - 2*x^6 + 23*x^5 + 6*x^4 - 20*x^3 - 5*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|283431998272|x^9 - 9*x^7 - x^6 + 23*x^5 + 2*x^4 - 20*x^3 + x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|283923261953|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 16*x^5 - 18*x^4 - 13*x^3 + 9*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|284164678097|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 12*x^5 - 20*x^4 - 7*x^3 + 9*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|285028798337|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 26*x^4 - 5*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|285524247872|x^9 - 9*x^7 - x^6 + 25*x^5 + 4*x^4 - 24*x^3 - 5*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|286627722317|x^9 - 9*x^7 - x^6 + 26*x^5 + 4*x^4 - 28*x^3 - 4*x^2 + 9*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|289458574864|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 21*x^4 - 13*x^3 + 10*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|291305821589|x^9 - 9*x^7 - 2*x^6 + 24*x^5 + 8*x^4 - 21*x^3 - 8*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|291932619049|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 22*x^4 - 12*x^3 + 13*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|292797931537|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 15*x^5 - 17*x^4 - 11*x^3 + 8*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|294218933417|x^9 - 9*x^7 - x^6 + 25*x^5 + 3*x^4 - 24*x^3 - x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|295574371633|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 30*x^4 - 5*x^3 + 18*x^2 + x - 3|minVar(gen)=2|nu=2|primitive=1
+9|297338674873|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 35*x^4 + 6*x^3 + 17*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|299841481817|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 27*x^4 - 6*x^3 + 15*x^2 - x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|300451402673|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 31*x^4 + x^3 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|304078356073|x^9 - 9*x^7 - x^6 + 24*x^5 + 2*x^4 - 21*x^3 + x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|305113465981|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 33*x^4 + 19*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|306537450121|x^9 - 9*x^7 - x^6 + 23*x^5 + 3*x^4 - 19*x^3 - 4*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|306932093353|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 11*x^5 - 23*x^4 - 5*x^3 + 11*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|308146899969|x^9 - 9*x^7 - x^6 + 24*x^5 + 5*x^4 - 20*x^3 - 4*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|308168771689|x^9 - 3*x^8 - 5*x^7 + 15*x^6 + 9*x^5 - 22*x^4 - 6*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|313732161233|x^9 - 9*x^7 + 25*x^5 - x^4 - 24*x^3 + 3*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|314237157209|x^9 - 9*x^7 - 2*x^6 + 25*x^5 + 9*x^4 - 22*x^3 - 9*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|314792722617|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 25*x^4 - x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|315643286293|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 33*x^4 + x^3 + 19*x^2 - 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+9|317029370989|x^9 - 9*x^7 + 26*x^5 - x^4 - 28*x^3 + 2*x^2 + 9*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|317590042717|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 31*x^4 + 3*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|318958192541|x^9 - 9*x^7 - x^6 + 25*x^5 + 3*x^4 - 25*x^3 - x^2 + 7*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|321609094273|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 11*x^5 - 22*x^4 - 6*x^3 + 10*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|321973557237|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + x^5 - 26*x^4 + 3*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|321993425181|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 27*x^4 + 2*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|322692264593|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 7*x^3 + 16*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|322904053601|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 24*x^4 - 8*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|324273765241|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|324983168793|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + x^5 - 27*x^4 + 5*x^3 + 10*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|325950917213|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 20*x^4 - 14*x^3 + 10*x^2 + 4*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|328167336457|x^9 - 2*x^8 - 7*x^7 + 11*x^6 + 16*x^5 - 17*x^4 - 13*x^3 + 8*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|328248392509|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 8*x^3 + 10*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|332198898049|x^9 - 9*x^7 + 26*x^5 - 28*x^3 - x^2 + 9*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|332661545728|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 28*x^4 - 6*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|340453643497|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 30*x^4 - 6*x^3 + 17*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|342107371489|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 25*x^4 - 7*x^3 + 14*x^2 - x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|348508799876|x^9 - 9*x^7 - x^6 + 25*x^5 + 4*x^4 - 24*x^3 - 4*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|356042641121|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 21*x^4 - 12*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|370263557177|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 28*x^4 - 7*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|370968094009|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 4*x^5 - 34*x^4 + 3*x^3 + 19*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|374177392381|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 25*x^4 - 6*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|376065974017|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|378832467761|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 8*x^3 + 12*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|380524090949|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 24*x^4 - 12*x^3 + 14*x^2 + 3*x - 2|minVar(gen)=158/81|nu=158/81|primitive=1
+9|381131627273|x^9 - 9*x^7 - 2*x^6 + 24*x^5 + 8*x^4 - 20*x^3 - 7*x^2 + 3*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|381848832644|x^9 - 9*x^7 - x^6 + 26*x^5 + 5*x^4 - 27*x^3 - 6*x^2 + 8*x + 2|minVar(gen)=2|nu=2|primitive=1
+9|381956640137|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 26*x^4 - x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|383072702273|x^9 - 3*x^8 - 5*x^7 + 15*x^6 + 8*x^5 - 22*x^4 - 5*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|386037182733|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 24*x^4 - 11*x^3 + 12*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|390883247257|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - x^3 + 14*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|393038753093|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 25*x^4 + 2*x^3 + 10*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|397369721345|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 26*x^4 + 2*x^3 + 10*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|400834924253|x^9 - 9*x^7 - x^6 + 25*x^5 + 3*x^4 - 25*x^3 - 3*x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|401751604261|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 12*x^5 - 24*x^4 - 7*x^3 + 12*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|402422383221|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + 16*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|412254546257|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 5*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|413334861713|x^9 - 9*x^7 - x^6 + 24*x^5 + 4*x^4 - 21*x^3 - 3*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|414640385873|x^9 - 9*x^7 - 2*x^6 + 24*x^5 + 7*x^4 - 21*x^3 - 6*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|416176799201|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 20*x^4 - 10*x^3 + 10*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|418939325641|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 19*x^4 - 12*x^3 + 9*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|423975813145|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + x^5 - 28*x^4 + 7*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|423977832253|x^9 - 9*x^7 + 24*x^5 - 2*x^4 - 20*x^3 + 4*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|424245566609|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 20*x^4 - 14*x^3 + 9*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|425446746433|x^9 - 9*x^7 + 23*x^5 - x^4 - 19*x^3 + 3*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|435533925929|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 25*x^4 - 10*x^3 + 15*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|437518381033|x^9 - 9*x^7 - x^6 + 26*x^5 + 5*x^4 - 27*x^3 - 6*x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|447284006749|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 33*x^4 + 2*x^3 + 18*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|449038684513|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 30*x^4 + 5*x^3 + 13*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|450494688209|x^9 - 9*x^7 - x^6 + 25*x^5 + 5*x^4 - 22*x^3 - 5*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|453088868941|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 25*x^4 - 8*x^3 + 12*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|453519582448|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 5*x^3 + 16*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+9|453567372733|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 - x^3 + 16*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|454781671913|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 31*x^4 + 3*x^3 + 16*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|458285431876|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 25*x^4 - 2*x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|461512474957|x^9 - 9*x^7 - x^6 + 24*x^5 + 5*x^4 - 21*x^3 - 5*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|472117295341|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 - x^3 + 18*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|472635225793|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 32*x^4 + 5*x^3 + 16*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|476251259041|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 26*x^4 - 5*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|476837710313|x^9 - 9*x^7 + 25*x^5 - 2*x^4 - 24*x^3 + 4*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|476898136661|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 33*x^4 + 8*x^3 + 14*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|477389949749|x^9 - 9*x^7 - x^6 + 24*x^5 + 4*x^4 - 21*x^3 - 4*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|477926381453|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 29*x^4 - 2*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|480366500113|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 27*x^4 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|490518746433|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 12*x^5 - 24*x^4 - 6*x^3 + 11*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|492060691701|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 24*x^4 - 6*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|492545520508|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 24*x^4 - 11*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|493039136481|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 26*x^4 - 7*x^3 + 13*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|497771612992|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 29*x^4 + 5*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|501371445788|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 20*x^4 - 11*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|503068254209|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 24*x^4 - 7*x^3 + 11*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|508161569477|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 - 2*x^3 + 19*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+9|517265626028|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 27*x^4 + x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|519185131216|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 9*x^3 + 11*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|524328298757|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 + x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|525726708553|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 28*x^4 - 6*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|528957223633|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 19*x^4 - 11*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|538953648949|x^9 - 9*x^7 - 2*x^6 + 24*x^5 + 7*x^4 - 22*x^3 - 6*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|539232414736|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 23*x^4 - 5*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|541197650053|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 2*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|547302793733|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 24*x^4 - 11*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|548854067877|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 27*x^4 - 5*x^3 + 14*x^2 - x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|549956581857|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 13*x^5 - 27*x^4 - 5*x^3 + 13*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|551555608117|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 22*x^4 - 10*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|558320438337|x^9 - 9*x^7 - x^6 + 26*x^5 + 5*x^4 - 26*x^3 - 6*x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|572660546597|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 25*x^4 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|573862661893|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 26*x^4 - 7*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|575373275549|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 2*x^5 - 29*x^4 + 5*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|576517229828|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 22*x^4 - 10*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|577079054281|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 22*x^4 - 11*x^3 + 11*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|577986524992|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|579296622472|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - 2*x^3 + 17*x^2 - 2|minVar(gen)=2|nu=2|primitive=1
+9|580789682601|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 13*x^5 - 23*x^4 - 6*x^3 + 11*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|582428082329|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 31*x^4 + 4*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|583120156517|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 14*x^5 - 20*x^4 - 9*x^3 + 10*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|583589521853|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 30*x^4 - 5*x^3 + 17*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+9|586190821289|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 26*x^4 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|587877890293|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 29*x^4 - 2*x^3 + 16*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+9|589158101629|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 26*x^4 - 8*x^3 + 13*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|590244770069|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 13*x^5 - 21*x^4 - 8*x^3 + 10*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|590663755072|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 24*x^4 - 12*x^3 + 13*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|591025874809|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 12*x^5 - 25*x^4 - 4*x^3 + 11*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|601769002249|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 7*x^5 - 23*x^4 - 3*x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|603472905545|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 28*x^4 - 7*x^3 + 14*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|603622898553|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 7*x^5 - 25*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|608816639321|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 27*x^4 + 3*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|612382409137|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 28*x^4 + x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|613571123708|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 - x^3 + 15*x^2 - 2|minVar(gen)=2|nu=2|primitive=1
+9|615226480129|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 7*x^5 - 24*x^4 - 2*x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|619205820281|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 13*x^5 - 21*x^4 - 9*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|621162481673|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 26*x^4 - 4*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|626198224192|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - 3*x^3 + 17*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|629361220609|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 14*x^5 - 19*x^4 - 10*x^3 + 9*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|630895193189|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 3*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|641902951601|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 16*x^5 - 21*x^4 - 14*x^3 + 11*x^2 + 4*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|642062617408|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + 18*x^2 - 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+9|648182707717|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - 2*x^3 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|652668273253|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|652870400293|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 6*x^5 - 23*x^4 - 2*x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|654944732989|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 2*x^3 + 15*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|662036760653|x^9 - 9*x^7 + 24*x^5 - x^4 - 22*x^3 + 2*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|662331009341|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + x^3 + 16*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|664931917628|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 31*x^4 - x^3 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|664976423513|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 2*x^5 - 29*x^4 + 5*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|666052819301|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + x^5 - 27*x^4 + 5*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|672862324693|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 3*x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|676046778364|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 5*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|676578693433|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 7*x^5 - 25*x^4 - 3*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|683831542736|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 24*x^4 - 5*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|690968750921|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 24*x^4 - 4*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|694237717713|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 32*x^4 + 4*x^3 + 16*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|697187348209|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 24*x^4 - 6*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|698329784809|x^9 - 9*x^7 + 25*x^5 - 25*x^3 - x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|701406918557|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|708163946576|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 29*x^4 + 3*x^3 + 14*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|709535381981|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 27*x^4 + x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|712039794661|x^9 - 9*x^7 - x^6 + 25*x^5 + 4*x^4 - 25*x^3 - 4*x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|721726738433|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 25*x^4 - 7*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|722211764433|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 9*x^5 - 25*x^4 - 8*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|722956033232|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 6*x^3 + 16*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+9|723515630941|x^9 - 9*x^7 - 2*x^6 + 24*x^5 + 8*x^4 - 20*x^3 - 6*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|735920207325|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 26*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|740570370461|x^9 - 9*x^7 + 24*x^5 - 21*x^3 - 2*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|741876919541|x^9 - 9*x^7 - x^6 + 25*x^5 + 4*x^4 - 23*x^3 - 4*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|759605514733|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 15*x^5 - 25*x^4 - 10*x^3 + 14*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|760313260864|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 13*x^5 - 22*x^4 - 8*x^3 + 11*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|764009041701|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 4*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|772431504748|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 25*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|781498283845|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 31*x^4 + 4*x^3 + 14*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|787260300473|x^9 - 2*x^8 - 7*x^7 + 14*x^6 + 12*x^5 - 25*x^4 - 5*x^3 + 12*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|805030646989|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 24*x^4 - 7*x^3 + 12*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|813734206561|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 10*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|821705433529|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 20*x^4 - 12*x^3 + 10*x^2 + 3*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|829357207377|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 - x^3 + 17*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|834406601609|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 16*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+9|835249061033|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 21*x^4 - 10*x^3 + 11*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|859935789436|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 3*x^3 + 15*x^2 - 2|minVar(gen)=2|nu=2|primitive=1
+9|861278251241|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 26*x^4 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|861346937152|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 27*x^4 + x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|866738189953|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 27*x^4 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|873678228593|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 21*x^4 - 11*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|896639569773|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 8*x^3 + 11*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|906479787401|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 3*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|924614245925|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|933720858349|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 4*x^3 + 15*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+9|945072589733|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 25*x^4 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|948460602797|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 25*x^4 - 6*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|955392139293|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 26*x^4 + 3*x^3 + 10*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|960454604021|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 9*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|963328358093|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 24*x^4 - 8*x^3 + 12*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|969447994153|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 3*x^5 - 32*x^4 + 6*x^3 + 14*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|989952489881|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 28*x^4 + x^3 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|994346331661|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 5*x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1003358065573|x^9 - 9*x^7 - x^6 + 24*x^5 + 4*x^4 - 22*x^3 - 4*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|1007429326781|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 29*x^4 - x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1008232966429|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 29*x^4 + 4*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1008609538177|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 2*x^5 - 29*x^4 + 4*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1008628184033|x^9 - 9*x^7 - x^6 + 25*x^5 + 5*x^4 - 23*x^3 - 6*x^2 + 4*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|1023167061169|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 25*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1024983476093|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 7*x^5 - 24*x^4 - 4*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1041922547633|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 24*x^4 - x^3 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1043725793525|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 25*x^4 - 3*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1101599602637|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 24*x^4 - 8*x^3 + 13*x^2 - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|1105300858681|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 2*x^5 - 30*x^4 + 7*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1125537442173|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 25*x^4 - 4*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1136314109593|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 6*x^5 - 32*x^4 + 17*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1146421906936|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 2*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1158673374449|x^9 - 2*x^8 - 7*x^7 + 12*x^6 + 15*x^5 - 20*x^4 - 11*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|1159439101697|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 8*x^5 - 29*x^4 - 6*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1161219364761|x^9 - 3*x^8 - 5*x^7 + 19*x^6 + 2*x^5 - 30*x^4 + 6*x^3 + 13*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1190732796053|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 28*x^4 + 3*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1207768553641|x^9 - 9*x^7 + 25*x^5 - 24*x^3 - x^2 + 6*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|1224954931913|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 26*x^4 - x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1226612430577|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 27*x^4 - 2*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1237369162889|x^9 - 2*x^8 - 7*x^7 + 13*x^6 + 14*x^5 - 23*x^4 - 9*x^3 + 12*x^2 + x - 1|minVar(gen)=158/81|nu=158/81|primitive=1
+9|1238746485833|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 28*x^4 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1267373463701|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 7*x^5 - 24*x^4 - 3*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1276254462433|x^9 - 3*x^8 - 5*x^7 + 16*x^6 + 8*x^5 - 24*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1295281929808|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 27*x^4 + x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1356789684901|x^9 - 9*x^7 + 25*x^5 - x^4 - 24*x^3 + 2*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1374543295541|x^9 - 9*x^7 - x^6 + 25*x^5 + 5*x^4 - 23*x^3 - 5*x^2 + 5*x + 1|minVar(gen)=2|nu=2|primitive=1
+9|1399434655076|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1424314373425|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 4*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1498555078492|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 3*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1502782241221|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 5*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1510850195441|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 28*x^4 + x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1513494902033|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 28*x^4 + 2*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1517811244229|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 29*x^4 - 2*x^3 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1555902636869|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 3*x^5 - 26*x^4 + 2*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1558583974208|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 3*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1560099667517|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 5*x^5 - 25*x^4 - x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1617747814201|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 - x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1622317269976|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 26*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1665742538641|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 31*x^4 + 3*x^3 + 14*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1668825742633|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 2*x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1780854977449|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 26*x^4 - 3*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1806038667344|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 2*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1815979634041|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 28*x^4 + 3*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1832095309437|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 3*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1853763321797|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 4*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1906185474649|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 29*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1911763654453|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 27*x^4 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1923751367936|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 27*x^4 - 4*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+9|1944894387361|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 26*x^4 - x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|1945957309973|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|2038763471853|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 31*x^4 + 3*x^3 + 15*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|2153421848493|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 29*x^4 + 4*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|2173251274157|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 27*x^4 - x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|2343193417449|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 2*x^3 + 14*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+9|2389028432473|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 26*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|2423840405733|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 27*x^4 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|2432466496441|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 7*x^5 - 28*x^4 - 3*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|2483265104813|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 5*x^5 - 30*x^4 + 2*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+9|2577134154241|x^9 - 3*x^8 - 5*x^7 + 17*x^6 + 6*x^5 - 27*x^4 - x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+9|3236961049989|x^9 - 3*x^8 - 5*x^7 + 18*x^6 + 4*x^5 - 28*x^4 + 2*x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|513087549389|x^10 - 4*x^9 - 2*x^8 + 23*x^7 - 11*x^6 - 40*x^5 + 30*x^4 + 21*x^3 - 18*x^2 + 1|minVar(gen)=46/25|nu=46/25|primitive=1
+10|653113904957|x^10 - x^9 - 9*x^8 + 9*x^7 + 25*x^6 - 23*x^5 - 24*x^4 + 17*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|762939453125|x^10 - 10*x^8 + 35*x^6 - x^5 - 50*x^4 + 5*x^3 + 25*x^2 - 5*x - 1|minVar(gen)=2|nu=5/4|primitive=0
+10|805213821197|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 28*x^5 - 28*x^4 + 22*x^3 + 13*x^2 - 4*x - 1|minVar(gen)=49/25|nu=46/25|primitive=0
+10|820298081773|x^10 - 2*x^9 - 8*x^8 + 12*x^7 + 22*x^6 - 22*x^5 - 24*x^4 + 13*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|822624971833|x^10 - 10*x^8 - 3*x^7 + 29*x^6 + 10*x^5 - 32*x^4 - 10*x^3 + 12*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=0
+10|838055754181|x^10 - 2*x^9 - 8*x^8 + 17*x^7 + 17*x^6 - 43*x^5 - 3*x^4 + 31*x^3 - 9*x^2 - 3*x + 1|minVar(gen)=49/25|nu=46/25|primitive=0
+10|841363028173|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 11*x^5 - 40*x^4 - 16*x^3 + 12*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|901040998181|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 22*x^6 - 37*x^5 - 24*x^4 + 35*x^3 + 7*x^2 - 11*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|925108450304|x^10 - 2*x^9 - 8*x^8 + 12*x^7 + 24*x^6 - 22*x^5 - 29*x^4 + 14*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|928565973197|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 24*x^6 - 26*x^5 - 32*x^4 + 16*x^3 + 16*x^2 - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|943765631693|x^10 - 2*x^9 - 8*x^8 + 12*x^7 + 23*x^6 - 20*x^5 - 25*x^4 + 10*x^3 + 10*x^2 - x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|950202516997|x^10 - 10*x^8 - x^7 + 33*x^6 + 3*x^5 - 44*x^4 - x^3 + 21*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|958265834381|x^10 - 4*x^9 - 2*x^8 + 22*x^7 - 8*x^6 - 39*x^5 + 22*x^4 + 23*x^3 - 13*x^2 - 2*x + 1|minVar(gen)=46/25|nu=46/25|primitive=1
+10|967077633761|x^10 - 5*x^9 + 2*x^8 + 22*x^7 - 22*x^6 - 32*x^5 + 35*x^4 + 19*x^3 - 16*x^2 - 4*x + 1|minVar(gen)=37/20|nu=46/25|primitive=0
+10|983479472873|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 17*x^6 - 28*x^5 - 15*x^4 + 17*x^3 + 6*x^2 - 3*x - 1|minVar(gen)=37/20|nu=37/20|primitive=1
+10|995293579409|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 17*x^6 - 35*x^5 - 11*x^4 + 26*x^3 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1071443843101|x^10 - 2*x^9 - 8*x^8 + 17*x^7 + 17*x^6 - 40*x^5 - 12*x^4 + 32*x^3 + 3*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1086015136753|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 32*x^5 - 18*x^4 + 22*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1092599165069|x^10 - x^9 - 9*x^8 + 8*x^7 + 25*x^6 - 18*x^5 - 26*x^4 + 13*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|1135185393317|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 12*x^5 - 35*x^4 - 17*x^3 + 10*x^2 + 7*x + 1|minVar(gen)=2|nu=2|primitive=1
+10|1140241465757|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 22*x^6 - 36*x^5 - 25*x^4 + 31*x^3 + 10*x^2 - 8*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1230634335821|x^10 - x^9 - 9*x^8 + 7*x^7 + 25*x^6 - 13*x^5 - 25*x^4 + 7*x^3 + 9*x^2 - x - 1|minVar(gen)=189/100|nu=44/25|primitive=0
+10|1273821942101|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 31*x^5 - 17*x^4 + 24*x^3 + 3*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1340113094789|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 31*x^5 - 28*x^4 + 22*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1340958364861|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 20*x^4 + 26*x^3 + 7*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1363999753216|x^10 - 9*x^8 + 27*x^6 - 31*x^4 + 12*x^2 - 1|minVar(gen)=9/5|nu=9/5|primitive=0
+10|1369795977517|x^10 - x^9 - 9*x^8 + 6*x^7 + 28*x^6 - 11*x^5 - 34*x^4 + 8*x^3 + 14*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|1388665520293|x^10 - x^9 - 9*x^8 + 5*x^7 + 27*x^6 - 7*x^5 - 31*x^4 + 3*x^3 + 12*x^2 - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|1407328559213|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 12*x^5 - 39*x^4 - 18*x^3 + 10*x^2 + 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1429982431937|x^10 - 10*x^8 - x^7 + 30*x^6 + 4*x^5 - 29*x^4 - 4*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|1480941024733|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 38*x^5 - 16*x^4 + 32*x^3 + 3*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1523269387264|x^10 - 9*x^8 + 26*x^6 - 29*x^4 + 11*x^2 - 1|minVar(gen)=9/5|nu=9/5|primitive=0
+10|1535920273637|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 19*x^6 - 26*x^5 - 18*x^4 + 16*x^3 + 7*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1543016277757|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 20*x^6 - 41*x^5 - 16*x^4 + 36*x^3 + 3*x^2 - 9*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1560252739229|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 26*x^5 - 24*x^4 + 16*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1575264597461|x^10 - 10*x^8 - 3*x^7 + 29*x^6 + 10*x^5 - 30*x^4 - 8*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|1578153695057|x^10 - 4*x^9 - 2*x^8 + 22*x^7 - 8*x^6 - 39*x^5 + 21*x^4 + 25*x^3 - 12*x^2 - 4*x + 1|minVar(gen)=46/25|nu=46/25|primitive=1
+10|1632858302557|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 37*x^4 - 11*x^3 + 14*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|1704131819776|x^10 - 10*x^8 + 34*x^6 - 44*x^4 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|1723315508461|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 21*x^6 - 28*x^5 - 20*x^4 + 23*x^3 + 4*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1745097042797|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 16*x^5 - 28*x^4 + 12*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|1749601113157|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 19*x^6 - 30*x^5 - 14*x^4 + 22*x^3 + x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1764929993689|x^10 - x^9 - 9*x^8 + 7*x^7 + 28*x^6 - 15*x^5 - 35*x^4 + 11*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|1769721503125|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 25*x^5 - 28*x^4 + 14*x^3 + 13*x^2 - x - 1|minVar(gen)=49/25|nu=5/4|primitive=0
+10|1776317543261|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 36*x^5 - 15*x^4 + 29*x^3 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|1784094197341|x^10 - 4*x^9 - 2*x^8 + 21*x^7 - 6*x^6 - 36*x^5 + 15*x^4 + 23*x^3 - 8*x^2 - 4*x + 1|minVar(gen)=46/25|nu=46/25|primitive=1
+10|1856732019733|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 40*x^4 - 9*x^3 + 16*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|1953336210512|x^10 - x^9 - 9*x^8 + 6*x^7 + 28*x^6 - 10*x^5 - 34*x^4 + 5*x^3 + 14*x^2 - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|1958895690625|x^10 - x^9 - 9*x^8 + 7*x^7 + 28*x^6 - 16*x^5 - 35*x^4 + 13*x^3 + 15*x^2 - 3*x - 1|minVar(gen)=189/100|nu=5/4|primitive=0
+10|1994625941504|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 39*x^4 - 16*x^3 + 14*x^2 + 8*x + 1|minVar(gen)=2|nu=2|primitive=0
+10|2017764235693|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 36*x^4 - 2*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|2061312753125|x^10 - 10*x^8 - x^7 + 34*x^6 + 4*x^5 - 46*x^4 - 2*x^3 + 22*x^2 - 2*x - 1|minVar(gen)=2|nu=5/4|primitive=0
+10|2102546304197|x^10 - 10*x^8 + 30*x^6 - 2*x^5 - 32*x^4 + 3*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|2103094840589|x^10 - 5*x^9 + 2*x^8 + 21*x^7 - 20*x^6 - 28*x^5 + 28*x^4 + 14*x^3 - 11*x^2 - 2*x + 1|minVar(gen)=37/20|nu=37/20|primitive=1
+10|2112566804973|x^10 - 10*x^8 + 31*x^6 - x^5 - 34*x^4 - x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|2195670595544|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 39*x^4 - 2*x^3 + 17*x^2 - 2|minVar(gen)=2|nu=2|primitive=1
+10|2266217883869|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 39*x^5 - 14*x^4 + 30*x^3 + 4*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|2277406656233|x^10 - 5*x^9 + 2*x^8 + 22*x^7 - 23*x^6 - 28*x^5 + 33*x^4 + 13*x^3 - 13*x^2 - 2*x + 1|minVar(gen)=37/20|nu=37/20|primitive=1
+10|2297175186029|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 22*x^6 - 38*x^5 - 24*x^4 + 37*x^3 + 8*x^2 - 11*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|2304702859321|x^10 - x^9 - 9*x^8 + 7*x^7 + 25*x^6 - 15*x^5 - 26*x^4 + 11*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|2338276604561|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 12*x^5 - 39*x^4 - 17*x^3 + 12*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|2349838017113|x^10 - 5*x^9 + 2*x^8 + 22*x^7 - 23*x^6 - 29*x^5 + 36*x^4 + 12*x^3 - 16*x^2 + 1|minVar(gen)=37/20|nu=37/20|primitive=0
+10|2372267442176|x^10 - 4*x^9 - 2*x^8 + 22*x^7 - 8*x^6 - 38*x^5 + 19*x^4 + 24*x^3 - 10*x^2 - 4*x + 1|minVar(gen)=46/25|nu=46/25|primitive=0
+10|2446420416569|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 11*x^5 - 31*x^4 - 10*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|2467196253125|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 15*x^5 - 27*x^4 + 10*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=189/100|nu=5/4|primitive=0
+10|2486686295417|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 15*x^5 - 30*x^4 + 11*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|2505570811904|x^10 - 4*x^9 - 2*x^8 + 22*x^7 - 9*x^6 - 36*x^5 + 21*x^4 + 20*x^3 - 11*x^2 - 2*x + 1|minVar(gen)=46/25|nu=46/25|primitive=0
+10|2506211687897|x^10 - 10*x^8 + 31*x^6 - x^5 - 36*x^4 + x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|2594091826237|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 17*x^6 - 33*x^5 - 14*x^4 + 22*x^3 + 5*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|2601619878125|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 38*x^5 - 8*x^4 + 27*x^3 - 4*x^2 - 4*x + 1|minVar(gen)=49/25|nu=5/4|primitive=0
+10|2667938440625|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 23*x^4 + 26*x^3 + 6*x^2 - 7*x + 1|minVar(gen)=49/25|nu=5/4|primitive=0
+10|2679312743397|x^10 - 10*x^8 - 2*x^7 + 28*x^6 + 6*x^5 - 29*x^4 - 5*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|2684881200109|x^10 - x^9 - 9*x^8 + 8*x^7 + 26*x^6 - 18*x^5 - 29*x^4 + 13*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|2694139840625|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 38*x^5 - 16*x^4 + 31*x^3 + 4*x^2 - 7*x + 1|minVar(gen)=49/25|nu=5/4|primitive=0
+10|2743063777817|x^10 - 10*x^8 - x^7 + 34*x^6 + 7*x^5 - 45*x^4 - 15*x^3 + 18*x^2 + 9*x + 1|minVar(gen)=2|nu=2|primitive=1
+10|2836711616909|x^10 - 2*x^9 - 8*x^8 + 17*x^7 + 17*x^6 - 42*x^5 - 7*x^4 + 32*x^3 - 3*x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|2938238644357|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 11*x^5 - 38*x^4 - 17*x^3 + 13*x^2 + 8*x + 1|minVar(gen)=2|nu=2|primitive=1
+10|2976342013693|x^10 - 5*x^9 + 2*x^8 + 21*x^7 - 20*x^6 - 29*x^5 + 30*x^4 + 15*x^3 - 13*x^2 - 2*x + 1|minVar(gen)=37/20|nu=37/20|primitive=1
+10|2992855204457|x^10 - 10*x^8 - 2*x^7 + 29*x^6 + 6*x^5 - 30*x^4 - 5*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|3002691015680|x^10 - 10*x^8 + 35*x^6 - 51*x^4 + 29*x^2 - 5|minVar(gen)=2|nu=46/25|primitive=0
+10|3025859253125|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 37*x^5 - 20*x^4 + 33*x^3 + 5*x^2 - 8*x + 1|minVar(gen)=49/25|nu=5/4|primitive=0
+10|3071049273797|x^10 - 10*x^8 - 2*x^7 + 29*x^6 + 5*x^5 - 30*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|3101119745341|x^10 - 10*x^8 - 3*x^7 + 30*x^6 + 12*x^5 - 32*x^4 - 12*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|3215246694173|x^10 - x^9 - 9*x^8 + 8*x^7 + 27*x^6 - 20*x^5 - 31*x^4 + 17*x^3 + 12*x^2 - 4*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|3277645521089|x^10 - x^9 - 9*x^8 + 8*x^7 + 25*x^6 - 17*x^5 - 26*x^4 + 11*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|3277687628125|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 36*x^4 - x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=5/4|primitive=0
+10|3282709222957|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 14*x^5 - 32*x^4 + 8*x^3 + 13*x^2 - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|3297288213341|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 38*x^4 + 3*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|3367851701161|x^10 - 10*x^8 + 34*x^6 - x^5 - 45*x^4 + 5*x^3 + 20*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|3480687284381|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 30*x^5 - 20*x^4 + 19*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|3485125802861|x^10 - x^9 - 9*x^8 + 6*x^7 + 28*x^6 - 11*x^5 - 35*x^4 + 6*x^3 + 15*x^2 - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|3519364997089|x^10 - 2*x^9 - 8*x^8 + 12*x^7 + 21*x^6 - 21*x^5 - 21*x^4 + 12*x^3 + 8*x^2 - 2*x - 1|minVar(gen)=49/25|nu=46/25|primitive=0
+10|3567418799437|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 25*x^5 - 27*x^4 + 14*x^3 + 12*x^2 - x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|3582703010701|x^10 - 10*x^8 - x^7 + 28*x^6 + 3*x^5 - 28*x^4 - x^3 + 10*x^2 - 1|minVar(gen)=2|nu=46/25|primitive=0
+10|3621268234432|x^10 - 2*x^9 - 8*x^8 + 17*x^7 + 18*x^6 - 44*x^5 - 9*x^4 + 37*x^3 - 3*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|3628773830537|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 12*x^5 - 40*x^4 - 19*x^3 + 14*x^2 + 9*x + 1|minVar(gen)=2|nu=2|primitive=1
+10|3744566823265|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 19*x^6 - 25*x^5 - 19*x^4 + 14*x^3 + 8*x^2 - 2*x - 1|minVar(gen)=49/25|nu=46/25|primitive=0
+10|3763126214549|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 29*x^5 - 26*x^4 + 19*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=0
+10|3783709132969|x^10 - 10*x^8 - x^7 + 34*x^6 + 7*x^5 - 45*x^4 - 13*x^3 + 19*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|3798829372193|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + x^3 + 18*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|3870088137728|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 19*x^4 + 24*x^3 + 3*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|3921002995349|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 14*x^5 - 27*x^4 + 8*x^3 + 10*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|3958039387661|x^10 - 10*x^8 - x^7 + 30*x^6 + 3*x^5 - 30*x^4 - x^3 + 10*x^2 - 1|minVar(gen)=2|nu=46/25|primitive=0
+10|4011061825361|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 22*x^6 - 37*x^5 - 24*x^4 + 34*x^3 + 8*x^2 - 9*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4060491166293|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 32*x^5 - 27*x^4 + 26*x^3 + 10*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4089169263113|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 35*x^5 - 18*x^4 + 30*x^3 + 3*x^2 - 8*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4151391026273|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 34*x^5 - 17*x^4 + 26*x^3 + 3*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4170754692373|x^10 - x^9 - 9*x^8 + 8*x^7 + 26*x^6 - 19*x^5 - 27*x^4 + 13*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|4185068668717|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 36*x^5 - 13*x^4 + 27*x^3 + x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4257529248941|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 37*x^5 - 18*x^4 + 30*x^3 + 7*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4271980557973|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 45*x^4 - 9*x^3 + 20*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|4281430590464|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 30*x^5 - 29*x^4 + 20*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4307212968197|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 11*x^5 - 40*x^4 - 14*x^3 + 16*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|4333316152769|x^10 - 10*x^8 - x^7 + 34*x^6 + 5*x^5 - 45*x^4 - 5*x^3 + 21*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|4369170490717|x^10 - 10*x^8 - 2*x^7 + 29*x^6 + 8*x^5 - 29*x^4 - 6*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|4398046737457|x^10 - 10*x^8 - 3*x^7 + 29*x^6 + 11*x^5 - 30*x^4 - 10*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|4413746221397|x^10 - 10*x^8 - x^7 + 34*x^6 + 7*x^5 - 44*x^4 - 13*x^3 + 16*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|4491084303113|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 34*x^5 - 22*x^4 + 24*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=0
+10|4538162184173|x^10 - 2*x^9 - 8*x^8 + 12*x^7 + 22*x^6 - 21*x^5 - 23*x^4 + 12*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4618505415421|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 20*x^6 - 40*x^5 - 17*x^4 + 33*x^3 + 5*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4630601615729|x^10 - 5*x^9 + 2*x^8 + 22*x^7 - 23*x^6 - 29*x^5 + 35*x^4 + 14*x^3 - 15*x^2 - 2*x + 1|minVar(gen)=37/20|nu=37/20|primitive=0
+10|4698223957949|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 33*x^5 - 20*x^4 + 25*x^3 + 8*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4699598058157|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 32*x^5 - 20*x^4 + 21*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4706988783517|x^10 - x^9 - 9*x^8 + 6*x^7 + 27*x^6 - 12*x^5 - 32*x^4 + 9*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|4758084922709|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 31*x^5 - 28*x^4 + 23*x^3 + 13*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|4778186337437|x^10 - x^9 - 9*x^8 + 6*x^7 + 26*x^6 - 12*x^5 - 29*x^4 + 9*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|4998487558117|x^10 - x^9 - 9*x^8 + 6*x^7 + 27*x^6 - 10*x^5 - 31*x^4 + 5*x^3 + 12*x^2 - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|5036011039529|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 15*x^5 - 29*x^4 + 12*x^3 + 11*x^2 - 3*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|5063302752029|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 21*x^6 - 23*x^5 - 22*x^4 + 13*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|5160742025869|x^10 - x^9 - 9*x^8 + 6*x^7 + 26*x^6 - 11*x^5 - 28*x^4 + 7*x^3 + 10*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|5247563672573|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 23*x^4 + 24*x^3 + 7*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|5307391448301|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 20*x^6 - 41*x^5 - 16*x^4 + 37*x^3 + x^2 - 8*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|5342099090797|x^10 - x^9 - 9*x^8 + 8*x^7 + 27*x^6 - 20*x^5 - 32*x^4 + 18*x^3 + 13*x^2 - 5*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|5348141611213|x^10 - 10*x^8 - x^7 + 34*x^6 + 7*x^5 - 46*x^4 - 15*x^3 + 20*x^2 + 10*x + 1|minVar(gen)=2|nu=2|primitive=1
+10|5356270589773|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 20*x^4 + 18*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|5411670517877|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 14*x^5 - 28*x^4 + 10*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|5582159771261|x^10 - 10*x^8 - x^7 + 30*x^6 + 6*x^5 - 30*x^4 - 5*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|5625842755661|x^10 - x^9 - 9*x^8 + 8*x^7 + 26*x^6 - 20*x^5 - 27*x^4 + 16*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|5646406348733|x^10 - 10*x^8 - x^7 + 34*x^6 + 5*x^5 - 46*x^4 - 5*x^3 + 22*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|5661500525461|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 21*x^4 + 27*x^3 + 9*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|5682077004029|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 14*x^5 - 28*x^4 + 8*x^3 + 11*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|6020691144037|x^10 - x^9 - 9*x^8 + 6*x^7 + 27*x^6 - 10*x^5 - 30*x^4 + 6*x^3 + 11*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|6040386569561|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 24*x^5 - 23*x^4 + 14*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6140164483669|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 22*x^6 - 36*x^5 - 26*x^4 + 32*x^3 + 12*x^2 - 8*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6167509583213|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 39*x^5 - 7*x^4 + 28*x^3 - 5*x^2 - 4*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6183526347776|x^10 - 2*x^9 - 8*x^8 + 12*x^7 + 23*x^6 - 22*x^5 - 26*x^4 + 14*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6285880818829|x^10 - 2*x^9 - 8*x^8 + 12*x^7 + 22*x^6 - 23*x^5 - 24*x^4 + 16*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6292313084321|x^10 - 5*x^9 + 2*x^8 + 22*x^7 - 24*x^6 - 26*x^5 + 35*x^4 + 9*x^3 - 14*x^2 + 1|minVar(gen)=37/20|nu=37/20|primitive=0
+10|6358148947737|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 20*x^6 - 40*x^5 - 18*x^4 + 36*x^3 + 4*x^2 - 9*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6384796554797|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 31*x^5 - 21*x^4 + 24*x^3 + 7*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6427838081981|x^10 - x^9 - 9*x^8 + 8*x^7 + 26*x^6 - 19*x^5 - 28*x^4 + 14*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|6457490789333|x^10 - 10*x^8 + 30*x^6 - 34*x^4 - x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|6501448941157|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 34*x^5 - 23*x^4 + 26*x^3 + 11*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6568360015933|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 36*x^5 - 14*x^4 + 25*x^3 + 6*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6640866685421|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 29*x^5 - 26*x^4 + 18*x^3 + 13*x^2 - x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6707391041857|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 43*x^4 - 2*x^3 + 20*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|6756634415177|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 25*x^4 + 23*x^3 + 12*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6828158927389|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 32*x^5 - 23*x^4 + 27*x^3 + 6*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6845195942461|x^10 - 10*x^8 + 34*x^6 - 2*x^5 - 47*x^4 + 7*x^3 + 23*x^2 - 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|6902762912153|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 33*x^5 - 19*x^4 + 24*x^3 + 6*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|6939864042569|x^10 - x^9 - 9*x^8 + 7*x^7 + 28*x^6 - 15*x^5 - 35*x^4 + 10*x^3 + 15*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|7021627926589|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 37*x^4 - 13*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|7063593024833|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 35*x^5 - 15*x^4 + 27*x^3 + x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7106650249337|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 34*x^5 - 13*x^4 + 25*x^3 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7148904723621|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 21*x^4 + 28*x^3 + 6*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7154577897769|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 36*x^5 - 19*x^4 + 31*x^3 + 2*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7181222380997|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 10*x^5 - 32*x^4 - 8*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|7290998674277|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 16*x^5 - 31*x^4 + 13*x^3 + 12*x^2 - 3*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|7294748261509|x^10 - 10*x^8 + 32*x^6 - 3*x^5 - 38*x^4 + 7*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|7320859655444|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 38*x^4 - 7*x^3 + 16*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|7394522824961|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 26*x^5 - 24*x^4 + 19*x^3 + 9*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7467531178157|x^10 - 10*x^8 - 3*x^7 + 30*x^6 + 12*x^5 - 31*x^4 - 11*x^3 + 10*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|7474567904789|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 44*x^4 - 9*x^3 + 16*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|7486504819309|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 33*x^5 - 13*x^4 + 24*x^3 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7645511408261|x^10 - 10*x^8 - x^7 + 33*x^6 + 7*x^5 - 40*x^4 - 11*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|7824041982941|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 27*x^5 - 28*x^4 + 19*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7868592219221|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 34*x^5 - 20*x^4 + 27*x^3 + 8*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7869780819733|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 28*x^5 - 18*x^4 + 17*x^3 + 7*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7877367829417|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 24*x^6 - 26*x^5 - 31*x^4 + 16*x^3 + 14*x^2 - x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|7949336335297|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 24*x^6 - 27*x^5 - 31*x^4 + 19*x^3 + 14*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8025911152037|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 35*x^4 - 9*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|8035123942345|x^10 - 10*x^8 - x^7 + 32*x^6 + 7*x^5 - 36*x^4 - 10*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|8037829750589|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 32*x^5 - 28*x^4 + 27*x^3 + 13*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8041486577813|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 27*x^5 - 21*x^4 + 16*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8072556439153|x^10 - 2*x^9 - 8*x^8 + 17*x^7 + 16*x^6 - 40*x^5 - 4*x^4 + 27*x^3 - 5*x^2 - 4*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8137695849389|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 26*x^5 - 26*x^4 + 19*x^3 + 10*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8161685138197|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 21*x^4 + 29*x^3 + 5*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8187289486336|x^10 - 10*x^8 + 29*x^6 - 30*x^4 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|8222627418557|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 20*x^6 - 23*x^5 - 20*x^4 + 13*x^3 + 8*x^2 - 2*x - 1|minVar(gen)=49/25|nu=46/25|primitive=0
+10|8262404262184|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 45*x^4 - 10*x^3 + 19*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|8263256889557|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 25*x^4 + 21*x^3 + 12*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8275219648789|x^10 - x^9 - 9*x^8 + 8*x^7 + 26*x^6 - 19*x^5 - 29*x^4 + 16*x^3 + 11*x^2 - 4*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|8393439711061|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 16*x^5 - 32*x^4 + 14*x^3 + 13*x^2 - 4*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|8421885458957|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 11*x^5 - 40*x^4 - 16*x^3 + 13*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|8500477562597|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 23*x^4 + 30*x^3 + 10*x^2 - 7*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8586751151533|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 23*x^4 + 22*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8614126038437|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 34*x^5 - 22*x^4 + 25*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8624475720989|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 22*x^4 + 20*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8689875920621|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 43*x^4 - 4*x^3 + 19*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|8730901835069|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 33*x^5 - 14*x^4 + 25*x^3 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|8860099934464|x^10 - 10*x^8 + 33*x^6 - 40*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|8898312596093|x^10 - x^9 - 9*x^8 + 8*x^7 + 25*x^6 - 18*x^5 - 25*x^4 + 12*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|8978345535509|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 18*x^6 - 33*x^5 - 12*x^4 + 25*x^3 - x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9047388461149|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 36*x^5 - 19*x^4 + 30*x^3 + 3*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9067734323693|x^10 - 10*x^8 + 31*x^6 - x^5 - 32*x^4 + 3*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|9079746239725|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 29*x^5 - 25*x^4 + 18*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9133420629545|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 33*x^5 - 20*x^4 + 24*x^3 + 9*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9202712233261|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 27*x^5 - 24*x^4 + 19*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9234852318449|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 7*x^5 - 31*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|9258451020433|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 41*x^4 - 8*x^3 + 18*x^2 + 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|9308068543781|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 15*x^5 - 31*x^4 + 12*x^3 + 12*x^2 - 3*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|9434299886689|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 17*x^6 - 37*x^5 - 7*x^4 + 26*x^3 - 4*x^2 - 4*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9483402361877|x^10 - 10*x^8 + 34*x^6 - 46*x^4 - x^3 + 23*x^2 + x - 3|minVar(gen)=2|nu=2|primitive=1
+10|9486705805684|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 7*x^5 - 37*x^4 - 7*x^3 + 16*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|9513884606257|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 14*x^5 - 29*x^4 + 9*x^3 + 11*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|9521921238161|x^10 - 10*x^8 + 29*x^6 - x^5 - 29*x^4 + 10*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|9689043130133|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 34*x^5 - 17*x^4 + 23*x^3 + 6*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9783797250837|x^10 - 10*x^8 + 33*x^6 - x^5 - 40*x^4 + 3*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|9909479463229|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 18*x^6 - 32*x^5 - 12*x^4 + 23*x^3 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|9972164998889|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 41*x^4 - 9*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|9987591632272|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 35*x^4 - 3*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|10027100233729|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 35*x^5 - 17*x^4 + 28*x^3 + 3*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10032175010249|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 33*x^5 - 15*x^4 + 26*x^3 + x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10063180071309|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 20*x^6 - 40*x^5 - 18*x^4 + 35*x^3 + 5*x^2 - 7*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10069049934821|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 38*x^5 - 16*x^4 + 30*x^3 + 5*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10232261302073|x^10 - 10*x^8 + 33*x^6 - 40*x^4 - x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|10387427619593|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 7*x^5 - 32*x^4 - 5*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|10500321755717|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 25*x^4 + 23*x^3 + 10*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10586701341701|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 9*x^5 - 34*x^4 - 8*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|10644122369373|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 22*x^6 - 37*x^5 - 24*x^4 + 33*x^3 + 9*x^2 - 7*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10685244395209|x^10 - 10*x^8 + 33*x^6 - 2*x^5 - 43*x^4 + 5*x^3 + 20*x^2 - 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|10720503762061|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 32*x^5 - 28*x^4 + 26*x^3 + 13*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10785289554944|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 17*x^6 - 36*x^5 - 8*x^4 + 26*x^3 - 4*x^2 - 4*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|10845277477229|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 32*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|11056266386621|x^10 - 10*x^8 - x^7 + 29*x^6 + 3*x^5 - 31*x^4 - 3*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|11099608284725|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 35*x^4 - 9*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|11377597470013|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 27*x^5 - 27*x^4 + 21*x^3 + 11*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|11461844565904|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 21*x^4 + 27*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|11469654852608|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 10*x^5 - 42*x^4 - 14*x^3 + 18*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|11598671105437|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 36*x^5 - 21*x^4 + 30*x^3 + 7*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|11633946085748|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 34*x^4 - 7*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|11811690896329|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 26*x^5 - 26*x^4 + 18*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|11837630500397|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 33*x^4 - 4*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|11871581318713|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 45*x^4 - 10*x^3 + 19*x^2 + 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|11907309027349|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 15*x^5 - 31*x^4 + 10*x^3 + 12*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|12003184329317|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 35*x^5 - 12*x^4 + 26*x^3 - x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|12058631273741|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 11*x^5 - 40*x^4 - 15*x^3 + 15*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|12101838629113|x^10 - 10*x^8 - x^7 + 34*x^6 + 5*x^5 - 45*x^4 - 6*x^3 + 19*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|12119985493381|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 21*x^4 + 20*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|12167152346389|x^10 - 10*x^8 + 33*x^6 - x^5 - 40*x^4 + 4*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|12209030621653|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 35*x^5 - 13*x^4 + 28*x^3 - 2*x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|12246000735853|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 36*x^4 - 3*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|12309905276629|x^10 - 10*x^8 + 31*x^6 - 2*x^5 - 34*x^4 + 4*x^3 + 11*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|12331340823997|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 24*x^4 + 25*x^3 + 9*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|12429425947648|x^10 - 10*x^8 - 2*x^7 + 33*x^6 + 12*x^5 - 40*x^4 - 20*x^3 + 12*x^2 + 8*x + 1|minVar(gen)=2|nu=2|primitive=1
+10|12478338136769|x^10 - 10*x^8 + 33*x^6 - x^5 - 40*x^4 + 3*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|12486567137701|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 31*x^5 - 17*x^4 + 19*x^3 + 7*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|12609786011561|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 40*x^4 - 10*x^3 + 14*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|12689418116497|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 43*x^4 - 6*x^3 + 21*x^2 + 2*x - 3|minVar(gen)=2|nu=2|primitive=1
+10|12721919245933|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 34*x^5 - 17*x^4 + 27*x^3 + 2*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|12858134966272|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 24*x^4 + 22*x^3 + 9*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|12914732395309|x^10 - 10*x^8 - x^7 + 29*x^6 + 4*x^5 - 31*x^4 - 4*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|13100115454057|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 32*x^5 - 20*x^4 + 27*x^3 + 4*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|13152540879893|x^10 - 10*x^8 + 34*x^6 - 46*x^4 - x^3 + 21*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|13242905545728|x^10 - 10*x^8 + 32*x^6 - 41*x^4 + 20*x^2 - 3|minVar(gen)=2|nu=2|primitive=0
+10|13301845671221|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 26*x^4 + 21*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|13318790994937|x^10 - 10*x^8 + 33*x^6 - 2*x^5 - 42*x^4 + 5*x^3 + 16*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|13519894058857|x^10 - 10*x^8 + 34*x^6 - x^5 - 45*x^4 + 3*x^3 + 18*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|13719814573901|x^10 - x^9 - 9*x^8 + 8*x^7 + 26*x^6 - 19*x^5 - 28*x^4 + 15*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|13792484858869|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 29*x^5 - 18*x^4 + 18*x^3 + 7*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|13861171193621|x^10 - 10*x^8 + 34*x^6 - x^5 - 47*x^4 + 4*x^3 + 23*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|13995677387477|x^10 - 10*x^8 - x^7 + 31*x^6 + 2*x^5 - 36*x^4 - x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|14015980293184|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 24*x^5 - 25*x^4 + 13*x^3 + 11*x^2 - x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|14045002974053|x^10 - 10*x^8 + 30*x^6 - x^5 - 31*x^4 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|14066292023753|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 31*x^5 - 29*x^4 + 24*x^3 + 14*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|14121268133101|x^10 - x^9 - 9*x^8 + 6*x^7 + 27*x^6 - 11*x^5 - 31*x^4 + 7*x^3 + 12*x^2 - x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|14122564376636|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 38*x^4 - x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|14129386194041|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 23*x^6 - 32*x^5 - 28*x^4 + 27*x^3 + 12*x^2 - 7*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|14171175419904|x^10 - 10*x^8 + 31*x^6 - 2*x^5 - 34*x^4 + 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|14182876512256|x^10 - 10*x^8 + 30*x^6 - 33*x^4 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|14221163109337|x^10 - 10*x^8 - x^7 + 31*x^6 + 6*x^5 - 34*x^4 - 6*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|14281950396709|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 38*x^5 - 15*x^4 + 28*x^3 + 6*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|14350000090112|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 38*x^5 - 16*x^4 + 30*x^3 + 6*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|14453548336573|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 40*x^4 - 5*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|14603201714989|x^10 - 10*x^8 - 2*x^7 + 29*x^6 + 7*x^5 - 30*x^4 - 6*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|14622249926461|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 9*x^5 - 31*x^4 - 8*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|14663612791561|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 36*x^4 - 6*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|14798497801613|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 22*x^4 + 22*x^3 + 9*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|14925351308557|x^10 - 10*x^8 + 30*x^6 - 2*x^5 - 31*x^4 + x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|14934365139889|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 25*x^5 - 23*x^4 + 16*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15029986589141|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 11*x^5 - 35*x^4 - 12*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|15047368661261|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 25*x^4 + 21*x^3 + 11*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15153345850337|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 25*x^5 - 25*x^4 + 15*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15378193874944|x^10 - 10*x^8 + 33*x^6 - 2*x^5 - 42*x^4 + 6*x^3 + 18*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=0
+10|15425483382217|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 22*x^4 + 21*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15446288925493|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 31*x^5 - 20*x^4 + 26*x^3 + 4*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15600264445952|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 6*x^5 - 33*x^4 - 4*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|15632388127553|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 28*x^5 - 19*x^4 + 18*x^3 + 7*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15722220989593|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 37*x^5 - 11*x^4 + 27*x^3 - x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15820622124317|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 32*x^5 - 16*x^4 + 21*x^3 + 6*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|15915762216901|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 8*x^5 - 33*x^4 - 9*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|16101034110797|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 26*x^5 - 21*x^4 + 15*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16380248268217|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 21*x^4 + 28*x^3 + 7*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16421893447189|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 24*x^5 - 24*x^4 + 14*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16479928900821|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 38*x^5 - 9*x^4 + 29*x^3 - 5*x^2 - 4*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16497659641856|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 38*x^4 + 4*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=0
+10|16535314516321|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 22*x^6 - 37*x^5 - 25*x^4 + 34*x^3 + 11*x^2 - 9*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16595077096448|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 32*x^5 - 23*x^4 + 28*x^3 + 6*x^2 - 8*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16671709895101|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 35*x^5 - 16*x^4 + 25*x^3 + 7*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16695635330048|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 37*x^4 - 10*x^3 + 15*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|16769565518373|x^10 - 10*x^8 + 33*x^6 - 40*x^4 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|16835999161757|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 28*x^5 - 20*x^4 + 19*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|16949169118029|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 34*x^4 - x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|17007539615761|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 8*x^5 - 30*x^4 - 6*x^3 + 10*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|17080498335433|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 26*x^4 + 22*x^3 + 12*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17161232729461|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 35*x^5 - 16*x^4 + 27*x^3 + 2*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17220430848473|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 18*x^6 - 29*x^5 - 17*x^4 + 18*x^3 + 7*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17225370290641|x^10 - 10*x^8 - x^7 + 34*x^6 + 5*x^5 - 46*x^4 - 6*x^3 + 23*x^2 + 2*x - 3|minVar(gen)=2|nu=2|primitive=1
+10|17353644058061|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 40*x^4 - 5*x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|17449780119389|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 21*x^6 - 25*x^5 - 22*x^4 + 15*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17464843343081|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 23*x^4 + 19*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17484286804617|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 19*x^6 - 39*x^5 - 13*x^4 + 32*x^3 - 2*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17545236168249|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 31*x^5 - 19*x^4 + 25*x^3 + 3*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17619379968061|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 24*x^4 + 21*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17796986643061|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 24*x^4 + 21*x^3 + 10*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|17800508318957|x^10 - 10*x^8 - 2*x^7 + 29*x^6 + 7*x^5 - 30*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|18047847195361|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 22*x^4 + 23*x^3 + 8*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|18136882323149|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 29*x^5 - 19*x^4 + 20*x^3 + 7*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|18139954708193|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 32*x^5 - 21*x^4 + 22*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|18147251114861|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 21*x^6 - 25*x^5 - 22*x^4 + 16*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|18238771936777|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 34*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|18297725688413|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 8*x^5 - 40*x^4 - 9*x^3 + 18*x^2 + 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|18413098961821|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 40*x^4 - 10*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|18487142288393|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 31*x^5 - 17*x^4 + 25*x^3 + 2*x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|18554873968441|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 45*x^4 - 10*x^3 + 18*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|18616642073101|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 26*x^5 - 24*x^4 + 17*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|18720524244529|x^10 - 10*x^8 + 33*x^6 - 41*x^4 - x^3 + 18*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|19068244134353|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 21*x^4 + 26*x^3 + 9*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|19167670643557|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 19*x^6 - 27*x^5 - 18*x^4 + 17*x^3 + 7*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|19503692010757|x^10 - x^9 - 9*x^8 + 7*x^7 + 26*x^6 - 15*x^5 - 28*x^4 + 11*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|19507294341193|x^10 - 10*x^8 - x^7 + 32*x^6 + 7*x^5 - 37*x^4 - 10*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|19542068483792|x^10 - 10*x^8 + 34*x^6 - x^5 - 45*x^4 + 4*x^3 + 19*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|19567503651437|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 32*x^4 - 4*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|19600445960893|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 33*x^5 - 20*x^4 + 25*x^3 + 7*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|19711827690669|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 8*x^3 + 17*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|19757687563997|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 36*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|19786977623069|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 34*x^5 - 18*x^4 + 25*x^3 + 6*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|19898382669965|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 40*x^4 - 6*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|20290821929437|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 17*x^6 - 36*x^5 - 9*x^4 + 26*x^3 - 2*x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|20394824683661|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 11*x^5 - 36*x^4 - 14*x^3 + 11*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|20626863717769|x^10 - 10*x^8 - x^7 + 32*x^6 + 7*x^5 - 37*x^4 - 10*x^3 + 13*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|20683036523137|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 22*x^4 + 28*x^3 + 10*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|20703737058913|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 24*x^4 + 20*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|20730475370261|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 40*x^4 - 5*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|20762091728156|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 34*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|20821105095517|x^10 - 10*x^8 + 31*x^6 - 33*x^4 - 2*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|20868228874832|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 34*x^5 - 18*x^4 + 28*x^3 + 3*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|20887301738861|x^10 - 10*x^8 + 34*x^6 - x^5 - 45*x^4 + 4*x^3 + 19*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|21295345337344|x^10 - 10*x^8 + 34*x^6 - 45*x^4 + 18*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|21403043692361|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 37*x^4 - 3*x^3 + 16*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|21443272596101|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 9*x^5 - 38*x^4 - 11*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|21586877024513|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 26*x^5 - 27*x^4 + 17*x^3 + 11*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|21590049250304|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 25*x^4 + 20*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|21828422590901|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 44*x^4 - 5*x^3 + 22*x^2 + 2*x - 3|minVar(gen)=2|nu=2|primitive=1
+10|21844466054981|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 9*x^5 - 32*x^4 - 7*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|22213904844077|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 21*x^6 - 25*x^5 - 21*x^4 + 16*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|22366056587393|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 34*x^4 - 7*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|22522082617193|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 40*x^4 - 4*x^3 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|22591387190413|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 26*x^5 - 28*x^4 + 17*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|22594738943029|x^10 - 10*x^8 + 34*x^6 - 45*x^4 - x^3 + 19*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|22618126823077|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 33*x^5 - 20*x^4 + 23*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|22675883419157|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 25*x^4 + 24*x^3 + 11*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|22706442200413|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 46*x^4 - 10*x^3 + 22*x^2 + 5*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|22970784236492|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 7*x^3 + 17*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|23170769086897|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 9*x^5 - 37*x^4 - 9*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|23353316010257|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 36*x^5 - 21*x^4 + 30*x^3 + 8*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|23485549390453|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 15*x^5 - 31*x^4 + 11*x^3 + 12*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|23613388914061|x^10 - 10*x^8 - x^7 + 34*x^6 + 5*x^5 - 46*x^4 - 7*x^3 + 21*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|23718569053341|x^10 - 10*x^8 + 31*x^6 - 2*x^5 - 36*x^4 + 4*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|23759271570653|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 37*x^5 - 12*x^4 + 29*x^3 - x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|23970513615229|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 38*x^4 - 4*x^3 + 16*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|23980832984853|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 35*x^5 - 16*x^4 + 29*x^3 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|24069975689017|x^10 - x^9 - 9*x^8 + 7*x^7 + 27*x^6 - 15*x^5 - 32*x^4 + 11*x^3 + 13*x^2 - 2*x - 1|minVar(gen)=189/100|nu=189/100|primitive=1
+10|24255678776877|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 39*x^4 - 9*x^3 + 16*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|24360213303005|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 41*x^4 - 2*x^3 + 17*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|24416789414949|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 38*x^5 - 10*x^4 + 29*x^3 - 3*x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|24473075172769|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 30*x^5 - 19*x^4 + 19*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|24568138663977|x^10 - 10*x^8 + 31*x^6 - 35*x^4 - x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|24700979508697|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 34*x^5 - 23*x^4 + 26*x^3 + 10*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|24702588735569|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 37*x^5 - 11*x^4 + 28*x^3 - 2*x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|24719597101832|x^10 - 10*x^8 + 31*x^6 - x^5 - 35*x^4 + x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|24813117871817|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 21*x^6 - 26*x^5 - 21*x^4 + 17*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|24953309168741|x^10 - 10*x^8 - x^7 + 33*x^6 + 7*x^5 - 41*x^4 - 12*x^3 + 14*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|25138969133032|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 37*x^4 - 4*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|25197375723389|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 17*x^6 - 35*x^5 - 10*x^4 + 25*x^3 - x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|25426399830917|x^10 - 2*x^9 - 8*x^8 + 16*x^7 + 18*x^6 - 38*x^5 - 9*x^4 + 27*x^3 - 2*x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|25511461303256|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 37*x^4 - 6*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|25521787625517|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 34*x^4 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|25577679989273|x^10 - 10*x^8 - x^7 + 29*x^6 + 3*x^5 - 31*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|25622074609553|x^10 - 10*x^8 + 33*x^6 - x^5 - 41*x^4 + 3*x^3 + 17*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|26186087334977|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 32*x^5 - 17*x^4 + 22*x^3 + 6*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|26232991622329|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 33*x^5 - 19*x^4 + 24*x^3 + 7*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|26754876357632|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 8*x^5 - 39*x^4 - 8*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|26966577482384|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 7*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|27486923821069|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 36*x^5 - 20*x^4 + 31*x^3 + 4*x^2 - 8*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|27715833019157|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 28*x^5 - 22*x^4 + 18*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|27787865167169|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 27*x^5 - 27*x^4 + 20*x^3 + 11*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|28075193091037|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 9*x^5 - 39*x^4 - 12*x^3 + 15*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|28601841945581|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 34*x^4 - 3*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|28756089343021|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 34*x^4 - 6*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|28814809789741|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 36*x^4 - 4*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|28908743372893|x^10 - 10*x^8 - x^7 + 33*x^6 + 3*x^5 - 43*x^4 - x^3 + 19*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|29246375874109|x^10 - 10*x^8 - x^7 + 30*x^6 + 4*x^5 - 32*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|29476743025321|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 25*x^4 + 23*x^3 + 11*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|29562137913869|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 7*x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|29803534390409|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 25*x^4 + 25*x^3 + 10*x^2 - 6*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|30060962152448|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 37*x^4 - 12*x^3 + 14*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=0
+10|30292109703277|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 38*x^4 - 7*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|30332754202397|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 38*x^4 - 13*x^3 + 14*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|30720937047821|x^10 - 10*x^8 - x^7 + 33*x^6 + 7*x^5 - 40*x^4 - 12*x^3 + 13*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|30867431409709|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 37*x^4 - 3*x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|31070814825293|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 34*x^5 - 14*x^4 + 26*x^3 + x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|31557576440281|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 9*x^5 - 33*x^4 - 9*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|31646474871489|x^10 - 10*x^8 + 34*x^6 - 45*x^4 + 19*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|32494656842752|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 8*x^5 - 33*x^4 - 8*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|32506990320640|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 37*x^4 - 12*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|32556751707881|x^10 - 10*x^8 + 34*x^6 - x^5 - 46*x^4 + 3*x^3 + 21*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+10|32711585867837|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 43*x^4 - 4*x^3 + 21*x^2 + x - 3|minVar(gen)=2|nu=2|primitive=1
+10|32967176401217|x^10 - 10*x^8 + 32*x^6 - x^5 - 39*x^4 + 3*x^3 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|33208011006461|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 34*x^5 - 19*x^4 + 25*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|33571877546861|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 28*x^5 - 23*x^4 + 18*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|33609515989537|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 27*x^5 - 24*x^4 + 20*x^3 + 9*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|33839682164693|x^10 - 10*x^8 + 32*x^6 - 36*x^4 - x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|33870317976977|x^10 - 10*x^8 + 31*x^6 - x^5 - 33*x^4 + x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|33939161186661|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 38*x^4 - 5*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|34317673807181|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 23*x^6 - 26*x^5 - 27*x^4 + 18*x^3 + 11*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|34413005983601|x^10 - 10*x^8 - x^7 + 31*x^6 + 6*x^5 - 33*x^4 - 5*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|34674587777497|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 21*x^4 + 20*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|34709498065097|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 37*x^4 - 4*x^3 + 16*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|34735474086857|x^10 - 10*x^8 + 34*x^6 - x^5 - 47*x^4 + 3*x^3 + 24*x^2 - 2*x - 3|minVar(gen)=2|nu=2|primitive=1
+10|35633463249133|x^10 - 10*x^8 - x^7 + 30*x^6 + 4*x^5 - 33*x^4 - 3*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|35728640222669|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 21*x^6 - 24*x^5 - 22*x^4 + 14*x^3 + 9*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|36159573839713|x^10 - 10*x^8 + 32*x^6 - x^5 - 37*x^4 + x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|36168825162752|x^10 - 10*x^8 + 32*x^6 - 39*x^4 - 2*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|36352588015421|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 42*x^4 - 9*x^3 + 18*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|36407963953313|x^10 - 10*x^8 - x^7 + 30*x^6 + 3*x^5 - 32*x^4 - 2*x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|36417246154329|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 9*x^5 - 35*x^4 - 10*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|37731761118208|x^10 - 10*x^8 + 33*x^6 - 2*x^5 - 41*x^4 + 6*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|38257956560413|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 24*x^4 + 23*x^3 + 9*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|38806044436589|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 34*x^5 - 13*x^4 + 26*x^3 - x^2 - 5*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|39133333689565|x^10 - 10*x^8 + 33*x^6 - x^5 - 40*x^4 + 4*x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|39467637075421|x^10 - 10*x^8 + 34*x^6 - x^5 - 46*x^4 + 3*x^3 + 21*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|39917919453169|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 46*x^4 - 11*x^3 + 21*x^2 + 6*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|40410235118881|x^10 - 10*x^8 - x^7 + 30*x^6 + 5*x^5 - 31*x^4 - 4*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|40576044032141|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 40*x^4 - 8*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|40759196296321|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 27*x^5 - 20*x^4 + 17*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|41101634117997|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 42*x^4 - 4*x^3 + 17*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|41669869044673|x^10 - 10*x^8 - x^7 + 32*x^6 + 2*x^5 - 40*x^4 + x^3 + 17*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|41873044241584|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 26*x^5 - 24*x^4 + 18*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|41992373290237|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 36*x^4 - 11*x^3 + 13*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|42079042550777|x^10 - 10*x^8 - x^7 + 30*x^6 + 2*x^5 - 32*x^4 - x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|43005474207521|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 9*x^5 - 39*x^4 - 11*x^3 + 16*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|43220277871021|x^10 - 2*x^9 - 8*x^8 + 13*x^7 + 22*x^6 - 25*x^5 - 24*x^4 + 15*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|43363757579264|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 21*x^4 + 22*x^3 + 7*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|43400037477241|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 9*x^5 - 33*x^4 - 8*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|43596210682873|x^10 - 10*x^8 + 34*x^6 - x^5 - 46*x^4 + 4*x^3 + 22*x^2 - 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|43745313283072|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 22*x^4 + 22*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|44886569863865|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 28*x^5 - 23*x^4 + 17*x^3 + 10*x^2 - 2*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|45166387457984|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 21*x^4 + 19*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|45336655068413|x^10 - 10*x^8 + 32*x^6 - 36*x^4 - x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|45479476300553|x^10 - 10*x^8 - x^7 + 30*x^6 + 3*x^5 - 31*x^4 - x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|45588542239025|x^10 - 10*x^8 - x^7 + 30*x^6 + 4*x^5 - 34*x^4 - 5*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|45874758368161|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 42*x^4 - 9*x^3 + 18*x^2 + 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|46032775033153|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 6*x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|46184094425393|x^10 - 10*x^8 - x^7 + 34*x^6 + 6*x^5 - 45*x^4 - 10*x^3 + 19*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|46208830359061|x^10 - 10*x^8 + 34*x^6 - 46*x^4 - x^3 + 22*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|46252223022376|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 40*x^4 - 9*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|46326910350489|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 36*x^4 - 6*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|46440272468992|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 39*x^4 + 4*x^3 + 16*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|46800015147013|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 33*x^4 - 4*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|47701573410061|x^10 - 10*x^8 + 30*x^6 - x^5 - 34*x^4 + 2*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|47720600834437|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 37*x^4 + 5*x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|47859558878208|x^10 - 10*x^8 + 33*x^6 - 44*x^4 + 22*x^2 - 3|minVar(gen)=2|nu=2|primitive=0
+10|47926375887025|x^10 - 10*x^8 + 33*x^6 - x^5 - 41*x^4 + 3*x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|48622209725497|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 40*x^4 - 8*x^3 + 17*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|49138336485989|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 19*x^6 - 31*x^5 - 18*x^4 + 21*x^3 + 7*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|49863482942464|x^10 - 10*x^8 + 33*x^6 - 40*x^4 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|50122396935977|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 35*x^5 - 17*x^4 + 29*x^3 + 2*x^2 - 7*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|50621427395584|x^10 - 10*x^8 + 33*x^6 - 42*x^4 - 2*x^3 + 18*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|50670927660905|x^10 - 10*x^8 - x^7 + 33*x^6 + 7*x^5 - 41*x^4 - 12*x^3 + 15*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|50855836214377|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 7*x^3 + 19*x^2 + 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|51328664797517|x^10 - 10*x^8 + 32*x^6 - x^5 - 38*x^4 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|51735451165696|x^10 - 10*x^8 + 31*x^6 - 34*x^4 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|51966581347997|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 25*x^4 + 21*x^3 + 10*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|52806308559621|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 35*x^4 - 8*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|52924027554829|x^10 - 10*x^8 - x^7 + 31*x^6 + 2*x^5 - 37*x^4 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|53722222603264|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 10*x^5 - 33*x^4 - 10*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|53763937410389|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 8*x^5 - 32*x^4 - 7*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|54699163072597|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 6*x^5 - 34*x^4 - 5*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|55319780159181|x^10 - 10*x^8 + 34*x^6 - x^5 - 46*x^4 + 4*x^3 + 21*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|55825523835904|x^10 - 10*x^8 + 29*x^6 - 31*x^4 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|56440615201673|x^10 - 10*x^8 + 33*x^6 - 41*x^4 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|56508144016793|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 33*x^5 - 19*x^4 + 23*x^3 + 7*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|56773537813349|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 37*x^4 - 13*x^3 + 12*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|56970899222093|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 36*x^4 - 3*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|57076823122444|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 42*x^4 - 3*x^3 + 19*x^2 - 2|minVar(gen)=2|nu=2|primitive=1
+10|57155581462913|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 43*x^4 - 5*x^3 + 19*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|57169727283577|x^10 - 10*x^8 + 32*x^6 - x^5 - 39*x^4 + x^3 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|57232360989289|x^10 - 10*x^8 - x^7 + 31*x^6 + 6*x^5 - 35*x^4 - 8*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|57431434440473|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 7*x^5 - 37*x^4 - 7*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|57707435807744|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 36*x^4 - 8*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|58960751821597|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 7*x^5 - 36*x^4 - 6*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|59715724900181|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 41*x^4 - 8*x^3 + 17*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|59864339949868|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 40*x^4 - 5*x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|60169761252937|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 20*x^6 - 35*x^5 - 16*x^4 + 28*x^3 + x^2 - 6*x + 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|60300134949017|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 36*x^4 - 7*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|60668532221537|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 2*x^3 + 19*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+10|60973530233101|x^10 - 10*x^8 + 33*x^6 - 42*x^4 + 17*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|61795326489704|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 3*x^3 + 19*x^2 - 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|61964353601536|x^10 - 10*x^8 + 34*x^6 - 45*x^4 + 19*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|62941153194701|x^10 - 2*x^9 - 8*x^8 + 15*x^7 + 21*x^6 - 35*x^5 - 22*x^4 + 28*x^3 + 9*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|63017909801713|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 5*x^3 + 18*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|63472660769857|x^10 - 10*x^8 + 31*x^6 - 2*x^5 - 34*x^4 + 3*x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|63482585788673|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 37*x^4 - 8*x^3 + 14*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|63766807020269|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 36*x^4 - 7*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|63901208224013|x^10 - 10*x^8 + 32*x^6 - 40*x^4 - x^3 + 18*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|63932899033088|x^10 - 10*x^8 + 31*x^6 - 37*x^4 + 16*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|64061931564001|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 38*x^4 - 5*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|64087259502793|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 39*x^4 - 6*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|64209544629001|x^10 - 10*x^8 + 32*x^6 - x^5 - 38*x^4 + 2*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|65637565595648|x^10 - 10*x^8 + 32*x^6 - 38*x^4 + 16*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|66251141386597|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 22*x^4 + 20*x^3 + 9*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|66676173162861|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 36*x^4 - 8*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|66995968215609|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 7*x^5 - 33*x^4 - 7*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|67608990270464|x^10 - 10*x^8 + 33*x^6 - 2*x^5 - 43*x^4 + 6*x^3 + 19*x^2 - 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|68084500278272|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 30*x^5 - 25*x^4 + 22*x^3 + 10*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|68288949076973|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 38*x^4 - 8*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|68356271803392|x^10 - 10*x^8 + 34*x^6 - 47*x^4 + 24*x^2 - 3|minVar(gen)=2|nu=2|primitive=0
+10|68652751264429|x^10 - 10*x^8 - x^7 + 31*x^6 + 6*x^5 - 33*x^4 - 6*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|68878631203057|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 39*x^4 - 2*x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|70242869243821|x^10 - 10*x^8 - x^7 + 30*x^6 + 3*x^5 - 34*x^4 - 3*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|70365178031453|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 7*x^5 - 32*x^4 - 6*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|70499156572477|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 22*x^6 - 31*x^5 - 24*x^4 + 24*x^3 + 9*x^2 - 5*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|70739342598613|x^10 - 10*x^8 - 2*x^7 + 30*x^6 + 7*x^5 - 34*x^4 - 7*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|72584815029409|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 33*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|73232197973517|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 36*x^4 - 7*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|73557805378009|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 20*x^6 - 28*x^5 - 20*x^4 + 18*x^3 + 8*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|74815798607297|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 42*x^4 - 10*x^3 + 18*x^2 + 5*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|75897535544801|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 30*x^5 - 21*x^4 + 21*x^3 + 8*x^2 - 4*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|76739854674169|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 36*x^4 - 6*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|77582283372421|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 10*x^5 - 36*x^4 - 11*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|78212176494764|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 39*x^4 - 6*x^3 + 17*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|78492416453632|x^10 - 10*x^8 + 31*x^6 - 2*x^5 - 36*x^4 + 4*x^3 + 14*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|78808765387076|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 42*x^4 - 4*x^3 + 17*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|78946414653289|x^10 - 10*x^8 - x^7 + 31*x^6 + 2*x^5 - 36*x^4 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|79029121657821|x^10 - 10*x^8 + 31*x^6 - x^5 - 36*x^4 + 2*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|79044992614513|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 43*x^4 - 8*x^3 + 19*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|79496617032436|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 38*x^4 - 6*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|79749048241152|x^10 - 10*x^8 + 33*x^6 - 43*x^4 + 21*x^2 - 3|minVar(gen)=2|nu=2|primitive=0
+10|80056742609497|x^10 - 10*x^8 + 31*x^6 - x^5 - 37*x^4 + 3*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|80076360718717|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 37*x^4 - 3*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|82406097011101|x^10 - 10*x^8 + 33*x^6 - x^5 - 43*x^4 + 2*x^3 + 20*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+10|82827609352941|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 38*x^4 - 5*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|83175044226809|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 41*x^4 - 9*x^3 + 17*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|83468950612217|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 43*x^4 - 7*x^3 + 20*x^2 + 3*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|83824215968744|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 39*x^4 - 2*x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|84336431437589|x^10 - 10*x^8 - x^7 + 31*x^6 + 2*x^5 - 36*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|85149782028541|x^10 - 10*x^8 - x^7 + 31*x^6 + 6*x^5 - 34*x^4 - 7*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|85161890022400|x^10 - 10*x^8 + 33*x^6 - 40*x^4 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|85505517601237|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 9*x^5 - 34*x^4 - 10*x^3 + 11*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|85630602662613|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 34*x^4 - 6*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|85975623931469|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 7*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|86603359945913|x^10 - 10*x^8 + 32*x^6 - x^5 - 40*x^4 + 2*x^3 + 18*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+10|87001464737917|x^10 - 10*x^8 + 31*x^6 - x^5 - 34*x^4 + 2*x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|87079972426253|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 9*x^5 - 35*x^4 - 10*x^3 + 13*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|88858223543296|x^10 - 10*x^8 + 32*x^6 - 37*x^4 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|89475257771444|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 40*x^4 - 5*x^3 + 18*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|90698856031312|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 39*x^4 - 5*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|92794457963404|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 36*x^4 - 5*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|92847562433536|x^10 - 10*x^8 + 31*x^6 - 36*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|93082380351544|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 35*x^4 - 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|93336621343744|x^10 - 10*x^8 + 32*x^6 - 36*x^4 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|93687276246836|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 7*x^3 + 18*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|94743631346117|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 40*x^4 - 9*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|94995638377733|x^10 - 10*x^8 - 2*x^7 + 32*x^6 + 9*x^5 - 38*x^4 - 10*x^3 + 15*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|95009978078672|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 40*x^4 - 2*x^3 + 18*x^2 - 2|minVar(gen)=2|nu=2|primitive=1
+10|95851363365169|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 39*x^4 - 2*x^3 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|95980344049477|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 37*x^4 - 6*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|96413248873973|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 40*x^4 - 4*x^3 + 18*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|96602164249600|x^10 - 10*x^8 + 31*x^6 - 33*x^4 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|96894468096809|x^10 - 10*x^8 + 31*x^6 - x^5 - 35*x^4 + 2*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|97032901878784|x^10 - 10*x^8 + 34*x^6 - 46*x^4 + 21*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|97137900497777|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 37*x^4 - 5*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|97479523355477|x^10 - 10*x^8 - x^7 + 30*x^6 + 5*x^5 - 32*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|97816404825481|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 6*x^3 + 18*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|98991773141273|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 41*x^4 - 10*x^3 + 16*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|100260561000797|x^10 - 10*x^8 + 30*x^6 - x^5 - 32*x^4 + x^3 + 11*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|100361417225221|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 39*x^4 + 5*x^3 + 16*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|100571689094389|x^10 - 10*x^8 + 33*x^6 - 2*x^5 - 42*x^4 + 6*x^3 + 17*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|101046391345829|x^10 - 10*x^8 - x^7 + 30*x^6 + 2*x^5 - 33*x^4 - x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|101763318839129|x^10 - 10*x^8 + 32*x^6 - x^5 - 39*x^4 + 2*x^3 + 17*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+10|102034789613069|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 39*x^4 - 3*x^3 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|102147635139877|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 38*x^4 + 5*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|102174837698377|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 40*x^4 - 5*x^3 + 17*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|102410641827989|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 38*x^4 - x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|102561779164081|x^10 - 10*x^8 + 33*x^6 - 41*x^4 - x^3 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|102716412526592|x^10 - 10*x^8 + 34*x^6 - 46*x^4 + 22*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|102795726454264|x^10 - 10*x^8 + 33*x^6 - x^5 - 41*x^4 + 3*x^3 + 16*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|104545776388049|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 40*x^4 - 2*x^3 + 17*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|105382248122629|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 3*x^3 + 18*x^2 - x - 2|minVar(gen)=2|nu=2|primitive=1
+10|105440865713873|x^10 - 10*x^8 - x^7 + 30*x^6 + 3*x^5 - 34*x^4 - 2*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|106020711260417|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 36*x^4 - 9*x^3 + 14*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|110333247161993|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 43*x^4 - 4*x^3 + 20*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|110836994933197|x^10 - 10*x^8 - x^7 + 33*x^6 + 4*x^5 - 42*x^4 - 3*x^3 + 18*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|111995200968953|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 6*x^3 + 17*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|112683978895909|x^10 - 2*x^9 - 8*x^8 + 14*x^7 + 21*x^6 - 29*x^5 - 22*x^4 + 19*x^3 + 9*x^2 - 3*x - 1|minVar(gen)=49/25|nu=49/25|primitive=1
+10|113247296696993|x^10 - 10*x^8 + 33*x^6 - 43*x^4 - x^3 + 20*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|113580923582629|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 33*x^4 - 5*x^3 + 11*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|113881097902928|x^10 - 10*x^8 + 32*x^6 - x^5 - 37*x^4 + 2*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|116055815160221|x^10 - 10*x^8 + 32*x^6 - x^5 - 40*x^4 + 3*x^3 + 17*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|116800224830416|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 37*x^4 - 3*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|117483392050697|x^10 - 10*x^8 + 30*x^6 - x^5 - 33*x^4 + x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|118032753746944|x^10 - 10*x^8 + 32*x^6 - 36*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|119828865796813|x^10 - 10*x^8 + 32*x^6 - 38*x^4 - x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|119866927856365|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 41*x^4 - 10*x^3 + 15*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|120505830983321|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 38*x^4 - 9*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|122419062636437|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 36*x^4 - 5*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|123102078976037|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 35*x^4 - 3*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|123524196852736|x^10 - 10*x^8 + 30*x^6 - 34*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|125075897712368|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 38*x^4 - 8*x^3 + 15*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|125495951061937|x^10 - 10*x^8 + 33*x^6 - 41*x^4 - x^3 + 17*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|125620873023761|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 35*x^4 - 5*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|128676047108989|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 2*x^3 + 18*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|129112240544657|x^10 - 10*x^8 + 33*x^6 - x^5 - 43*x^4 + 3*x^3 + 19*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|130032825408461|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 5*x^3 + 17*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|130353551893504|x^10 - 10*x^8 + 32*x^6 - 40*x^4 + 17*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|131223073309696|x^10 - 10*x^8 + 31*x^6 - 37*x^4 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|131632815967529|x^10 - 10*x^8 + 31*x^6 - 2*x^5 - 35*x^4 + 3*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|134059579471117|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 37*x^4 - 9*x^3 + 12*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|134149818057292|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 6*x^3 + 19*x^2 + 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|135273467375293|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 34*x^4 - 3*x^3 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|136234466678949|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 42*x^4 - 10*x^3 + 17*x^2 + 4*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|142511641854976|x^10 - 10*x^8 + 33*x^6 - 43*x^4 + 19*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|144368381984768|x^10 - 10*x^8 + 33*x^6 - 42*x^4 + 18*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|145538074264873|x^10 - 10*x^8 + 33*x^6 - x^5 - 41*x^4 + 3*x^3 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|146219558353672|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 6*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|146607695415817|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 39*x^4 - 7*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|146899376048756|x^10 - 10*x^8 + 33*x^6 - x^5 - 43*x^4 + 3*x^3 + 20*x^2 - 2*x - 2|minVar(gen)=2|nu=2|primitive=1
+10|146970378958021|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 2*x^3 + 17*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|147863463821312|x^10 - 10*x^8 - 2*x^7 + 31*x^6 + 8*x^5 - 35*x^4 - 8*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|148754563077473|x^10 - 10*x^8 - x^7 + 30*x^6 + 3*x^5 - 33*x^4 - 3*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|149264532470133|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 38*x^4 - 4*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|150783957272449|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 39*x^4 - 4*x^3 + 17*x^2 + x - 2|minVar(gen)=2|nu=2|primitive=1
+10|153701974016324|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 3*x^3 + 17*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|154420033408273|x^10 - 10*x^8 + 32*x^6 - x^5 - 37*x^4 + 2*x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|156120807573373|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 39*x^4 + 5*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|156592799763633|x^10 - 10*x^8 + 33*x^6 - x^5 - 41*x^4 + 4*x^3 + 16*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|156607394102669|x^10 - 10*x^8 + 32*x^6 - x^5 - 39*x^4 + 2*x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|158268571094837|x^10 - 10*x^8 + 31*x^6 - 2*x^5 - 35*x^4 + 4*x^3 + 12*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|158674636803317|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 37*x^4 - 7*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|160923110023461|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 3*x^3 + 17*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|164335726012837|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 7*x^3 + 17*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|169017203993437|x^10 - 10*x^8 + 33*x^6 - 41*x^4 + 16*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|174316443065901|x^10 - 10*x^8 + 32*x^6 - 2*x^5 - 38*x^4 + 5*x^3 + 14*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|175256406368381|x^10 - 10*x^8 + 32*x^6 - x^5 - 37*x^4 + 2*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|177421547521024|x^10 - 10*x^8 + 33*x^6 - 41*x^4 + 17*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|177811396169117|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 38*x^4 - 7*x^3 + 15*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|181029490278400|x^10 - 10*x^8 + 32*x^6 - 39*x^4 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|187202815755264|x^10 - 10*x^8 + 33*x^6 - 41*x^4 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|189208203886592|x^10 - 10*x^8 + 32*x^6 - 40*x^4 + 18*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|192692763570581|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 42*x^4 - 7*x^3 + 18*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|192859162673061|x^10 - 10*x^8 - x^7 + 32*x^6 + 6*x^5 - 38*x^4 - 9*x^3 + 14*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|194331884086577|x^10 - 10*x^8 - x^7 + 32*x^6 + 3*x^5 - 39*x^4 - x^3 + 16*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|195024732182848|x^10 - 10*x^8 + 33*x^6 - x^5 - 41*x^4 + 3*x^3 + 16*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|195050223483773|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 4*x^3 + 18*x^2 - 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|195466942273781|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 35*x^4 - 6*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|202975212283413|x^10 - 10*x^8 - x^7 + 33*x^6 + 5*x^5 - 41*x^4 - 6*x^3 + 16*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|210904162378101|x^10 - 10*x^8 + 32*x^6 - 37*x^4 - x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|214103799152413|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 36*x^4 - 3*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|215390491854848|x^10 - 10*x^8 + 32*x^6 - 39*x^4 + 17*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|217388181666529|x^10 - 10*x^8 - x^7 + 30*x^6 + 4*x^5 - 33*x^4 - 4*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|220932290774824|x^10 - 10*x^8 + 33*x^6 - 41*x^4 - x^3 + 16*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|224804129472512|x^10 - 10*x^8 + 33*x^6 - 42*x^4 + 19*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|233680072173961|x^10 - 10*x^8 - x^7 + 33*x^6 + 6*x^5 - 41*x^4 - 9*x^3 + 16*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|236084595355493|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 35*x^4 - 5*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|239111010025472|x^10 - 10*x^8 + 33*x^6 - 43*x^4 + 20*x^2 - 2|minVar(gen)=2|nu=2|primitive=0
+10|243279821571713|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 37*x^4 - 6*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|244008392909824|x^10 - 10*x^8 + 33*x^6 - 42*x^4 + 17*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|244140720085177|x^10 - 10*x^8 + 33*x^6 - x^5 - 42*x^4 + 3*x^3 + 18*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|244353998557261|x^10 - 10*x^8 + 32*x^6 - x^5 - 38*x^4 + x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|247571209179037|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 38*x^4 - 5*x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|249566373316613|x^10 - 10*x^8 + 32*x^6 - 37*x^4 - x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|249767833482737|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 35*x^4 - 2*x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|252187603078897|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 39*x^4 - 7*x^3 + 16*x^2 + 3*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|252332044110841|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 34*x^4 - 4*x^3 + 12*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|255202021736461|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 36*x^4 - 5*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|259678728109957|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 39*x^4 - 5*x^3 + 16*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|260572808265569|x^10 - 10*x^8 - x^7 + 31*x^6 + 5*x^5 - 35*x^4 - 6*x^3 + 13*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|264091489255421|x^10 - 10*x^8 + 32*x^6 - x^5 - 38*x^4 + 3*x^3 + 15*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|267833491657161|x^10 - 10*x^8 + 32*x^6 - x^5 - 37*x^4 + 3*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|269797857961756|x^10 - 10*x^8 + 32*x^6 - x^5 - 38*x^4 + 2*x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|279449589724528|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 38*x^4 - 4*x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|287851128062976|x^10 - 10*x^8 + 30*x^6 - 33*x^4 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|296482472458361|x^10 - 10*x^8 + 31*x^6 - 36*x^4 - x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|298753933271513|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 37*x^4 - 6*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|310207214314676|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 38*x^4 - 4*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|331668207187601|x^10 - 10*x^8 - x^7 + 31*x^6 + 3*x^5 - 36*x^4 - 2*x^3 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|339954838902457|x^10 - 10*x^8 + 32*x^6 - x^5 - 39*x^4 + 2*x^3 + 16*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|341487138269461|x^10 - 10*x^8 + 31*x^6 - x^5 - 36*x^4 + 2*x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|344493793575936|x^10 - 10*x^8 + 33*x^6 - 42*x^4 + 18*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|345048754438144|x^10 - 10*x^8 + 33*x^6 - 41*x^4 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|347550857961353|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 39*x^4 - 4*x^3 + 16*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|349480929230929|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 37*x^4 - 5*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|354475276871809|x^10 - 10*x^8 - x^7 + 32*x^6 + 4*x^5 - 38*x^4 - 3*x^3 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|357435652955009|x^10 - 10*x^8 + 32*x^6 - x^5 - 39*x^4 + 3*x^3 + 16*x^2 - 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|361244354178761|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 36*x^4 - 4*x^3 + 14*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|366610265605417|x^10 - 10*x^8 + 31*x^6 - x^5 - 35*x^4 + x^3 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=1
+10|367620470587197|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 38*x^4 - 7*x^3 + 14*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|370665619091813|x^10 - 10*x^8 + 32*x^6 - 39*x^4 - x^3 + 16*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|380297679644429|x^10 - 10*x^8 + 31*x^6 - x^5 - 35*x^4 + 2*x^3 + 13*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|383747910036653|x^10 - 10*x^8 + 32*x^6 - x^5 - 38*x^4 + 2*x^3 + 15*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|384246558475264|x^10 - 10*x^8 + 32*x^6 - 37*x^4 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|390047964135424|x^10 - 10*x^8 + 32*x^6 - 37*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|397981854626513|x^10 - 10*x^8 - x^7 + 32*x^6 + 5*x^5 - 38*x^4 - 6*x^3 + 15*x^2 + 2*x - 1|minVar(gen)=2|nu=2|primitive=1
+10|400554431988736|x^10 - 10*x^8 + 31*x^6 - 34*x^4 + 12*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|401224539237913|x^10 - 10*x^8 + 32*x^6 - x^5 - 38*x^4 + 3*x^3 + 14*x^2 - x - 1|minVar(gen)=2|nu=2|primitive=1
+10|457136876804957|x^10 - 10*x^8 + 32*x^6 - 38*x^4 - x^3 + 15*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|470438628322853|x^10 - 10*x^8 - x^7 + 31*x^6 + 4*x^5 - 35*x^4 - 4*x^3 + 13*x^2 + x - 1|minVar(gen)=2|nu=2|primitive=1
+10|483759261942784|x^10 - 10*x^8 + 31*x^6 - 36*x^4 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|511094173041664|x^10 - 10*x^8 + 32*x^6 - 39*x^4 + 16*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|545123126928384|x^10 - 10*x^8 + 32*x^6 - 38*x^4 + 14*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|586462701528064|x^10 - 10*x^8 + 32*x^6 - 38*x^4 + 15*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
+10|597618650137600|x^10 - 10*x^8 + 31*x^6 - 35*x^4 + 13*x^2 - 1|minVar(gen)=2|nu=2|primitive=0
