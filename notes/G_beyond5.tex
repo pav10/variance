@@ -569,6 +569,37 @@ $c$, so $K$ is determined by $F$ up to finitely many choices.
 
 \input{gen/regime1}
 
+\subsection{Summary for degree six}
+\begin{theorem}\label{thm:sextic}
+Let $K\in\Gcl$ be a totally real sextic field, and let $x_1$ be a minimal vector of $\Lambda_K$.
+Then $2$ is ramified in $K$, $K$ is not among the $9{,}815$ sextic fields of the LMFDB list, and one
+of the following holds.
+\begin{enumerate}
+\item \textup{(Case A, regime 2)} $\Q(x_1)=K$ and $\nu_2(K)<2\nu(K)$; each rung of $x_1$ is either
+regular ($\tau\ge\nu$) or a half-square ($2x_1-2n-c=y^{2}$ with $y\in\OK$, $c\in\{0,1\}$), and
+$\nu(K)\le4.79$, $7.77$, $15.75$ according as two, one or no rung is regular.
+\item \textup{(Case B, quadratic)} $F=\Q(x_1)\in\{\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5)\}$ and
+$\nu(K)=\nu(F)\in\{2,3,\frac54\}$.
+\item \textup{(Case B, cubic)} $F=\Q(x_1)\in\{\Q(\zeta_7)^{+},\Q(\zeta_9)^{+},\Q(\rho)\}$, $[K:F]=2$, and
+$\nu(K)=\nu(F)\in\{\frac{14}9,2,\frac{20}9\}$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+$2$ is ramified by Theorem~\ref{thm:unram}, and $K$ is not in the list by Theorem~\ref{thm:census}.
+If $\Q(x_1)=K$ and $\nu_2\ge2\nu$, Proposition~\ref{prop:reg1} applies; otherwise
+Remark~\ref{rem:rung} and the downspread bounds above give (1) (with two regular rungs the bound is
+that of \cite{TwoO}, $d\nu\ge2(\nu-1)^{2}$). If $\Q(x_1)$ is quadratic,
+$[K:\Q(x_1)]=3$ is odd and Proposition~\ref{prop:quadB} gives (2). If it is cubic,
+Proposition~\ref{prop:cubicB} gives (3).
+\end{proof}
+
+The members of $\Gcl$ appearing in (2) and (3) are $\Q(\sqrt2),\Q(\sqrt3),\Q(\sqrt5),\Q(\zeta_7)^{+},
+\Q(\rho)$; only $\Q(\zeta_9)^{+}$ is not a member. So, apart from regime~$2$ of Case~A, a sextic member
+of $\Gcl$ would have to be an extension of a member of $\Gcl$ of degree $2$ or $3$ which inherits
+its variance minimum, with $2$ ramified: precisely the ``inherited'' situation that the census
+identifies as extreme (Table~\ref{tab:inherited}).
+
 \begin{problem}
 Carry out the regime-$2$ enumeration, and the relative analysis in Case B over $\Q(\sqrt2)$,
 $\Q(\sqrt3)$, $\Q(\sqrt5)$ and over the cubic fields satisfying the half-square condition;

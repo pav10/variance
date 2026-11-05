@@ -49,7 +49,7 @@ def tex_census():
         dmax = max(int(r[0]) for r in rows)
         lines.append(f"{d} & {len(rows)} & {sci(dmax)} & {st['U']} & {st['T']} & {st['N']} & {nleft}"
                      + (f" ({','.join(members)})" if members else '') + (f" + {err} err" if err else '')
-                     + f" & {100*hp/len(rows):.1f}\\% & {nmax}\\\\")
+                     + f" & {100*hp/len(rows):.1f}\\% & {nmax if nmax else '--'}\\\\")
         thm.append((d, len(rows), dmax, nleft, members, err))
     lines += [r'\bottomrule', r'\end{tabular}']
     open(f'{G}/census_table.tex', 'w').write('\n'.join(lines) + '\n')
